@@ -1,0 +1,2443 @@
+--[Server log for date: 11/29/2014]--
+
+
+[12:00:05 AM][ThreadPool] Currently Active threads: 7
+[12:00:05 AM]--------------------------------------
+[12:00:05 AM]UserDatabase
+[12:00:05 AM]CycleProcessManager
+[12:00:05 AM]ServerClock
+[12:00:05 AM]CTP Server
+[12:00:05 AM]SubServer 0
+[12:00:05 AM]ConnectionAcceptor
+[12:00:05 AM]N2@127.0.0.1's packetGrabber
+[12:00:05 AM]--------------------------------------
+[12:00:06 AM][ThreadPool] Currently Active threads: 7
+[12:00:06 AM]--------------------------------------
+[12:00:06 AM]UserDatabase
+[12:00:06 AM]CycleProcessManager
+[12:00:06 AM]ServerClock
+[12:00:06 AM]CTP Server
+[12:00:06 AM]SubServer 0
+[12:00:06 AM]ConnectionAcceptor
+[12:00:06 AM]N2@127.0.0.1's packetGrabber
+[12:00:06 AM]--------------------------------------
+[12:00:08 AM][ThreadPool] Currently Active threads: 7
+[12:00:08 AM]--------------------------------------
+[12:00:08 AM]UserDatabase
+[12:00:08 AM]CycleProcessManager
+[12:00:08 AM]ServerClock
+[12:00:08 AM]CTP Server
+[12:00:08 AM]SubServer 0
+[12:00:08 AM]ConnectionAcceptor
+[12:00:08 AM]N2@127.0.0.1's packetGrabber
+[12:00:08 AM]--------------------------------------
+[12:00:10 AM][ThreadPool] Currently Active threads: 7
+[12:00:10 AM]--------------------------------------
+[12:00:10 AM]UserDatabase
+[12:00:10 AM]CycleProcessManager
+[12:00:10 AM]ServerClock
+[12:00:10 AM]CTP Server
+[12:00:10 AM]SubServer 0
+[12:00:10 AM]ConnectionAcceptor
+[12:00:10 AM]N2@127.0.0.1's packetGrabber
+[12:00:10 AM]--------------------------------------
+[12:00:11 AM][ThreadPool] Currently Active threads: 7
+[12:00:11 AM]--------------------------------------
+[12:00:11 AM]UserDatabase
+[12:00:11 AM]CycleProcessManager
+[12:00:11 AM]ServerClock
+[12:00:11 AM]CTP Server
+[12:00:11 AM]SubServer 0
+[12:00:11 AM]ConnectionAcceptor
+[12:00:11 AM]N2@127.0.0.1's packetGrabber
+[12:00:11 AM]--------------------------------------
+[12:00:13 AM][ThreadPool] Currently Active threads: 7
+[12:00:13 AM]--------------------------------------
+[12:00:13 AM]UserDatabase
+[12:00:13 AM]CycleProcessManager
+[12:00:13 AM]ServerClock
+[12:00:13 AM]CTP Server
+[12:00:13 AM]SubServer 0
+[12:00:13 AM]ConnectionAcceptor
+[12:00:13 AM]N2@127.0.0.1's packetGrabber
+[12:00:13 AM]--------------------------------------
+[12:00:14 AM][ThreadPool] Currently Active threads: 7
+[12:00:14 AM]--------------------------------------
+[12:00:14 AM]UserDatabase
+[12:00:14 AM]CycleProcessManager
+[12:00:14 AM]ServerClock
+[12:00:14 AM]CTP Server
+[12:00:14 AM]SubServer 0
+[12:00:14 AM]ConnectionAcceptor
+[12:00:14 AM]N2@127.0.0.1's packetGrabber
+[12:00:14 AM]--------------------------------------
+[12:00:15 AM][ThreadPool] Currently Active threads: 7
+[12:00:15 AM]--------------------------------------
+[12:00:15 AM]UserDatabase
+[12:00:15 AM]CycleProcessManager
+[12:00:15 AM]ServerClock
+[12:00:15 AM]CTP Server
+[12:00:15 AM]SubServer 0
+[12:00:15 AM]ConnectionAcceptor
+[12:00:15 AM]N2@127.0.0.1's packetGrabber
+[12:00:15 AM]--------------------------------------
+[12:00:16 AM][ThreadPool] Currently Active threads: 7
+[12:00:16 AM]--------------------------------------
+[12:00:16 AM]UserDatabase
+[12:00:16 AM]CycleProcessManager
+[12:00:16 AM]ServerClock
+[12:00:16 AM]CTP Server
+[12:00:17 AM]SubServer 0
+[12:00:17 AM]ConnectionAcceptor
+[12:00:17 AM]N2@127.0.0.1's packetGrabber
+[12:00:17 AM]--------------------------------------
+[12:00:18 AM][ThreadPool] Currently Active threads: 7
+[12:00:18 AM]--------------------------------------
+[12:00:18 AM]UserDatabase
+[12:00:18 AM]CycleProcessManager
+[12:00:18 AM]ServerClock
+[12:00:18 AM]CTP Server
+[12:00:18 AM]SubServer 0
+[12:00:18 AM]ConnectionAcceptor
+[12:00:18 AM]N2@127.0.0.1's packetGrabber
+[12:00:18 AM]--------------------------------------
+[12:00:20 AM][ThreadPool] Currently Active threads: 7
+[12:00:20 AM]--------------------------------------
+[12:00:20 AM]UserDatabase
+[12:00:20 AM]CycleProcessManager
+[12:00:20 AM]ServerClock
+[12:00:20 AM]CTP Server
+[12:00:20 AM]SubServer 0
+[12:00:20 AM]ConnectionAcceptor
+[12:00:20 AM]N2@127.0.0.1's packetGrabber
+[12:00:20 AM]--------------------------------------
+[12:00:22 AM][ThreadPool] Currently Active threads: 7
+[12:00:22 AM]--------------------------------------
+[12:00:22 AM]UserDatabase
+[12:00:22 AM]CycleProcessManager
+[12:00:22 AM]ServerClock
+[12:00:22 AM]CTP Server
+[12:00:22 AM]SubServer 0
+[12:00:22 AM]ConnectionAcceptor
+[12:00:22 AM]N2@127.0.0.1's packetGrabber
+[12:00:22 AM]--------------------------------------
+[12:00:23 AM][ThreadPool] Currently Active threads: 7
+[12:00:23 AM]--------------------------------------
+[12:00:23 AM]UserDatabase
+[12:00:23 AM]CycleProcessManager
+[12:00:23 AM]ServerClock
+[12:00:23 AM]CTP Server
+[12:00:23 AM]SubServer 0
+[12:00:23 AM]ConnectionAcceptor
+[12:00:23 AM]N2@127.0.0.1's packetGrabber
+[12:00:23 AM]--------------------------------------
+[12:00:23 AM][ThreadPool] Currently Active threads: 7
+[12:00:23 AM]--------------------------------------
+[12:00:23 AM]UserDatabase
+[12:00:23 AM]CycleProcessManager
+[12:00:23 AM]ServerClock
+[12:00:23 AM]CTP Server
+[12:00:23 AM]SubServer 0
+[12:00:23 AM]ConnectionAcceptor
+[12:00:23 AM]N2@127.0.0.1's packetGrabber
+[12:00:23 AM]--------------------------------------
+[12:00:25 AM][ThreadPool] Currently Active threads: 7
+[12:00:25 AM]--------------------------------------
+[12:00:25 AM]UserDatabase
+[12:00:25 AM]CycleProcessManager
+[12:00:25 AM]ServerClock
+[12:00:25 AM]CTP Server
+[12:00:25 AM]SubServer 0
+[12:00:25 AM]ConnectionAcceptor
+[12:00:25 AM]N2@127.0.0.1's packetGrabber
+[12:00:25 AM]--------------------------------------
+[12:00:26 AM][ThreadPool] Currently Active threads: 7
+[12:00:26 AM]--------------------------------------
+[12:00:26 AM]UserDatabase
+[12:00:26 AM]CycleProcessManager
+[12:00:26 AM]ServerClock
+[12:00:26 AM]CTP Server
+[12:00:26 AM]SubServer 0
+[12:00:26 AM]ConnectionAcceptor
+[12:00:26 AM]N2@127.0.0.1's packetGrabber
+[12:00:26 AM]--------------------------------------
+[12:00:29 AM][ThreadPool] Currently Active threads: 7
+[12:00:29 AM]--------------------------------------
+[12:00:29 AM]UserDatabase
+[12:00:29 AM]CycleProcessManager
+[12:00:29 AM]ServerClock
+[12:00:29 AM]CTP Server
+[12:00:29 AM]SubServer 0
+[12:00:29 AM]ConnectionAcceptor
+[12:00:29 AM]N2@127.0.0.1's packetGrabber
+[12:00:29 AM]--------------------------------------
+[12:00:30 AM][ThreadPool] Currently Active threads: 7
+[12:00:30 AM]--------------------------------------
+[12:00:30 AM]UserDatabase
+[12:00:30 AM]CycleProcessManager
+[12:00:30 AM]ServerClock
+[12:00:30 AM]CTP Server
+[12:00:30 AM]SubServer 0
+[12:00:30 AM]ConnectionAcceptor
+[12:00:30 AM]N2@127.0.0.1's packetGrabber
+[12:00:30 AM]--------------------------------------
+[12:00:31 AM][ThreadPool] Currently Active threads: 7
+[12:00:31 AM]--------------------------------------
+[12:00:31 AM]UserDatabase
+[12:00:31 AM]CycleProcessManager
+[12:00:31 AM]ServerClock
+[12:00:31 AM]CTP Server
+[12:00:31 AM]SubServer 0
+[12:00:31 AM]ConnectionAcceptor
+[12:00:31 AM]N2@127.0.0.1's packetGrabber
+[12:00:31 AM]--------------------------------------
+[12:00:32 AM][ThreadPool] Currently Active threads: 7
+[12:00:32 AM]--------------------------------------
+[12:00:32 AM]UserDatabase
+[12:00:32 AM]CycleProcessManager
+[12:00:32 AM]ServerClock
+[12:00:32 AM]CTP Server
+[12:00:32 AM]SubServer 0
+[12:00:32 AM]ConnectionAcceptor
+[12:00:32 AM]N2@127.0.0.1's packetGrabber
+[12:00:32 AM]--------------------------------------
+[12:00:33 AM][ThreadPool] Currently Active threads: 7
+[12:00:33 AM]--------------------------------------
+[12:00:33 AM]UserDatabase
+[12:00:33 AM]CycleProcessManager
+[12:00:33 AM]ServerClock
+[12:00:33 AM]CTP Server
+[12:00:33 AM]SubServer 0
+[12:00:33 AM]ConnectionAcceptor
+[12:00:33 AM]N2@127.0.0.1's packetGrabber
+[12:00:33 AM]--------------------------------------
+[12:00:34 AM][ThreadPool] Currently Active threads: 7
+[12:00:34 AM]--------------------------------------
+[12:00:34 AM]UserDatabase
+[12:00:34 AM]CycleProcessManager
+[12:00:34 AM]ServerClock
+[12:00:34 AM]CTP Server
+[12:00:34 AM]SubServer 0
+[12:00:34 AM]ConnectionAcceptor
+[12:00:34 AM]N2@127.0.0.1's packetGrabber
+[12:00:34 AM]--------------------------------------
+[12:00:35 AM][ThreadPool] Currently Active threads: 7
+[12:00:35 AM]--------------------------------------
+[12:00:35 AM]UserDatabase
+[12:00:35 AM]CycleProcessManager
+[12:00:35 AM]ServerClock
+[12:00:35 AM]CTP Server
+[12:00:35 AM]SubServer 0
+[12:00:35 AM]ConnectionAcceptor
+[12:00:35 AM]N2@127.0.0.1's packetGrabber
+[12:00:35 AM]--------------------------------------
+[12:00:53 AM][UserDatabase] Beginning autosave...
+[12:00:53 AM][UserDatabase] Saved all profiles.
+[12:00:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000209ms.
+[12:05:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000194ms.
+[12:07:13 AM][<DEBUG>][ThreadPool] Current threads: 7
+[12:10:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000228ms.
+[12:10:53 AM][UserDatabase] Beginning autosave...
+[12:10:53 AM][UserDatabase] Saved all profiles.
+[12:15:29 AM][<DEBUG>][ThreadPool] Current threads: 7
+[12:15:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000269ms.
+[12:20:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000287ms.
+[12:20:53 AM][UserDatabase] Beginning autosave...
+[12:20:53 AM][UserDatabase] Saved all profiles.
+[12:23:44 AM][<DEBUG>][ThreadPool] Current threads: 7
+[12:25:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000313ms.
+[12:30:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000283ms.
+[12:30:53 AM][UserDatabase] Beginning autosave...
+[12:30:53 AM][UserDatabase] Saved all profiles.
+[12:31:59 AM][<DEBUG>][ThreadPool] Current threads: 7
+[12:35:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000317ms.
+[12:40:16 AM][<DEBUG>][ThreadPool] Current threads: 7
+[12:40:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000283ms.
+[12:40:53 AM][UserDatabase] Beginning autosave...
+[12:40:53 AM][UserDatabase] Saved all profiles.
+[12:45:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .00027ms.
+[12:48:32 AM][<DEBUG>][ThreadPool] Current threads: 7
+[12:50:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000259ms.
+[12:50:53 AM][UserDatabase] Beginning autosave...
+[12:50:53 AM][UserDatabase] Saved all profiles.
+[12:55:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000252ms.
+[12:56:46 AM][<DEBUG>][ThreadPool] Current threads: 7
+[01:00:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000257ms.
+[01:00:53 AM][UserDatabase] Beginning autosave...
+[01:00:53 AM][UserDatabase] Saved all profiles.
+[01:05:02 AM][<DEBUG>][ThreadPool] Current threads: 7
+[01:05:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000308ms.
+[01:10:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000209ms.
+[01:10:53 AM][UserDatabase] Beginning autosave...
+[01:10:53 AM][UserDatabase] Saved all profiles.
+[01:13:15 AM][<DEBUG>][ThreadPool] Current threads: 7
+[01:15:53 AM][CycleProcessManager] Average cycle time over 5 minutes: .000306ms.
+[01:16:14 AM][Server] Shutting everything down.
+[01:16:14 AM][UserDatabase] Saving all profiles before going down...
+[01:16:14 AM][UserDatabase] Saved all profiles.
+[01:16:14 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[01:16:14 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[01:16:14 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[01:16:14 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[01:16:14 AM][<DEBUG>][SubServer 0] Killing all connections...
+[01:16:14 AM][<DEBUG>][SubServer 0] Killing self.
+[05:13:12 AM][UserDatabase] UserDatabase up and running.
+[05:13:12 AM][ThreadPool] ThreadPool is up and running.
+[05:13:12 AM][CTP Server] Server is starting up...
+[05:13:12 AM][CTP Server] Server is in DEBUG mode.
+[05:13:12 AM][CTP Server] Runtime log is active.
+[05:13:12 AM][CTP Server] Will display console.
+[05:13:12 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[05:13:12 AM][<DEBUG>][ThreadPool] Current threads: 4
+[05:13:12 AM][ModuleManager] Added module: HelloWorldModule.
+[05:13:12 AM][ModuleManager] Finished loading modules.
+[05:13:12 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[05:13:12 AM][SubServer 0] SubServer 0 up and running.
+[05:13:12 AM][<DEBUG>][ThreadPool] Current threads: 5
+[05:13:12 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[05:13:12 AM][<DEBUG>][ThreadPool] Current threads: 6
+[05:13:13 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[05:13:15 AM][Server] Shutting everything down.
+[05:13:15 AM][UserDatabase] Saving all profiles before going down...
+[05:13:15 AM][UserDatabase] Saved all profiles.
+[05:13:15 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[05:13:15 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[05:13:15 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[05:13:15 AM][<DEBUG>][SubServer 0] Killing all connections...
+[05:13:15 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[05:13:15 AM][<DEBUG>][SubServer 0] Killing self.
+[05:13:15 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:42:21 AM][CTP Server] Server is starting up...
+[06:42:21 AM][CTP Server] Server is in DEBUG mode.
+[06:42:21 AM][CTP Server] Runtime log is active.
+[06:42:21 AM][CTP Server] Will display console.
+[06:42:21 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:42:21 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:42:21 AM][ModuleManager] Added module: HelloWorldModule.
+[06:42:21 AM][ModuleManager] Finished loading modules.
+[06:42:21 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:42:21 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:42:21 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:42:21 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:42:21 AM][SubServer 0] SubServer 0 up and running.
+[06:42:21 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:42:22 AM][Server] Shutting everything down.
+[06:42:22 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:42:22 AM][UserDatabase] Saving all profiles before going down...
+[06:42:22 AM][UserDatabase] Saved all profiles.
+[06:42:22 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:42:22 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:42:22 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:42:22 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:42:22 AM][<DEBUG>][SubServer 0] Killing self.
+[06:42:22 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:42:22 AM][<DEBUG>][ThreadPool] Disposing of thread: SubServer 0
+[06:42:29 AM][CTP Server] Server is starting up...
+[06:42:29 AM][CTP Server] Server is in DEBUG mode.
+[06:42:29 AM][CTP Server] Runtime log is active.
+[06:42:29 AM][CTP Server] Will display console.
+[06:42:29 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:42:29 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:42:29 AM][ModuleManager] Added module: HelloWorldModule.
+[06:42:29 AM][ModuleManager] Finished loading modules.
+[06:42:29 AM][SubServer 0] SubServer 0 up and running.
+[06:42:29 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:42:29 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:42:29 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:42:29 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:42:29 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:42:30 AM][Server] Shutting everything down.
+[06:42:30 AM][UserDatabase] Saving all profiles before going down...
+[06:42:30 AM][UserDatabase] Saved all profiles.
+[06:42:30 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:42:30 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:42:30 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:42:30 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:42:30 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:42:30 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:42:30 AM][<DEBUG>][SubServer 0] Killing self.
+[06:42:30 AM][<DEBUG>][ThreadPool] Disposing of thread: SubServer 0
+[06:42:34 AM][CTP Server] Server is starting up...
+[06:42:34 AM][CTP Server] Server is in DEBUG mode.
+[06:42:34 AM][CTP Server] Runtime log is active.
+[06:42:34 AM][CTP Server] Will display console.
+[06:42:34 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:42:34 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:42:34 AM][ModuleManager] Added module: HelloWorldModule.
+[06:42:34 AM][ModuleManager] Finished loading modules.
+[06:42:34 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:42:34 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:42:34 AM][SubServer 0] SubServer 0 up and running.
+[06:42:34 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:42:34 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:42:34 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:42:35 AM][Server] Shutting everything down.
+[06:42:35 AM][UserDatabase] Saving all profiles before going down...
+[06:42:35 AM][UserDatabase] Saved all profiles.
+[06:42:35 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:42:35 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:42:35 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:42:35 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:42:35 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:42:35 AM][<DEBUG>][SubServer 0] Killing self.
+[06:42:35 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:42:35 AM][<DEBUG>][Server] Exited wait block.
+[06:42:43 AM][CTP Server] Server is starting up...
+[06:42:43 AM][CTP Server] Server is in DEBUG mode.
+[06:42:43 AM][CTP Server] Runtime log is active.
+[06:42:43 AM][CTP Server] Will display console.
+[06:42:43 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:42:43 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:42:43 AM][ModuleManager] Added module: HelloWorldModule.
+[06:42:43 AM][ModuleManager] Finished loading modules.
+[06:42:43 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:42:43 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:42:43 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:42:43 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:42:43 AM][SubServer 0] SubServer 0 up and running.
+[06:42:43 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:42:45 AM][Server] Shutting everything down.
+[06:42:45 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:42:45 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:42:45 AM][UserDatabase] Saving all profiles before going down...
+[06:42:45 AM][UserDatabase] Saved all profiles.
+[06:42:45 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:42:45 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:42:45 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:42:45 AM][<DEBUG>][SubServer 0] Killing self.
+[06:42:45 AM][<DEBUG>][Server] Exited wait block.
+[06:43:06 AM][CTP Server] Server is starting up...
+[06:43:06 AM][CTP Server] Server is in DEBUG mode.
+[06:43:06 AM][CTP Server] Runtime log is active.
+[06:43:06 AM][CTP Server] Will display console.
+[06:43:06 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:43:06 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:43:06 AM][ModuleManager] Added module: HelloWorldModule.
+[06:43:06 AM][ModuleManager] Finished loading modules.
+[06:43:06 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:43:06 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:43:06 AM][SubServer 0] SubServer 0 up and running.
+[06:43:06 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:43:06 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:43:06 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:43:07 AM][Server] Shutting everything down.
+[06:43:07 AM][UserDatabase] Saving all profiles before going down...
+[06:43:07 AM][UserDatabase] Saved all profiles.
+[06:43:07 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:43:07 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:43:07 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:43:07 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:43:07 AM][<DEBUG>][SubServer 0] Killing self.
+[06:43:15 AM][CTP Server] Server is starting up...
+[06:43:15 AM][CTP Server] Server is in DEBUG mode.
+[06:43:15 AM][CTP Server] Runtime log is active.
+[06:43:15 AM][CTP Server] Will display console.
+[06:43:15 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:43:15 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:43:15 AM][ModuleManager] Added module: HelloWorldModule.
+[06:43:15 AM][ModuleManager] Finished loading modules.
+[06:43:15 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:43:15 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:43:15 AM][SubServer 0] SubServer 0 up and running.
+[06:43:15 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:43:15 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:43:15 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:43:16 AM][Server] Shutting everything down.
+[06:43:16 AM][UserDatabase] Saving all profiles before going down...
+[06:43:16 AM][UserDatabase] Saved all profiles.
+[06:43:16 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:43:16 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:43:16 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:43:16 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:43:16 AM][<DEBUG>][SubServer 0] Killing self.
+[06:43:16 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:43:24 AM][CTP Server] Server is starting up...
+[06:43:24 AM][CTP Server] Server is in DEBUG mode.
+[06:43:24 AM][CTP Server] Runtime log is active.
+[06:43:24 AM][CTP Server] Will display console.
+[06:43:24 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:43:24 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:43:24 AM][ModuleManager] Added module: HelloWorldModule.
+[06:43:24 AM][ModuleManager] Finished loading modules.
+[06:43:24 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:43:24 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:43:24 AM][SubServer 0] SubServer 0 up and running.
+[06:43:24 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:43:24 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:43:24 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:43:25 AM][Server] Shutting everything down.
+[06:43:25 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:43:25 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:43:25 AM][UserDatabase] Saving all profiles before going down...
+[06:43:25 AM][UserDatabase] Saved all profiles.
+[06:43:25 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:43:25 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:43:25 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:43:25 AM][<DEBUG>][SubServer 0] Killing self.
+[06:43:25 AM][<DEBUG>][Server] Exited wait block.
+[06:43:32 AM][CTP Server] Server is starting up...
+[06:43:32 AM][CTP Server] Server is in DEBUG mode.
+[06:43:32 AM][CTP Server] Runtime log is active.
+[06:43:32 AM][CTP Server] Will display console.
+[06:43:32 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:43:32 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:43:32 AM][ModuleManager] Added module: HelloWorldModule.
+[06:43:32 AM][ModuleManager] Finished loading modules.
+[06:43:32 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:43:32 AM][<DEBUG>][ThreadPool] Current threads: 5
+java.lang.IllegalArgumentException: bad position: -1
+[06:43:32 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+	at javax.swing.text.JTextComponent.setCaretPosition(JTextComponent.java:1629)
+	at com.ctp.io.ConsoleManager.addMessage(ConsoleManager.java:91)
+	at com.ctp.io.ConsoleManager.addConsoleMessage(ConsoleManager.java:37)
+	at com.ctp.io.ServerIO.print(ServerIO.java:34)
+	at com.ctp.server.SubServer.run(SubServer.java:207)
+[06:43:32 AM][SubServer 0] SubServer 0 up and running.
+[06:43:32 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:43:32 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:43:34 AM][Server] Shutting everything down.
+[06:43:34 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:43:34 AM][UserDatabase] Saving all profiles before going down...
+[06:43:34 AM][UserDatabase] Saved all profiles.
+[06:43:34 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:43:34 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:43:34 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:43:34 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:43:34 AM][<DEBUG>][SubServer 0] Killing self.
+[06:43:38 AM][CTP Server] Server is starting up...
+[06:43:38 AM][CTP Server] Server is in DEBUG mode.
+[06:43:38 AM][CTP Server] Runtime log is active.
+[06:43:38 AM][CTP Server] Will display console.
+[06:43:38 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:43:38 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:43:38 AM][ModuleManager] Added module: HelloWorldModule.
+[06:43:38 AM][ModuleManager] Finished loading modules.
+[06:43:38 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:43:38 AM][SubServer 0] SubServer 0 up and running.
+[06:43:38 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:43:38 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:43:38 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:43:38 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:45:37 AM][Server] Shutting everything down.
+[06:45:37 AM][UserDatabase] Saving all profiles before going down...
+[06:45:37 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:45:37 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:45:37 AM][UserDatabase] Saved all profiles.
+[06:45:37 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:45:37 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:45:37 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:45:37 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:45:37 AM][<DEBUG>][SubServer 0] Killing self.
+[06:45:41 AM][CycleProcessManager] CycleProcessManager is up and running.
+[06:45:41 AM][CTP Server] Server is starting up...
+[06:45:41 AM][CTP Server] Server is in DEBUG mode.
+[06:45:41 AM][CTP Server] Runtime log is active.
+[06:45:41 AM][CTP Server] Will display console.
+[06:45:41 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:45:41 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:45:41 AM][ModuleManager] Added module: HelloWorldModule.
+[06:45:41 AM][ModuleManager] Finished loading modules.
+[06:45:41 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:45:41 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:45:41 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:45:41 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:45:41 AM][SubServer 0] SubServer 0 up and running.
+[06:45:41 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:45:42 AM][Server] Shutting everything down.
+[06:45:42 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:45:42 AM][UserDatabase] Saving all profiles before going down...
+[06:45:42 AM][UserDatabase] Saved all profiles.
+[06:45:42 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:45:42 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:45:42 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:45:42 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:45:42 AM][<DEBUG>][SubServer 0] Killing self.
+[06:45:51 AM][CTP Server] Server is starting up...
+[06:45:51 AM][CTP Server] Server is in DEBUG mode.
+[06:45:51 AM][CTP Server] Runtime log is active.
+[06:45:51 AM][CTP Server] Will display console.
+[06:45:51 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:45:51 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:45:51 AM][ModuleManager] Added module: HelloWorldModule.
+[06:45:51 AM][ModuleManager] Finished loading modules.
+[06:45:51 AM][SubServer 0] SubServer 0 up and running.
+[06:45:51 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:45:51 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:45:51 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:45:51 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:45:51 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:45:52 AM][Server] Shutting everything down.
+[06:45:52 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:45:52 AM][UserDatabase] Saving all profiles before going down...
+[06:45:52 AM][UserDatabase] Saved all profiles.
+[06:45:52 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:45:52 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:45:52 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:45:52 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:45:52 AM][<DEBUG>][SubServer 0] Killing self.
+[06:45:59 AM][CTP Server] Server is starting up...
+[06:45:59 AM][CTP Server] Server is in DEBUG mode.
+[06:45:59 AM][CTP Server] Runtime log is active.
+[06:45:59 AM][CTP Server] Will display console.
+[06:45:59 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:45:59 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:45:59 AM][ModuleManager] Added module: HelloWorldModule.
+[06:45:59 AM][ModuleManager] Finished loading modules.
+[06:45:59 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:45:59 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:45:59 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:45:59 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:45:59 AM][SubServer 0] SubServer 0 up and running.
+[06:45:59 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:46:00 AM][Server] Shutting everything down.
+[06:46:00 AM][UserDatabase] Saving all profiles before going down...
+[06:46:00 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:46:00 AM][UserDatabase] Saved all profiles.
+[06:46:00 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:46:00 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:46:00 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:46:00 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:46:00 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:46:00 AM][<DEBUG>][SubServer 0] Killing self.
+[06:46:09 AM][CTP Server] Server is starting up...
+[06:46:09 AM][CTP Server] Server is in DEBUG mode.
+[06:46:09 AM][CTP Server] Runtime log is active.
+[06:46:09 AM][CTP Server] Will display console.
+[06:46:09 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:46:09 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:46:09 AM][ModuleManager] Added module: HelloWorldModule.
+[06:46:09 AM][ModuleManager] Finished loading modules.
+[06:46:09 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:46:09 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:46:09 AM][SubServer 0] SubServer 0 up and running.
+[06:46:09 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:46:09 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:46:09 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:46:10 AM][Server] Shutting everything down.
+[06:46:10 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:46:10 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:46:10 AM][UserDatabase] Saving all profiles before going down...
+[06:46:10 AM][UserDatabase] Saved all profiles.
+[06:46:10 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:46:10 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:46:10 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:46:10 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:46:10 AM][<DEBUG>][SubServer 0] Killing self.
+[06:46:31 AM][CTP Server] Server is starting up...
+[06:46:31 AM][CTP Server] Server is in DEBUG mode.
+[06:46:31 AM][CTP Server] Runtime log is active.
+[06:46:31 AM][CTP Server] Will display console.
+[06:46:31 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:46:31 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:46:31 AM][ModuleManager] Added module: HelloWorldModule.
+[06:46:31 AM][ModuleManager] Finished loading modules.
+java.lang.IllegalArgumentException: bad position: -1
+	at javax.swing.text.JTextComponent.setCaretPosition(JTextComponent.java:1629)
+	at com.ctp.io.ConsoleManager.addMessage(ConsoleManager.java:91)
+	at com.ctp.io.ConsoleManager.addConsoleMessage(ConsoleManager.java:37)
+	at com.ctp.io.ServerIO.printDebug(ServerIO.java:80)
+	at com.ctp.util.ThreadPool.start(ThreadPool.java:62)
+	at com.ctp.server.SubServer.<init>(SubServer.java:45)
+	at com.ctp.server.Server.run(Server.java:239)
+[06:46:31 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:46:31 AM][SubServer 0] SubServer 0 up and running.
+[06:46:31 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:46:31 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:46:31 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:46:31 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:46:32 AM][Server] Shutting everything down.
+[06:46:32 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:46:32 AM][UserDatabase] Saving all profiles before going down...
+[06:46:32 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:46:32 AM][UserDatabase] Saved all profiles.
+[06:46:32 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:46:32 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:46:32 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:46:32 AM][<DEBUG>][SubServer 0] Killing self.
+[06:47:09 AM][CTP Server] Server is starting up...
+[06:47:09 AM][CTP Server] Server is in DEBUG mode.
+[06:47:09 AM][CTP Server] Runtime log is active.
+[06:47:09 AM][CTP Server] Will display console.
+[06:47:09 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:47:09 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:47:09 AM][ModuleManager] Added module: HelloWorldModule.
+[06:47:09 AM][ModuleManager] Finished loading modules.
+[06:47:09 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:47:09 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:47:09 AM][SubServer 0] SubServer 0 up and running.
+[06:47:09 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:47:09 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:47:09 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:47:10 AM][Server] Shutting everything down.
+[06:47:10 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:47:10 AM][UserDatabase] Saving all profiles before going down...
+[06:47:10 AM][UserDatabase] Saved all profiles.
+[06:47:10 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:47:10 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:47:10 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:47:10 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:47:10 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:47:10 AM][<DEBUG>][SubServer 0] Killing self.
+[06:48:18 AM][ThreadPool] ThreadPool is up and running.
+[06:48:18 AM][CTP Server] Server is starting up...
+[06:48:18 AM][CTP Server] Server is in DEBUG mode.
+[06:48:18 AM][CTP Server] Runtime log is active.
+[06:48:18 AM][CTP Server] Will display console.
+[06:48:18 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:48:18 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:48:18 AM][ModuleManager] Added module: HelloWorldModule.
+[06:48:18 AM][ModuleManager] Finished loading modules.
+[06:48:18 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:48:18 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:48:18 AM][SubServer 0] SubServer 0 up and running.
+[06:48:18 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:48:18 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:48:18 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:48:19 AM][Server] Shutting everything down.
+[06:48:19 AM][UserDatabase] Saving all profiles before going down...
+[06:48:19 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:48:19 AM][UserDatabase] Saved all profiles.
+[06:48:19 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:48:19 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:48:19 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:48:19 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:48:19 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:48:19 AM][<DEBUG>][SubServer 0] Killing self.
+[06:48:28 AM][CTP Server] Server is starting up...
+[06:48:28 AM][CTP Server] Server is in DEBUG mode.
+[06:48:28 AM][CTP Server] Runtime log is active.
+[06:48:28 AM][CTP Server] Will display console.
+[06:48:28 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:48:28 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:48:28 AM][ModuleManager] Added module: HelloWorldModule.
+[06:48:28 AM][ModuleManager] Finished loading modules.
+[06:48:28 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:48:28 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:48:28 AM][SubServer 0] SubServer 0 up and running.
+[06:48:28 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:48:28 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:48:28 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:48:29 AM][Server] Shutting everything down.
+[06:48:29 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:48:29 AM][UserDatabase] Saving all profiles before going down...
+[06:48:29 AM][UserDatabase] Saved all profiles.
+[06:48:29 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:48:29 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:48:29 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:48:29 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:48:29 AM][<DEBUG>][SubServer 0] Killing self.
+[06:48:29 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:48:38 AM][CTP Server] Server is starting up...
+[06:48:38 AM][CTP Server] Server is in DEBUG mode.
+[06:48:38 AM][CTP Server] Runtime log is active.
+[06:48:38 AM][CTP Server] Will display console.
+[06:48:38 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:48:38 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:48:38 AM][ModuleManager] Added module: HelloWorldModule.
+[06:48:38 AM][ModuleManager] Finished loading modules.
+[06:48:38 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:48:38 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:48:38 AM][SubServer 0] SubServer 0 up and running.
+[06:48:38 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:48:38 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:48:38 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:48:39 AM][Server] Shutting everything down.
+[06:48:39 AM][UserDatabase] Saving all profiles before going down...
+[06:48:39 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:48:39 AM][UserDatabase] Saved all profiles.
+[06:48:39 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:48:39 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:48:39 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:48:39 AM][<DEBUG>][SubServer 0] Killing self.
+[06:48:46 AM][CTP Server] Server is starting up...
+[06:48:46 AM][CTP Server] Server is in DEBUG mode.
+[06:48:46 AM][CTP Server] Runtime log is active.
+[06:48:46 AM][CTP Server] Will display console.
+[06:48:46 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:48:46 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:48:46 AM][ModuleManager] Added module: HelloWorldModule.
+[06:48:46 AM][ModuleManager] Finished loading modules.
+[06:48:46 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:48:46 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:48:46 AM][SubServer 0] SubServer 0 up and running.
+[06:48:46 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:48:46 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:48:46 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:48:47 AM][Server] Shutting everything down.
+[06:48:47 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:48:47 AM][UserDatabase] Saving all profiles before going down...
+[06:48:47 AM][UserDatabase] Saved all profiles.
+[06:48:47 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:48:47 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:48:47 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:48:47 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:48:47 AM][<DEBUG>][SubServer 0] Killing self.
+[06:48:54 AM][CTP Server] Server is starting up...
+[06:48:54 AM][CTP Server] Server is in DEBUG mode.
+[06:48:54 AM][CTP Server] Runtime log is active.
+[06:48:54 AM][CTP Server] Will display console.
+[06:48:54 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:48:54 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:48:54 AM][ModuleManager] Added module: HelloWorldModule.
+[06:48:54 AM][ModuleManager] Finished loading modules.
+[06:48:54 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:48:54 AM][SubServer 0] SubServer 0 up and running.
+[06:48:54 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:48:54 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:48:54 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:48:54 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:48:55 AM][Server] Shutting everything down.
+[06:48:55 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:48:55 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:48:55 AM][UserDatabase] Saving all profiles before going down...
+[06:48:55 AM][UserDatabase] Saved all profiles.
+[06:48:55 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:48:55 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:48:55 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:48:55 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:48:55 AM][<DEBUG>][SubServer 0] Killing self.
+[06:51:06 AM][CTP Server] Server is starting up...
+[06:51:06 AM][CycleProcessManager] CycleProcessManager is up and running.
+[06:51:06 AM][CTP Server] Server is in DEBUG mode.
+[06:51:06 AM][CTP Server] Runtime log is active.
+[06:51:06 AM][CTP Server] Will display console.
+[06:51:06 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:51:06 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:51:06 AM][ModuleManager] Added module: HelloWorldModule.
+[06:51:06 AM][ModuleManager] Finished loading modules.
+[06:51:06 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:51:06 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:51:06 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:51:06 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:51:06 AM][SubServer 0] SubServer 0 up and running.
+[06:51:06 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:51:06 AM][Server] Shutting everything down.
+[06:51:06 AM][UserDatabase] Saving all profiles before going down...
+[06:51:06 AM][UserDatabase] Saved all profiles.
+[06:51:06 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:51:06 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:51:06 AM][<DEBUG>][SubServer 0] Killing all connections...
+java.lang.IllegalArgumentException: bad position: -1
+	at javax.swing.text.JTextComponent.setCaretPosition(JTextComponent.java:1629)
+	at com.ctp.io.ConsoleManager.addMessage(ConsoleManager.java:91)
+	at com.ctp.io.ConsoleManager.addConsoleMessage(ConsoleManager.java:37)
+	at com.ctp.io.ServerIO.printDebug(ServerIO.java:80)
+	at com.ctp.util.CycleProcessManager.run(CycleProcessManager.java:132)
+[06:51:06 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:51:06 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:51:06 AM][<DEBUG>][SubServer 0] Killing self.
+[06:51:06 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:55:33 AM][CTP Server] Server is starting up...
+[06:55:33 AM][CTP Server] Server is in DEBUG mode.
+[06:55:33 AM][CTP Server] Runtime log is active.
+[06:55:33 AM][CTP Server] Will display console.
+[06:55:33 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:55:33 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:55:33 AM][ModuleManager] Added module: HelloWorldModule.
+[06:55:33 AM][ModuleManager] Finished loading modules.
+[06:55:33 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:55:33 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:55:33 AM][SubServer 0] SubServer 0 up and running.
+[06:55:33 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:55:33 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:55:33 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:55:34 AM][Server] Shutting everything down.
+[06:55:34 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:55:34 AM][UserDatabase] Saving all profiles before going down...
+[06:55:34 AM][UserDatabase] Saved all profiles.
+[06:55:34 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:55:34 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:55:34 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:55:34 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:55:34 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:55:34 AM][<DEBUG>][SubServer 0] Killing self.
+[06:56:16 AM][CTP Server] Server is starting up...
+[06:56:16 AM][CTP Server] Server is in DEBUG mode.
+[06:56:16 AM][CTP Server] Runtime log is active.
+[06:56:16 AM][CTP Server] Will display console.
+[06:56:16 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:56:16 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:56:16 AM][ModuleManager] Added module: HelloWorldModule.
+[06:56:16 AM][ModuleManager] Finished loading modules.
+[06:56:16 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:56:16 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:56:16 AM][SubServer 0] SubServer 0 up and running.
+[06:56:16 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:56:16 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:56:16 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:56:49 AM][Server] Shutting everything down.
+[06:56:49 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:56:49 AM][UserDatabase] Saving all profiles before going down...
+[06:56:49 AM][UserDatabase] Saved all profiles.
+[06:56:49 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:56:49 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:56:49 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:56:49 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:56:49 AM][<DEBUG>][SubServer 0] Killing self.
+[06:56:49 AM][<DEBUG>][Server] Exited wait block.
+[06:56:52 AM][CTP Server] Server is starting up...
+[06:56:52 AM][CTP Server] Server is in DEBUG mode.
+[06:56:52 AM][CTP Server] Runtime log is active.
+[06:56:52 AM][CTP Server] Will display console.
+[06:56:52 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:56:52 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:56:52 AM][ModuleManager] Added module: HelloWorldModule.
+[06:56:52 AM][ModuleManager] Finished loading modules.
+[06:56:52 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:56:52 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:56:52 AM][SubServer 0] SubServer 0 up and running.
+[06:56:52 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:56:52 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:56:52 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:56:53 AM][Server] Shutting everything down.
+[06:56:53 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:56:53 AM][UserDatabase] Saving all profiles before going down...
+[06:56:53 AM][UserDatabase] Saved all profiles.
+[06:56:53 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:56:53 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:56:53 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:56:53 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:56:53 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:56:53 AM][<DEBUG>][SubServer 0] Killing self.
+[06:58:05 AM][CTP Server] Server is starting up...
+[06:58:05 AM][CTP Server] Server is in DEBUG mode.
+[06:58:05 AM][CTP Server] Runtime log is active.
+[06:58:05 AM][CTP Server] Will display console.
+[06:58:05 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:58:05 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:58:05 AM][ModuleManager] Added module: HelloWorldModule.
+[06:58:05 AM][ModuleManager] Finished loading modules.
+[06:58:05 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:58:05 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:58:05 AM][SubServer 0] SubServer 0 up and running.
+[06:58:05 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:58:05 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:58:05 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:58:05 AM][Server] Shutting everything down.
+[06:58:05 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:58:05 AM][UserDatabase] Saving all profiles before going down...
+[06:58:05 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:58:05 AM][UserDatabase] Saved all profiles.
+[06:58:05 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:58:05 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:58:05 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:58:05 AM][<DEBUG>][SubServer 0] Killing self.
+[06:58:05 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[06:59:11 AM][CTP Server] Server is starting up...
+[06:59:11 AM][CTP Server] Server is in DEBUG mode.
+[06:59:11 AM][CTP Server] Runtime log is active.
+[06:59:11 AM][CTP Server] Will display console.
+[06:59:11 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[06:59:11 AM][<DEBUG>][ThreadPool] Current threads: 4
+[06:59:11 AM][ModuleManager] Added module: HelloWorldModule.
+[06:59:11 AM][ModuleManager] Finished loading modules.
+[06:59:11 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[06:59:11 AM][SubServer 0] SubServer 0 up and running.
+[06:59:11 AM][<DEBUG>][ThreadPool] Current threads: 5
+[06:59:11 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[06:59:11 AM][<DEBUG>][ThreadPool] Current threads: 6
+[06:59:11 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[06:59:12 AM][Server] Shutting everything down.
+[06:59:12 AM][UserDatabase] Saving all profiles before going down...
+[06:59:12 AM][UserDatabase] Saved all profiles.
+[06:59:12 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[06:59:12 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[06:59:12 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[06:59:12 AM][<DEBUG>][SubServer 0] Killing all connections...
+[06:59:12 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[06:59:12 AM][<DEBUG>][SubServer 0] Killing self.
+[07:00:22 AM][CTP Server] Server is starting up...
+[07:00:22 AM][CTP Server] Server is in DEBUG mode.
+[07:00:22 AM][CTP Server] Runtime log is active.
+[07:00:22 AM][CTP Server] Will display console.
+[07:00:22 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:00:22 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:00:22 AM][ModuleManager] Added module: HelloWorldModule.
+[07:00:22 AM][ModuleManager] Finished loading modules.
+[07:00:22 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:00:22 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:00:22 AM][SubServer 0] SubServer 0 up and running.
+[07:00:22 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:00:22 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:00:22 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:00:23 AM][Server] Shutting everything down.
+[07:00:23 AM][UserDatabase] Saving all profiles before going down...
+[07:00:23 AM][UserDatabase] Saved all profiles.
+[07:00:23 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:00:23 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:00:23 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:00:23 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:00:23 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[07:00:23 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:00:23 AM][<DEBUG>][SubServer 0] Killing self.
+[07:00:48 AM][CTP Server] Server is starting up...
+[07:00:48 AM][CTP Server] Server is in DEBUG mode.
+[07:00:48 AM][CTP Server] Runtime log is active.
+[07:00:48 AM][CTP Server] Will display console.
+[07:00:48 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:00:48 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:00:48 AM][ModuleManager] Added module: HelloWorldModule.
+[07:00:48 AM][ModuleManager] Finished loading modules.
+[07:00:48 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:00:48 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:00:48 AM][SubServer 0] SubServer 0 up and running.
+[07:00:48 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:00:48 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:00:48 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:00:49 AM][Server] Shutting everything down.
+[07:00:49 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:00:49 AM][UserDatabase] Saving all profiles before going down...
+[07:00:49 AM][UserDatabase] Saved all profiles.
+[07:00:49 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:00:49 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:00:49 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:00:49 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:00:49 AM][<DEBUG>][SubServer 0] Killing self.
+[07:01:05 AM][CTP Server] Server is starting up...
+[07:01:05 AM][CTP Server] Server is in DEBUG mode.
+[07:01:05 AM][CTP Server] Runtime log is active.
+[07:01:05 AM][CTP Server] Will display console.
+[07:01:05 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:01:05 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:01:05 AM][ModuleManager] Added module: HelloWorldModule.
+[07:01:05 AM][ModuleManager] Finished loading modules.
+[07:01:05 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:01:05 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:01:05 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:01:05 AM][SubServer 0] SubServer 0 up and running.
+[07:01:05 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:01:05 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:01:06 AM][Server] Shutting everything down.
+[07:01:06 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:01:06 AM][UserDatabase] Saving all profiles before going down...
+[07:01:06 AM][UserDatabase] Saved all profiles.
+[07:01:06 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:01:06 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:01:06 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:01:06 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:01:06 AM][<DEBUG>][ServerClock] Server clock was killed.
+[07:01:06 AM][<DEBUG>][SubServer 0] Killing self.
+[07:01:19 AM][CTP Server] Server is starting up...
+[07:01:19 AM][CTP Server] Server is in DEBUG mode.
+[07:01:19 AM][CTP Server] Runtime log is active.
+[07:01:19 AM][CTP Server] Will display console.
+[07:01:19 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:01:19 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:01:19 AM][ModuleManager] Added module: HelloWorldModule.
+[07:01:19 AM][ModuleManager] Finished loading modules.
+[07:01:19 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:01:19 AM][SubServer 0] SubServer 0 up and running.
+[07:01:19 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:01:19 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:01:19 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:01:19 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:01:20 AM][Server] Shutting everything down.
+[07:01:20 AM][UserDatabase] Saving all profiles before going down...
+[07:01:20 AM][UserDatabase] Saved all profiles.
+[07:01:20 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:01:20 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:01:20 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[07:01:20 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:01:20 AM][<DEBUG>][SubServer 0] Killing self.
+[07:01:20 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:01:45 AM][CTP Server] Server is starting up...
+[07:01:45 AM][CTP Server] Server is in DEBUG mode.
+[07:01:45 AM][CTP Server] Runtime log is active.
+[07:01:45 AM][CTP Server] Will display console.
+[07:01:45 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:01:45 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:01:45 AM][ModuleManager] Added module: HelloWorldModule.
+[07:01:45 AM][ModuleManager] Finished loading modules.
+[07:01:45 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:01:45 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:01:45 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:01:45 AM][SubServer 0] SubServer 0 up and running.
+[07:01:45 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:01:45 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:01:46 AM][Server] Shutting everything down.
+[07:01:46 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:01:46 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:01:46 AM][UserDatabase] Saving all profiles before going down...
+[07:01:46 AM][UserDatabase] Saved all profiles.
+[07:01:46 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:01:46 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:01:46 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[07:01:46 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:01:46 AM][<DEBUG>][SubServer 0] Killing self.
+[07:02:12 AM][CTP Server] Server is starting up...
+[07:02:12 AM][CTP Server] Server is in DEBUG mode.
+[07:02:12 AM][CTP Server] Runtime log is active.
+[07:02:12 AM][CTP Server] Will display console.
+[07:02:12 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:02:12 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:02:12 AM][ModuleManager] Added module: HelloWorldModule.
+[07:02:12 AM][ModuleManager] Finished loading modules.
+[07:02:12 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:02:12 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:02:12 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:02:12 AM][SubServer 0] SubServer 0 up and running.
+[07:02:12 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:02:12 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:02:13 AM][Server] Shutting everything down.
+[07:02:13 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:02:13 AM][UserDatabase] Saving all profiles before going down...
+[07:02:13 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:02:13 AM][UserDatabase] Saved all profiles.
+[07:02:13 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:02:13 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:02:13 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:02:13 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[07:02:13 AM][<DEBUG>][SubServer 0] Killing self.
+[07:02:20 AM][CTP Server] Server is starting up...
+[07:02:20 AM][CTP Server] Server is in DEBUG mode.
+[07:02:20 AM][CTP Server] Runtime log is active.
+[07:02:20 AM][CTP Server] Will display console.
+[07:02:20 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:02:20 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:02:20 AM][ModuleManager] Added module: HelloWorldModule.
+[07:02:20 AM][ModuleManager] Finished loading modules.
+[07:02:20 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:02:20 AM][SubServer 0] SubServer 0 up and running.
+[07:02:20 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:02:20 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:02:20 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:02:20 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:02:21 AM][Server] Shutting everything down.
+[07:02:21 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:02:21 AM][UserDatabase] Saving all profiles before going down...
+[07:02:21 AM][UserDatabase] Saved all profiles.
+[07:02:21 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:02:21 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:02:21 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:02:21 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[07:02:21 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:02:21 AM][<DEBUG>][SubServer 0] Killing self.
+[07:02:21 AM][<DEBUG>][ThreadPool] Disposing of thread: SubServer 0
+[07:02:23 AM][CTP Server] Server is starting up...
+[07:02:23 AM][CTP Server] Server is in DEBUG mode.
+[07:02:23 AM][CTP Server] Runtime log is active.
+[07:02:23 AM][CTP Server] Will display console.
+[07:02:23 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:02:23 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:02:23 AM][ModuleManager] Added module: HelloWorldModule.
+[07:02:23 AM][ModuleManager] Finished loading modules.
+[07:02:23 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:02:23 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:02:23 AM][SubServer 0] SubServer 0 up and running.
+[07:02:23 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:02:23 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:02:23 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:02:28 AM][Server] Shutting everything down.
+[07:02:28 AM][UserDatabase] Saving all profiles before going down...
+[07:02:28 AM][UserDatabase] Saved all profiles.
+[07:02:28 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:02:28 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:02:28 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:02:28 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:02:28 AM][<DEBUG>][SubServer 0] Killing self.
+[07:02:31 AM][CTP Server] Server is starting up...
+[07:02:31 AM][CTP Server] Server is in DEBUG mode.
+[07:02:31 AM][CTP Server] Runtime log is active.
+[07:02:31 AM][CTP Server] Will display console.
+[07:02:31 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:02:31 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:02:31 AM][ModuleManager] Added module: HelloWorldModule.
+[07:02:31 AM][ModuleManager] Finished loading modules.
+[07:02:31 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:02:31 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:02:31 AM][SubServer 0] SubServer 0 up and running.
+[07:02:31 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:02:31 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:02:31 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:02:37 AM][Server] Shutting everything down.
+[07:02:37 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:02:37 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:02:37 AM][UserDatabase] Saving all profiles before going down...
+[07:02:37 AM][UserDatabase] Saved all profiles.
+[07:02:37 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:02:37 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:02:37 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[07:02:37 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:02:37 AM][<DEBUG>][SubServer 0] Killing self.
+[07:02:39 AM][CTP Server] Server is starting up...
+[07:02:39 AM][CTP Server] Server is in DEBUG mode.
+[07:02:39 AM][CTP Server] Runtime log is active.
+[07:02:39 AM][CTP Server] Will display console.
+[07:02:39 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:02:39 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:02:39 AM][ModuleManager] Added module: HelloWorldModule.
+[07:02:39 AM][ModuleManager] Finished loading modules.
+[07:02:39 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:02:39 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:02:39 AM][SubServer 0] SubServer 0 up and running.
+[07:02:39 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:02:39 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:02:39 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:02:40 AM][Server] Shutting everything down.
+[07:02:40 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:02:40 AM][UserDatabase] Saving all profiles before going down...
+[07:02:40 AM][UserDatabase] Saved all profiles.
+[07:02:40 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:02:40 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:02:40 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:02:40 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:02:40 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[07:02:40 AM][<DEBUG>][SubServer 0] Killing self.
+[07:03:02 AM][CTP Server] Server is starting up...
+[07:03:02 AM][CTP Server] Server is in DEBUG mode.
+[07:03:02 AM][CTP Server] Runtime log is active.
+[07:03:02 AM][CTP Server] Will display console.
+[07:03:02 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:03:02 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:03:02 AM][ModuleManager] Added module: HelloWorldModule.
+[07:03:02 AM][ModuleManager] Finished loading modules.
+[07:03:02 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:03:02 AM][SubServer 0] SubServer 0 up and running.
+[07:03:02 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:03:02 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:03:02 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:03:02 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:03:03 AM][Server] Shutting everything down.
+[07:03:03 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:03:03 AM][UserDatabase] Saving all profiles before going down...
+[07:03:03 AM][UserDatabase] Saved all profiles.
+[07:03:03 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:03:03 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:03:03 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:03:03 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:03:03 AM][<DEBUG>][SubServer 0] Killing self.
+[07:07:09 AM][CTP Server] Server is starting up...
+[07:07:09 AM][CTP Server] Server is in DEBUG mode.
+[07:07:09 AM][CTP Server] Runtime log is active.
+[07:07:09 AM][CTP Server] Will display console.
+[07:07:09 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:07:09 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:07:09 AM][ModuleManager] Added module: HelloWorldModule.
+[07:07:09 AM][ModuleManager] Finished loading modules.
+[07:07:09 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:07:09 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:07:09 AM][SubServer 0] SubServer 0 up and running.
+[07:07:09 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:07:09 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:07:09 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:07:10 AM][Server] Shutting everything down.
+[07:07:10 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:07:10 AM][UserDatabase] Saving all profiles before going down...
+[07:07:10 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:07:10 AM][UserDatabase] Saved all profiles.
+[07:07:10 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:07:10 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:07:10 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:07:10 AM][<DEBUG>][SubServer 0] Killing self.
+[07:07:21 AM][CTP Server] Server is starting up...
+[07:07:21 AM][CTP Server] Server is in DEBUG mode.
+[07:07:21 AM][CTP Server] Runtime log is active.
+[07:07:21 AM][CTP Server] Will display console.
+[07:07:21 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:07:21 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:07:21 AM][ModuleManager] Added module: HelloWorldModule.
+[07:07:21 AM][ModuleManager] Finished loading modules.
+[07:07:21 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:07:21 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:07:21 AM][SubServer 0] SubServer 0 up and running.
+[07:07:21 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:07:21 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:07:21 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:07:21 AM][Server] Shutting everything down.
+[07:07:21 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:07:21 AM][UserDatabase] Saving all profiles before going down...
+[07:07:21 AM][UserDatabase] Saved all profiles.
+[07:07:21 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:07:21 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:07:21 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:07:21 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:07:21 AM][<DEBUG>][SubServer 0] Killing self.
+[07:07:37 AM][CTP Server] Server is starting up...
+[07:07:37 AM][CTP Server] Server is in DEBUG mode.
+[07:07:37 AM][CTP Server] Runtime log is active.
+[07:07:37 AM][CTP Server] Will display console.
+[07:07:37 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:07:37 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:07:37 AM][ModuleManager] Added module: HelloWorldModule.
+[07:07:37 AM][ModuleManager] Finished loading modules.
+[07:07:37 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:07:37 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:07:37 AM][SubServer 0] SubServer 0 up and running.
+[07:07:37 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:07:37 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:07:37 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:07:38 AM][Server] Shutting everything down.
+[07:07:38 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:07:38 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:07:38 AM][UserDatabase] Saving all profiles before going down...
+[07:07:38 AM][UserDatabase] Saved all profiles.
+[07:07:38 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:07:38 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:07:38 AM][<DEBUG>][SubServer 0] Killing self.
+[07:07:38 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:09:24 AM][CTP Server] Server is starting up...
+[07:09:24 AM][CTP Server] Server is in DEBUG mode.
+[07:09:24 AM][CTP Server] Runtime log is active.
+[07:09:24 AM][CTP Server] Will display console.
+[07:09:24 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:09:24 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:09:24 AM][ModuleManager] Added module: HelloWorldModule.
+[07:09:24 AM][ModuleManager] Finished loading modules.
+[07:09:24 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:09:24 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:09:24 AM][SubServer 0] SubServer 0 up and running.
+[07:09:24 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:09:24 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:09:24 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:09:25 AM][Server] Shutting everything down.
+[07:09:25 AM][UserDatabase] Saving all profiles before going down...
+[07:09:25 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:09:25 AM][UserDatabase] Saved all profiles.
+[07:09:25 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:09:25 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:09:25 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:09:25 AM][<DEBUG>][SubServer 0] Killing self.
+[07:10:06 AM][CTP Server] Server is starting up...
+[07:10:06 AM][CTP Server] Server is in DEBUG mode.
+[07:10:06 AM][CTP Server] Runtime log is active.
+[07:10:06 AM][CTP Server] Will display console.
+[07:10:06 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:10:06 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:10:06 AM][ModuleManager] Added module: HelloWorldModule.
+[07:10:06 AM][ModuleManager] Finished loading modules.
+[07:10:06 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:10:06 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:10:06 AM][SubServer 0] SubServer 0 up and running.
+[07:10:06 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:10:06 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:10:06 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:10:07 AM][Server] Shutting everything down.
+[07:10:07 AM][UserDatabase] Saving all profiles before going down...
+[07:10:07 AM][UserDatabase] Saved all profiles.
+[07:10:07 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:10:07 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:10:07 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:10:07 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:10:07 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:10:07 AM][<DEBUG>][SubServer 0] Killing self.
+[07:11:25 AM][CTP Server] Server is starting up...
+[07:11:25 AM][CTP Server] Server is in DEBUG mode.
+[07:11:25 AM][CTP Server] Runtime log is active.
+[07:11:25 AM][CTP Server] Will display console.
+[07:11:25 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:11:25 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:11:25 AM][ModuleManager] Added module: HelloWorldModule.
+[07:11:25 AM][ModuleManager] Finished loading modules.
+[07:11:25 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:11:25 AM][SubServer 0] SubServer 0 up and running.
+[07:11:25 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:11:25 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:11:25 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:11:25 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:11:26 AM][Server] Shutting everything down.
+[07:11:26 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:11:26 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:11:26 AM][UserDatabase] Saving all profiles before going down...
+[07:11:26 AM][UserDatabase] Saved all profiles.
+[07:11:26 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:11:26 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:11:26 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:11:26 AM][<DEBUG>][SubServer 0] Killing self.
+[07:11:26 AM][<DEBUG>][Server] Exited wait block.
+[07:11:35 AM][CTP Server] Server is starting up...
+[07:11:35 AM][CTP Server] Server is in DEBUG mode.
+[07:11:35 AM][CTP Server] Runtime log is active.
+[07:11:35 AM][CTP Server] Will display console.
+[07:11:35 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:11:35 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:11:35 AM][ModuleManager] Added module: HelloWorldModule.
+[07:11:35 AM][ModuleManager] Finished loading modules.
+[07:11:35 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:11:35 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:11:35 AM][SubServer 0] SubServer 0 up and running.
+[07:11:35 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:11:35 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:11:35 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:11:36 AM][Server] Shutting everything down.
+[07:11:36 AM][UserDatabase] Saving all profiles before going down...
+[07:11:36 AM][UserDatabase] Saved all profiles.
+[07:11:36 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:11:36 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:11:36 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:11:36 AM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[07:11:36 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:11:36 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:11:36 AM][<DEBUG>][SubServer 0] Killing self.
+[07:11:42 AM][CTP Server] Server is starting up...
+[07:11:42 AM][CTP Server] Server is in DEBUG mode.
+[07:11:42 AM][CTP Server] Runtime log is active.
+[07:11:42 AM][CTP Server] Will display console.
+[07:11:42 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:11:42 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:11:42 AM][ModuleManager] Added module: HelloWorldModule.
+[07:11:42 AM][ModuleManager] Finished loading modules.
+[07:11:42 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:11:42 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:11:42 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:11:42 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:11:42 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:11:42 AM][SubServer 0] SubServer 0 up and running.
+[07:11:43 AM][Server] Shutting everything down.
+[07:11:43 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:11:43 AM][UserDatabase] Saving all profiles before going down...
+[07:11:43 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:11:43 AM][UserDatabase] Saved all profiles.
+[07:11:43 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:11:43 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:11:43 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:11:43 AM][<DEBUG>][SubServer 0] Killing self.
+[07:11:45 AM][CTP Server] Server is starting up...
+[07:11:45 AM][CTP Server] Server is in DEBUG mode.
+[07:11:45 AM][CTP Server] Runtime log is active.
+[07:11:45 AM][CTP Server] Will display console.
+[07:11:45 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:11:45 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:11:45 AM][ModuleManager] Added module: HelloWorldModule.
+[07:11:45 AM][ModuleManager] Finished loading modules.
+[07:11:45 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:11:45 AM][SubServer 0] SubServer 0 up and running.
+[07:11:45 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:11:45 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:11:45 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:11:45 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:11:46 AM][Server] Shutting everything down.
+[07:11:46 AM][UserDatabase] Saving all profiles before going down...
+[07:11:46 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:11:46 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:11:46 AM][UserDatabase] Saved all profiles.
+[07:11:46 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:11:46 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:11:46 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:11:46 AM][<DEBUG>][SubServer 0] Killing self.
+[07:12:22 AM][CTP Server] Server is starting up...
+[07:12:22 AM][CTP Server] Server is in DEBUG mode.
+[07:12:22 AM][CTP Server] Runtime log is active.
+[07:12:22 AM][CTP Server] Will display console.
+[07:12:22 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:12:22 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:12:22 AM][ModuleManager] Added module: HelloWorldModule.
+[07:12:22 AM][ModuleManager] Finished loading modules.
+[07:12:22 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:12:22 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:12:22 AM][SubServer 0] SubServer 0 up and running.
+[07:12:22 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:12:22 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:12:22 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:12:23 AM][Server] Shutting everything down.
+[07:12:23 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:12:23 AM][UserDatabase] Saving all profiles before going down...
+[07:12:23 AM][UserDatabase] Saved all profiles.
+[07:12:23 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:12:23 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:12:23 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:12:23 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:12:23 AM][<DEBUG>][SubServer 0] Killing self.
+[07:12:57 AM][CTP Server] Server is starting up...
+[07:12:57 AM][CTP Server] Server is in DEBUG mode.
+[07:12:57 AM][CTP Server] Runtime log is active.
+[07:12:57 AM][CTP Server] Will display console.
+[07:12:57 AM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[07:12:57 AM][<DEBUG>][ThreadPool] Current threads: 4
+[07:12:57 AM][ModuleManager] Added module: HelloWorldModule.
+[07:12:57 AM][ModuleManager] Finished loading modules.
+[07:12:57 AM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[07:12:57 AM][<DEBUG>][ThreadPool] Current threads: 5
+[07:12:57 AM][SubServer 0] SubServer 0 up and running.
+[07:12:57 AM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[07:12:57 AM][<DEBUG>][ThreadPool] Current threads: 6
+[07:12:57 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[07:12:59 AM][Server] Shutting everything down.
+[07:12:59 AM][UserDatabase] Saving all profiles before going down...
+[07:12:59 AM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[07:12:59 AM][UserDatabase] Saved all profiles.
+[07:12:59 AM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[07:12:59 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[07:12:59 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[07:12:59 AM][<DEBUG>][SubServer 0] Killing all connections...
+[07:12:59 AM][<DEBUG>][SubServer 0] Killing self.
+[02:25:49 PM][CTP Server] Server is starting up...
+[02:25:49 PM][CTP Server] Server is in DEBUG mode.
+[02:25:49 PM][CTP Server] Runtime log is active.
+[02:25:49 PM][CTP Server] Will display console.
+[02:25:49 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[02:25:49 PM][<DEBUG>][ThreadPool] Current threads: 4
+[02:25:49 PM][ModuleManager] Added module: HelloWorldModule.
+[02:25:49 PM][ModuleManager] Finished loading modules.
+[02:25:49 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+java.lang.IllegalArgumentException: bad position: 600
+	at javax.swing.text.JTextComponent.setCaretPosition(JTextComponent.java:1629)
+	at com.ctp.io.ConsoleManager.addMessage(ConsoleManager.java:91)
+	at com.ctp.io.ConsoleManager.addConsoleMessage(ConsoleManager.java:37)
+	at com.ctp.io.ServerIO.printDebug(ServerIO.java:80)
+	at com.ctp.util.ThreadPool.start(ThreadPool.java:64)
+	at com.ctp.server.SubServer.<init>(SubServer.java:45)
+	at com.ctp.server.Server.run(Server.java:236)
+[02:25:49 PM][<DEBUG>][ThreadPool] Current threads: 5
+[02:25:49 PM][SubServer 0] SubServer 0 up and running.
+[02:25:49 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[02:25:49 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[02:25:49 PM][<DEBUG>][ThreadPool] Current threads: 6
+[02:26:10 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[02:26:10 PM][<DEBUG>][ThreadPool] Current threads: 7
+[02:26:30 PM][Server] Shutting everything down.
+[02:26:30 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[02:26:30 PM][UserDatabase] Saving all profiles before going down...
+[02:26:30 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[02:26:30 PM][UserDatabase] Saved all profiles.
+[02:26:30 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[02:26:30 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[02:26:30 PM][<DEBUG>][SubServer 0] Killing all connections...
+[02:26:30 PM][<DEBUG>][SubServer 0] Killing self.
+[02:27:39 PM][CTP Server] Server is starting up...
+[02:27:39 PM][CTP Server] Server is in DEBUG mode.
+[02:27:39 PM][CTP Server] Runtime log is active.
+[02:27:39 PM][CTP Server] Will display console.
+[02:27:39 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[02:27:39 PM][<DEBUG>][ThreadPool] Current threads: 4
+[02:27:39 PM][ModuleManager] Added module: HelloWorldModule.
+[02:27:39 PM][ModuleManager] Finished loading modules.
+[02:27:39 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[02:27:39 PM][SubServer 0] SubServer 0 up and running.
+[02:27:39 PM][<DEBUG>][ThreadPool] Current threads: 5
+[02:27:39 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[02:27:39 PM][<DEBUG>][ThreadPool] Current threads: 6
+[02:27:39 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[02:27:39 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[02:27:39 PM][<DEBUG>][ThreadPool] Current threads: 7
+[02:28:25 PM][Server] Shutting everything down.
+[02:28:25 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[02:28:25 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[02:28:25 PM][UserDatabase] Saving all profiles before going down...
+[02:28:25 PM][UserDatabase] Saved all profiles.
+[02:28:25 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[02:28:25 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[02:28:25 PM][<DEBUG>][SubServer 0] Killing all connections...
+[02:28:25 PM][<DEBUG>][SubServer 0] Killing self.
+[02:28:44 PM][CTP Server] Server is starting up...
+[02:28:44 PM][CTP Server] Server is in DEBUG mode.
+[02:28:44 PM][CTP Server] Runtime log is active.
+[02:28:44 PM][CTP Server] Will display console.
+[02:28:44 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[02:28:44 PM][<DEBUG>][ThreadPool] Current threads: 4
+[02:28:44 PM][ModuleManager] Added module: HelloWorldModule.
+[02:28:44 PM][ModuleManager] Finished loading modules.
+[02:28:44 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[02:28:44 PM][<DEBUG>][ThreadPool] Current threads: 5
+[02:28:44 PM][SubServer 0] SubServer 0 up and running.
+[02:28:44 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[02:28:44 PM][<DEBUG>][ThreadPool] Current threads: 6
+[02:28:44 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[02:28:44 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[02:28:44 PM][<DEBUG>][ThreadPool] Current threads: 7
+[02:29:42 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[02:29:42 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[02:29:42 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[02:29:44 PM][Server] Shutting everything down.
+[02:29:44 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[02:29:44 PM][UserDatabase] Saving all profiles before going down...
+[02:29:44 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[02:29:44 PM][UserDatabase] Saved all profiles.
+[02:29:44 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[02:29:44 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[02:29:44 PM][<DEBUG>][SubServer 0] Killing all connections...
+[02:29:44 PM][<DEBUG>][SubServer 0] Killing self.
+[02:29:52 PM][CTP Server] Server is starting up...
+[02:29:52 PM][CTP Server] Server is in DEBUG mode.
+[02:29:52 PM][CTP Server] Runtime log is active.
+[02:29:52 PM][CTP Server] Will display console.
+[02:29:52 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[02:29:52 PM][<DEBUG>][ThreadPool] Current threads: 4
+[02:29:52 PM][ModuleManager] Added module: HelloWorldModule.
+[02:29:52 PM][ModuleManager] Finished loading modules.
+[02:29:52 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[02:29:52 PM][SubServer 0] SubServer 0 up and running.
+[02:29:52 PM][<DEBUG>][ThreadPool] Current threads: 5
+[02:29:52 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[02:29:52 PM][<DEBUG>][ThreadPool] Current threads: 6
+[02:29:52 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[02:29:52 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[02:29:52 PM][<DEBUG>][ThreadPool] Current threads: 7
+[02:31:39 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[02:31:40 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[02:31:40 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[02:31:41 PM][Server] Shutting everything down.
+[02:31:41 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[02:31:41 PM][UserDatabase] Saving all profiles before going down...
+[02:31:41 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[02:31:41 PM][UserDatabase] Saved all profiles.
+[02:31:41 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[02:31:41 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[02:31:41 PM][<DEBUG>][SubServer 0] Killing all connections...
+[02:31:41 PM][<DEBUG>][SubServer 0] Killing self.
+[02:31:41 PM][<DEBUG>][Server] Exited wait block.
+[02:31:47 PM][CTP Server] Server is starting up...
+[02:31:47 PM][CTP Server] Server is in DEBUG mode.
+[02:31:47 PM][CTP Server] Runtime log is active.
+[02:31:47 PM][CTP Server] Will display console.
+[02:31:47 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[02:31:47 PM][<DEBUG>][ThreadPool] Current threads: 4
+[02:31:47 PM][ModuleManager] Added module: HelloWorldModule.
+[02:31:47 PM][ModuleManager] Finished loading modules.
+[02:31:47 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[02:31:47 PM][SubServer 0] SubServer 0 up and running.
+[02:31:47 PM][<DEBUG>][ThreadPool] Current threads: 5
+[02:31:47 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[02:31:47 PM][<DEBUG>][ThreadPool] Current threads: 6
+[02:31:47 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[02:31:53 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[02:31:53 PM][<DEBUG>][ThreadPool] Current threads: 7
+[02:34:31 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[02:34:31 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[02:34:31 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[02:34:38 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[02:34:38 PM][<DEBUG>][ThreadPool] Current threads: 7
+[02:34:49 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[02:34:49 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[02:34:49 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[02:34:51 PM][Server] Shutting everything down.
+[02:34:51 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[02:34:51 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[02:34:51 PM][UserDatabase] Saving all profiles before going down...
+[02:34:51 PM][UserDatabase] Saved all profiles.
+[02:34:51 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[02:34:51 PM][<DEBUG>][SubServer 0] Killing all connections...
+[02:34:51 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[02:34:51 PM][<DEBUG>][SubServer 0] Killing self.
+[02:34:56 PM][CTP Server] Server is starting up...
+[02:34:56 PM][CTP Server] Server is in DEBUG mode.
+[02:34:56 PM][CTP Server] Runtime log is active.
+[02:34:56 PM][CTP Server] Will display console.
+[02:34:56 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[02:34:56 PM][<DEBUG>][ThreadPool] Current threads: 4
+[02:34:56 PM][ModuleManager] Added module: HelloWorldModule.
+[02:34:56 PM][ModuleManager] Finished loading modules.
+[02:34:56 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[02:34:56 PM][<DEBUG>][ThreadPool] Current threads: 5
+[02:34:56 PM][SubServer 0] SubServer 0 up and running.
+[02:34:56 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[02:34:56 PM][<DEBUG>][ThreadPool] Current threads: 6
+[02:34:56 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[02:35:00 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[02:35:00 PM][<DEBUG>][ThreadPool] Current threads: 7
+[02:35:06 PM][Server] Shutting everything down.
+[02:35:06 PM][UserDatabase] Saving all profiles before going down...
+[02:35:06 PM][UserDatabase] Saved all profiles.
+[02:35:06 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[02:35:06 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[02:35:06 PM][<DEBUG>][SubServer 0] Killing all connections...
+[02:35:06 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[02:35:06 PM][<DEBUG>][SubServer 0] Killing self.
+[02:35:42 PM][CTP Server] Server is starting up...
+[02:35:42 PM][CTP Server] Server is in DEBUG mode.
+[02:35:42 PM][CTP Server] Runtime log is active.
+[02:35:42 PM][CTP Server] Will display console.
+[02:35:42 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[02:35:42 PM][<DEBUG>][ThreadPool] Current threads: 4
+[02:35:42 PM][ModuleManager] Added module: HelloWorldModule.
+[02:35:42 PM][ModuleManager] Finished loading modules.
+[02:35:42 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[02:35:42 PM][<DEBUG>][ThreadPool] Current threads: 5
+[02:35:42 PM][SubServer 0] SubServer 0 up and running.
+[02:35:42 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[02:35:42 PM][<DEBUG>][ThreadPool] Current threads: 6
+[02:35:42 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[02:35:42 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[02:35:42 PM][<DEBUG>][ThreadPool] Current threads: 7
+[02:36:02 PM][Server] Shutting everything down.
+[02:36:02 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[02:36:02 PM][UserDatabase] Saving all profiles before going down...
+[02:36:02 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[02:36:02 PM][UserDatabase] Saved all profiles.
+[02:36:02 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[02:36:02 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[02:36:02 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[02:36:02 PM][<DEBUG>][SubServer 0] Killing all connections...
+[02:36:02 PM][<DEBUG>][SubServer 0] Killing self.
+[02:36:02 PM][<DEBUG>][Server] Exited wait block.
+[02:36:10 PM][CTP Server] Server is starting up...
+[02:36:10 PM][CTP Server] Server is in DEBUG mode.
+[02:36:10 PM][CTP Server] Runtime log is active.
+[02:36:10 PM][CTP Server] Will display console.
+[02:36:10 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[02:36:10 PM][<DEBUG>][ThreadPool] Current threads: 4
+[02:36:10 PM][ModuleManager] Added module: HelloWorldModule.
+[02:36:10 PM][ModuleManager] Finished loading modules.
+[02:36:10 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[02:36:10 PM][<DEBUG>][ThreadPool] Current threads: 5
+[02:36:10 PM][SubServer 0] SubServer 0 up and running.
+[02:36:10 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[02:36:10 PM][<DEBUG>][ThreadPool] Current threads: 6
+[02:36:10 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[02:36:17 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[02:36:17 PM][<DEBUG>][ThreadPool] Current threads: 7
+[02:36:23 PM][Server] Shutting everything down.
+[02:36:23 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[02:36:23 PM][UserDatabase] Saving all profiles before going down...
+[02:36:23 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[02:36:23 PM][UserDatabase] Saved all profiles.
+[02:36:23 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[02:36:23 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[02:36:23 PM][<DEBUG>][SubServer 0] Killing all connections...
+[02:36:23 PM][<DEBUG>][SubServer 0] Killing self.
+[02:36:23 PM][<DEBUG>][Server] Exited wait block.
+[02:36:51 PM][CTP Server] Server is starting up...
+[02:36:51 PM][CTP Server] Server is in DEBUG mode.
+[02:36:51 PM][CTP Server] Runtime log is active.
+[02:36:51 PM][CTP Server] Will display console.
+[02:36:51 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[02:36:51 PM][<DEBUG>][ThreadPool] Current threads: 4
+[02:36:51 PM][ModuleManager] Added module: HelloWorldModule.
+[02:36:51 PM][ModuleManager] Finished loading modules.
+[02:36:51 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[02:36:51 PM][<DEBUG>][ThreadPool] Current threads: 5
+[02:36:51 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[02:36:51 PM][SubServer 0] SubServer 0 up and running.
+[02:36:51 PM][<DEBUG>][ThreadPool] Current threads: 6
+[02:36:51 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[02:36:52 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[02:36:52 PM][<DEBUG>][ThreadPool] Current threads: 7
+[02:37:35 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[02:37:35 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[02:37:35 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[02:41:51 PM][CycleProcessManager] Average cycle time over 5 minutes: .000118ms.
+[02:44:55 PM][<DEBUG>][ThreadPool] Current threads: 6
+[02:46:50 PM][CycleProcessManager] Average cycle time over 5 minutes: .000118ms.
+[02:46:50 PM][UserDatabase] Beginning autosave...
+[02:46:50 PM][UserDatabase] Saved all profiles.
+[02:48:48 PM][Server] Shutting everything down.
+[02:48:48 PM][UserDatabase] Saving all profiles before going down...
+[02:48:48 PM][UserDatabase] Saved all profiles.
+[02:48:48 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[02:48:48 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[02:48:48 PM][<DEBUG>][SubServer 0] Killing all connections...
+[02:48:48 PM][<DEBUG>][SubServer 0] Killing self.
+[02:49:03 PM][CTP Server] Server is starting up...
+[02:49:03 PM][CTP Server] Server is in DEBUG mode.
+[02:49:03 PM][CTP Server] Runtime log is active.
+[02:49:03 PM][CTP Server] Will display console.
+[02:49:03 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[02:49:03 PM][<DEBUG>][ThreadPool] Current threads: 4
+[02:49:03 PM][ModuleManager] Added module: HelloWorldModule.
+[02:49:03 PM][ModuleManager] Finished loading modules.
+[02:49:03 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[02:49:03 PM][SubServer 0] SubServer 0 up and running.
+[02:49:03 PM][<DEBUG>][ThreadPool] Current threads: 5
+[02:49:03 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[02:49:03 PM][<DEBUG>][ThreadPool] Current threads: 6
+[02:49:03 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[02:49:07 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[02:49:07 PM][<DEBUG>][ThreadPool] Current threads: 7
+[02:50:04 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[02:50:04 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[02:50:04 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[02:54:03 PM][CycleProcessManager] Average cycle time over 5 minutes: .000118ms.
+[02:57:07 PM][<DEBUG>][ThreadPool] Current threads: 6
+[02:59:03 PM][CycleProcessManager] Average cycle time over 5 minutes: .000119ms.
+[02:59:03 PM][UserDatabase] Beginning autosave...
+[02:59:03 PM][UserDatabase] Saved all profiles.
+[03:04:02 PM][CycleProcessManager] Average cycle time over 5 minutes: .000119ms.
+[03:05:11 PM][<DEBUG>][ThreadPool] Current threads: 6
+[03:07:07 PM][CTP Server] Server is starting up...
+[03:07:07 PM][CTP Server] Server is in DEBUG mode.
+[03:07:07 PM][CTP Server] Runtime log is active.
+[03:07:07 PM][CTP Server] Will display console.
+[03:07:07 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[03:07:07 PM][<DEBUG>][ThreadPool] Current threads: 4
+[03:07:07 PM][ModuleManager] Added module: HelloWorldModule.
+[03:07:07 PM][ModuleManager] Finished loading modules.
+[03:07:07 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[03:07:07 PM][SubServer 0] SubServer 0 up and running.
+[03:07:07 PM][<DEBUG>][ThreadPool] Current threads: 5
+[03:07:07 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[03:07:07 PM][ConnectionAcceptor] Error. Failed to bind acceptor. Already in use?
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:382)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at com.ctp.connection.ConnectionAcceptor.run(ConnectionAcceptor.java:47)
+[03:07:07 PM][<DEBUG>][ThreadPool] Current threads: 6
+[03:07:07 PM][<DEBUG>][ThreadPool] Disposing of thread: ConnectionAcceptor
+[03:07:14 PM][Server] Shutting everything down.
+[03:07:14 PM][Server] Shutting everything down.
+[03:07:14 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[03:07:14 PM][UserDatabase] Saving all profiles before going down...
+[03:07:14 PM][UserDatabase] Saved all profiles.
+[03:07:14 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[03:07:14 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[03:07:14 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[03:07:14 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[03:07:14 PM][<DEBUG>][SubServer 0] Killing all connections...
+[03:07:14 PM][<DEBUG>][SubServer 0] Killing self.
+[03:07:14 PM][<DEBUG>][Server] Exited wait block.
+[03:07:14 PM][<DEBUG>][ThreadPool] Disposing of thread: CTP Server
+[03:07:14 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[03:07:14 PM][UserDatabase] Saving all profiles before going down...
+[03:07:14 PM][UserDatabase] Saved all profiles.
+[03:07:14 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[03:07:14 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[03:07:14 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[03:07:14 PM][<DEBUG>][SubServer 0] Killing all connections...
+[03:07:14 PM][<DEBUG>][SubServer 0] Killing self.
+[03:07:14 PM][<DEBUG>][Server] Exited wait block.
+[03:07:19 PM][CTP Server] Server is starting up...
+[03:07:19 PM][CTP Server] Server is in DEBUG mode.
+[03:07:19 PM][CTP Server] Runtime log is active.
+[03:07:19 PM][CTP Server] Will display console.
+[03:07:19 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[03:07:19 PM][<DEBUG>][ThreadPool] Current threads: 4
+[03:07:19 PM][ModuleManager] Added module: HelloWorldModule.
+[03:07:19 PM][ModuleManager] Finished loading modules.
+[03:07:19 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0[03:07:19 PM][SubServer 0] SubServer 0 up and running.
+
+[03:07:19 PM][<DEBUG>][ThreadPool] Current threads: 5
+[03:07:19 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[03:07:19 PM][<DEBUG>][ThreadPool] Current threads: 6
+[03:07:19 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[03:07:25 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:07:25 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:09:34 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:09:34 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:09:34 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:09:38 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:09:38 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:12:19 PM][CycleProcessManager] Average cycle time over 5 minutes: .000111ms.
+[03:13:04 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:13:04 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:13:04 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:13:12 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:13:12 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:13:31 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:13:31 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:13:31 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:13:35 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:13:35 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:13:53 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:13:53 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:13:53 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:13:55 PM][Server] Shutting everything down.
+[03:13:55 PM][UserDatabase] Saving all profiles before going down...
+[03:13:55 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[03:13:55 PM][UserDatabase] Saved all profiles.
+[03:13:55 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[03:13:55 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[03:13:55 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[03:13:55 PM][<DEBUG>][SubServer 0] Killing all connections...
+[03:13:55 PM][<DEBUG>][SubServer 0] Killing self.
+[03:14:06 PM][CTP Server] Server is starting up...
+[03:14:06 PM][CTP Server] Server is in DEBUG mode.
+[03:14:06 PM][CTP Server] Runtime log is active.
+[03:14:06 PM][CTP Server] Will display console.
+[03:14:06 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[03:14:06 PM][<DEBUG>][ThreadPool] Current threads: 4
+[03:14:06 PM][ModuleManager] Added module: HelloWorldModule.
+[03:14:06 PM][ModuleManager] Finished loading modules.
+[03:14:06 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[03:14:06 PM][SubServer 0] SubServer 0 up and running.
+[03:14:06 PM][<DEBUG>][ThreadPool] Current threads: 5
+[03:14:06 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[03:14:06 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[03:14:06 PM][<DEBUG>][ThreadPool] Current threads: 6
+[03:14:11 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:14:11 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:14:41 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:14:41 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:14:41 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:14:45 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:14:45 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:15:05 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:15:05 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:15:05 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:15:42 PM][Server] Shutting everything down.
+[03:15:42 PM][UserDatabase] Saving all profiles before going down...
+[03:15:42 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[03:15:42 PM][UserDatabase] Saved all profiles.
+[03:15:42 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[03:15:42 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[03:15:42 PM][<DEBUG>][SubServer 0] Killing all connections...
+[03:15:42 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[03:15:42 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[03:15:42 PM][<DEBUG>][SubServer 0] Killing self.
+[03:15:47 PM][CTP Server] Server is starting up...
+[03:15:47 PM][CTP Server] Server is in DEBUG mode.
+[03:15:47 PM][CTP Server] Runtime log is active.
+[03:15:47 PM][CTP Server] Will display console.
+[03:15:47 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[03:15:47 PM][<DEBUG>][ThreadPool] Current threads: 4
+[03:15:47 PM][ModuleManager] Added module: HelloWorldModule.
+[03:15:47 PM][ModuleManager] Finished loading modules.
+[03:15:47 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[03:15:47 PM][SubServer 0] SubServer 0 up and running.
+[03:15:47 PM][<DEBUG>][ThreadPool] Current threads: 5
+[03:15:47 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[03:15:47 PM][<DEBUG>][ThreadPool] Current threads: 6
+[03:15:47 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[03:15:53 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:15:53 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:16:12 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:16:12 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:16:12 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:16:16 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:16:16 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:17:19 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:17:19 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:17:19 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:17:24 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:17:24 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:18:11 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:18:11 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:18:11 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:18:14 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:18:14 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:18:50 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:18:50 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:18:50 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:18:51 PM][Server] Shutting everything down.
+[03:18:51 PM][UserDatabase] Saving all profiles before going down...
+[03:18:51 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[03:18:51 PM][UserDatabase] Saved all profiles.
+[03:18:51 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[03:18:51 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[03:18:51 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[03:18:51 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[03:18:51 PM][<DEBUG>][SubServer 0] Killing all connections...
+[03:18:51 PM][<DEBUG>][SubServer 0] Killing self.
+[03:19:17 PM][CTP Server] Server is starting up...
+[03:19:17 PM][CTP Server] Server is in DEBUG mode.
+[03:19:17 PM][CTP Server] Runtime log is active.
+[03:19:17 PM][CTP Server] Will display console.
+[03:19:17 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[03:19:17 PM][<DEBUG>][ThreadPool] Current threads: 4
+[03:19:17 PM][ModuleManager] Added module: HelloWorldModule.
+[03:19:17 PM][ModuleManager] Finished loading modules.
+[03:19:17 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[03:19:17 PM][SubServer 0] SubServer 0 up and running.
+[03:19:17 PM][<DEBUG>][ThreadPool] Current threads: 5
+[03:19:17 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[03:19:17 PM][<DEBUG>][ThreadPool] Current threads: 6
+[03:19:17 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[03:19:22 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:19:22 PM][<DEBUG>][ThreadPool] Current threads: 7
+java.lang.IllegalArgumentException: bad position: -1
+	at javax.swing.text.JTextComponent.setCaretPosition(JTextComponent.java:1629)
+	at com.ctp.io.ConsoleManager.addMessage(ConsoleManager.java:91)
+	at com.ctp.io.ConsoleManager.addConsoleMessage(ConsoleManager.java:37)
+	at com.ctp.io.ServerIO.printDebug(ServerIO.java:80)
+	at com.ctp.util.CycleProcessManager.run(CycleProcessManager.java:100)
+[03:19:29 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:19:29 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:19:29 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:19:35 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:19:35 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:19:39 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:19:39 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:19:39 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:19:43 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:19:43 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:19:50 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:19:50 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:19:50 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:19:55 PM][<DEBUG>][ThreadPool] Adding thread: ~user@127.0.0.1's packetGrabber
+[03:19:55 PM][<DEBUG>][ThreadPool] Current threads: 7
+[03:20:04 PM][<DEBUG>][CycleProcessManager] Removing CycleProcess: N2@127.0.0.1
+[03:20:04 PM][<DEBUG>][SubServer 0] Removing connection: N2@127.0.0.1
+[03:20:04 PM][<DEBUG>][ThreadPool] Disposing of thread: N2@127.0.0.1's packetGrabber
+[03:24:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000117ms.
+[03:27:21 PM][<DEBUG>][ThreadPool] Current threads: 6
+[03:29:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000115ms.
+[03:29:17 PM][UserDatabase] Beginning autosave...
+[03:29:17 PM][UserDatabase] Saved all profiles.
+[03:34:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000119ms.
+[03:35:25 PM][<DEBUG>][ThreadPool] Current threads: 6
+[03:39:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000127ms.
+[03:39:17 PM][UserDatabase] Beginning autosave...
+[03:39:17 PM][UserDatabase] Saved all profiles.
+[03:43:30 PM][<DEBUG>][ThreadPool] Current threads: 6
+[03:44:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000146ms.
+[03:49:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000143ms.
+[03:49:17 PM][UserDatabase] Beginning autosave...
+[03:49:17 PM][UserDatabase] Saved all profiles.
+[03:51:39 PM][<DEBUG>][ThreadPool] Current threads: 6
+[03:54:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000136ms.
+[03:59:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000145ms.
+[03:59:17 PM][UserDatabase] Beginning autosave...
+[03:59:17 PM][UserDatabase] Saved all profiles.
+[03:59:45 PM][<DEBUG>][ThreadPool] Current threads: 6
+[04:04:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000148ms.
+[04:07:53 PM][<DEBUG>][ThreadPool] Current threads: 6
+[04:09:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000158ms.
+[04:09:17 PM][UserDatabase] Beginning autosave...
+[04:09:17 PM][UserDatabase] Saved all profiles.
+[04:14:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000144ms.
+[04:16:00 PM][<DEBUG>][ThreadPool] Current threads: 6
+[04:19:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000143ms.
+[04:19:17 PM][UserDatabase] Beginning autosave...
+[04:19:17 PM][UserDatabase] Saved all profiles.
+[04:24:07 PM][<DEBUG>][ThreadPool] Current threads: 6
+[04:24:17 PM][CycleProcessManager] Average cycle time over 5 minutes: .000132ms.
+[04:24:44 PM][Server] Shutting everything down.
+java.lang.IllegalArgumentException: Invalid location
+	at javax.swing.text.JTextComponent.getSelectedText(JTextComponent.java:1723)
+	at javax.swing.text.DefaultCaret.updateSystemSelection(DefaultCaret.java:1350)
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1276)
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1173)
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1154)
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1051)
+	at javax.swing.text.JTextComponent.setCaretPosition(JTextComponent.java:1631)
+	at com.ctp.io.ConsoleManager.addMessage(ConsoleManager.java:91)
+	at com.ctp.io.ConsoleManager.addConsoleMessage(ConsoleManager.java:37)
+	at com.ctp.io.ServerIO.printDebug(ServerIO.java:80)
+	at com.ctp.util.CycleProcessManager.run(CycleProcessManager.java:132)
+[04:24:44 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[04:24:44 PM][UserDatabase] Saving all profiles before going down...
+[04:24:44 PM][UserDatabase] Saved all profiles.
+[04:24:44 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[04:24:44 PM][<DEBUG>][ServerClock] Server clock was killed.
+[04:24:44 PM][<DEBUG>][ThreadPool] Disposing of thread: ServerClock
+[04:24:44 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[04:24:44 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[04:24:44 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[04:24:44 PM][<DEBUG>][SubServer 0] Killing all connections...
+[04:24:44 PM][<DEBUG>][SubServer 0] Killing self.
+[04:24:44 PM][<DEBUG>][ThreadPool] Disposing of thread: SubServer 0
+[04:24:44 PM][<DEBUG>][Server] Exited wait block.
+[09:35:13 PM][ThreadPool] ThreadPool is up and running.
+[09:35:13 PM][UserDatabase] UserDatabase up and running.
+[09:35:13 PM][CTP Server] Server is starting up...
+[09:35:13 PM][CTP Server] Server is in DEBUG mode.
+[09:35:13 PM][CTP Server] Runtime log is active.
+[09:35:13 PM][CTP Server] Will display console.
+[09:35:13 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:35:13 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:35:14 PM][ModuleManager] Added module: HelloWorldModule.
+[09:35:14 PM][ModuleManager] Finished loading modules.
+[09:35:14 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:35:14 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:35:14 PM][SubServer 0] SubServer 0 up and running.
+[09:35:14 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:35:14 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:35:14 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:35:15 PM][Server] Shutting everything down.
+[09:35:15 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:35:15 PM][UserDatabase] Saving all profiles before going down...
+[09:35:15 PM][UserDatabase] Saved all profiles.
+[09:35:15 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:35:15 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:35:15 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:35:15 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:35:15 PM][<DEBUG>][SubServer 0] Killing self.
+[09:35:15 PM][<DEBUG>][Server] Exited wait block.
+[null][UserDatabase] UserDatabase up and running.
+[null][ThreadPool] ThreadPool is up and running.
+[null][CycleProcessManager] CycleProcessManager is up and running.
+[09:39:09 PM][CTP Server] Server is starting up...
+[09:39:09 PM][CTP Server] Server is in DEBUG mode.
+[09:39:09 PM][CTP Server] Runtime log is active.
+[09:39:09 PM][CTP Server] Will display console.
+[09:39:09 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:39:09 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:39:09 PM][ModuleManager] Added module: HelloWorldModule.
+[09:39:09 PM][ModuleManager] Finished loading modules.
+[09:39:09 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:39:09 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:39:09 PM][SubServer 0] SubServer 0 up and running.
+[09:39:10 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:39:10 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:39:10 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:39:12 PM][Server] Shutting everything down.
+[09:39:12 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:39:12 PM][UserDatabase] Saving all profiles before going down...
+[09:39:12 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:39:12 PM][UserDatabase] Saved all profiles.
+[09:39:12 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:39:12 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:39:12 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:39:12 PM][<DEBUG>][SubServer 0] Killing self.
+[09:39:12 PM][<DEBUG>][Server] Exited wait block.
+[09:40:18 PM][UserDatabase] UserDatabase up and running.[09:40:18 PM][CycleProcessManager] CycleProcessManager is up and running.
+
+[09:40:18 PM][ThreadPool] ThreadPool is up and running.
+[09:40:18 PM][CTP Server] Server is starting up...
+[09:40:18 PM][CTP Server] Server is in DEBUG mode.
+[09:40:18 PM][CTP Server] Runtime log is active.
+[09:40:18 PM][CTP Server] Will display console.
+[09:40:18 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:40:18 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:40:18 PM][ModuleManager] Added module: HelloWorldModule.
+[09:40:18 PM][ModuleManager] Finished loading modules.
+[09:40:18 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:40:18 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:40:18 PM][SubServer 0] SubServer 0 up and running.
+[09:40:18 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:40:18 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:40:18 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:40:26 PM][Server] Shutting everything down.
+[09:40:26 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:40:26 PM][<DEBUG>][ServerClock] Server clock was killed.
+[09:40:26 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:40:26 PM][<DEBUG>][ThreadPool] Disposing of thread: ServerClock
+[09:40:26 PM][UserDatabase] Saving all profiles before going down...
+[09:40:26 PM][UserDatabase] Saved all profiles.
+[09:40:26 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:40:26 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:40:26 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:40:26 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[09:40:26 PM][<DEBUG>][SubServer 0] Killing self.
+[09:40:26 PM][<DEBUG>][Server] Exited wait block.
+[09:45:58 PM][CTP Server] Server is starting up...
+[09:45:58 PM][CTP Server] Server is in DEBUG mode.
+[09:45:58 PM][CTP Server] Runtime log is active.
+[09:45:58 PM][CTP Server] Will display console.
+[09:45:58 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:45:58 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:45:58 PM][ModuleManager] Added module: HelloWorldModule.
+[09:45:58 PM][ModuleManager] Finished loading modules.
+[09:45:58 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:45:58 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:45:58 PM][SubServer 0] SubServer 0 up and running.
+[09:45:58 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:45:58 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:45:58 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:46:50 PM][Server] Shutting everything down.
+[09:46:50 PM][UserDatabase] Saving all profiles before going down...
+[09:46:50 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:46:50 PM][UserDatabase] Saved all profiles.
+[09:46:50 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:46:50 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:46:50 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:46:50 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:46:50 PM][<DEBUG>][SubServer 0] Killing self.
+[09:46:50 PM][<DEBUG>][Server] Exited wait block.
+[null][ThreadPool] ThreadPool is up and running.
+[null][UserDatabase] UserDatabase up and running.
+[null][CycleProcessManager] CycleProcessManager is up and running.
+[09:46:58 PM][CTP Server] Server is starting up...
+[09:46:58 PM][CTP Server] Server is in DEBUG mode.
+[09:46:58 PM][CTP Server] Runtime log is active.
+[09:46:58 PM][CTP Server] Will display console.
+[09:46:58 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:46:58 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:46:58 PM][ModuleManager] Added module: HelloWorldModule.
+[09:46:58 PM][ModuleManager] Finished loading modules.
+[09:46:58 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:46:58 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:46:58 PM][SubServer 0] SubServer 0 up and running.
+[09:46:58 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:46:58 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:46:58 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:47:00 PM][Server] Shutting everything down.
+[09:47:00 PM][UserDatabase] Saving all profiles before going down...
+[09:47:00 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:47:00 PM][UserDatabase] Saved all profiles.
+[09:47:00 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:47:00 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:47:00 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:47:00 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:47:00 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[09:47:00 PM][<DEBUG>][SubServer 0] Killing self.
+[09:47:00 PM][<DEBUG>][Server] Exited wait block.
+[09:47:50 PM][CTP Server] Server is starting up...
+[09:47:50 PM][CTP Server] Server is in DEBUG mode.
+[09:47:50 PM][CTP Server] Runtime log is active.
+[09:47:50 PM][CTP Server] Will display console.
+[09:47:50 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:47:50 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:47:50 PM][ModuleManager] Added module: HelloWorldModule.
+[09:47:50 PM][ModuleManager] Finished loading modules.
+[09:47:50 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:47:50 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:47:50 PM][SubServer 0] SubServer 0 up and running.
+[09:47:50 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:47:50 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:47:50 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:47:51 PM][Server] Shutting everything down.
+[09:47:51 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:47:51 PM][UserDatabase] Saving all profiles before going down...
+[09:47:51 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:47:51 PM][UserDatabase] Saved all profiles.
+[09:47:51 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:47:51 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:47:51 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:47:51 PM][<DEBUG>][SubServer 0] Killing self.
+[09:48:32 PM][CTP Server] Server is starting up...
+[09:48:32 PM][CTP Server] Server is in DEBUG mode.
+[09:48:32 PM][CTP Server] Runtime log is active.
+[09:48:32 PM][CTP Server] Will display console.
+[09:48:32 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:48:32 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:48:32 PM][ModuleManager] Added module: HelloWorldModule.
+[09:48:32 PM][ModuleManager] Finished loading modules.
+[09:48:32 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:48:32 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:48:32 PM][SubServer 0] SubServer 0 up and running.
+[09:48:32 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:48:32 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:48:32 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:48:33 PM][Server] Shutting everything down.
+[09:48:33 PM][UserDatabase] Saving all profiles before going down...
+[09:48:33 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:48:33 PM][UserDatabase] Saved all profiles.
+[09:48:33 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:48:33 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:48:33 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:48:33 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:48:33 PM][<DEBUG>][SubServer 0] Killing self.
+[09:51:47 PM][CTP Server] Server is starting up...
+[09:51:47 PM][CTP Server] Server is in DEBUG mode.
+[09:51:47 PM][CTP Server] Runtime log is active.
+[09:51:47 PM][CTP Server] Will display console.
+[09:51:47 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:51:47 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:51:47 PM][ModuleManager] Added module: HelloWorldModule.
+[09:51:47 PM][ModuleManager] Finished loading modules.
+[09:51:47 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:51:47 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:51:47 PM][SubServer 0] SubServer 0 up and running.
+[09:51:47 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:51:47 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:51:47 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:51:48 PM][Server] Shutting everything down.
+[09:51:48 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:51:48 PM][UserDatabase] Saving all profiles before going down...
+[09:51:48 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:51:48 PM][UserDatabase] Saved all profiles.
+[09:51:48 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:51:48 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:51:48 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:51:48 PM][<DEBUG>][SubServer 0] Killing self.
+[09:51:48 PM][<DEBUG>][Server] Exited wait block.
+[09:52:45 PM][CTP Server] Server is starting up...
+[09:52:45 PM][CTP Server] Server is in DEBUG mode.
+[09:52:45 PM][CTP Server] Runtime log is active.
+[09:52:45 PM][CTP Server] Will display console.
+[09:52:45 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:52:45 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:52:45 PM][ModuleManager] Added module: HelloWorldModule.
+[09:52:45 PM][ModuleManager] Finished loading modules.
+[09:52:45 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:52:45 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:52:45 PM][SubServer 0] SubServer 0 up and running.
+[09:52:45 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:52:45 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:52:45 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:53:34 PM][Server] Shutting everything down.
+[09:53:34 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:53:34 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:53:34 PM][<DEBUG>][ServerClock] Server clock was killed.
+[09:53:34 PM][<DEBUG>][ThreadPool] Disposing of thread: ServerClock
+[09:53:34 PM][UserDatabase] Saving all profiles before going down...
+[09:53:34 PM][UserDatabase] Saved all profiles.
+[09:53:34 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:53:34 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:53:34 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:53:34 PM][<DEBUG>][SubServer 0] Killing self.
+[09:53:34 PM][<DEBUG>][Server] Exited wait block.
+[null][UserDatabase] UserDatabase up and running.
+[null][ThreadPool] ThreadPool is up and running.
+[null][CycleProcessManager] CycleProcessManager is up and running.
+[09:53:40 PM][CTP Server] Server is starting up...
+[09:53:40 PM][CTP Server] Server is in DEBUG mode.
+[09:53:40 PM][CTP Server] Runtime log is active.
+[09:53:40 PM][CTP Server] Will display console.
+[09:53:40 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:53:40 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:53:41 PM][ModuleManager] Added module: HelloWorldModule.
+[09:53:41 PM][ModuleManager] Finished loading modules.
+[09:53:41 PM][SubServer 0] SubServer 0 up and running.
+[09:53:41 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:53:41 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:53:41 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:53:42 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:53:42 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:53:42 PM][Server] Shutting everything down.
+[09:53:42 PM][UserDatabase] Saving all profiles before going down...
+[09:53:42 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:53:42 PM][UserDatabase] Saved all profiles.
+[09:53:42 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:53:42 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:53:42 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:53:42 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:53:42 PM][<DEBUG>][SubServer 0] Killing self.
+[09:53:42 PM][<DEBUG>][Server] Exited wait block.
+[null][ThreadPool] ThreadPool is up and running.
+[null][UserDatabase] UserDatabase up and running.
+[null][CycleProcessManager] CycleProcessManager is up and running.
+[09:55:01 PM][CTP Server] Server is starting up...
+[09:55:01 PM][CTP Server] Server is in DEBUG mode.
+[09:55:01 PM][CTP Server] Runtime log is active.
+[09:55:01 PM][CTP Server] Will display console.
+[09:55:01 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:55:01 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:55:01 PM][ModuleManager] Added module: HelloWorldModule.
+[09:55:01 PM][ModuleManager] Finished loading modules.
+[09:55:01 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:55:01 PM][SubServer 0] SubServer 0 up and running.
+[09:55:01 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:55:01 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:55:01 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:55:01 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:55:02 PM][Server] Shutting everything down.
+[09:55:02 PM][UserDatabase] Saving all profiles before going down...
+[09:55:02 PM][UserDatabase] Saved all profiles.
+[09:55:02 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:55:02 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:55:02 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:55:02 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:55:02 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:55:02 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[09:55:02 PM][<DEBUG>][SubServer 0] Killing self.
+[09:58:17 PM][CycleProcessManager] CycleProcessManager is up and running.
+[09:58:17 PM][CTP Server] Server is starting up...
+[09:58:17 PM][CTP Server] Server is in DEBUG mode.
+[09:58:17 PM][CTP Server] Runtime log is active.
+[09:58:17 PM][CTP Server] Will display console.
+[09:58:17 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:58:17 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:58:17 PM][ModuleManager] Added module: HelloWorldModule.
+[09:58:17 PM][ModuleManager] Finished loading modules.
+[09:58:17 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:58:17 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:58:17 PM][SubServer 0] SubServer 0 up and running.
+[09:58:17 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:58:17 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:58:17 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:58:18 PM][Server] Shutting everything down.
+[09:58:18 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:58:18 PM][UserDatabase] Saving all profiles before going down...
+[09:58:18 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:58:18 PM][UserDatabase] Saved all profiles.
+[09:58:18 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:58:18 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:58:18 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:58:18 PM][<DEBUG>][SubServer 0] Killing self.
+[09:59:35 PM][CTP Server] Server is starting up...
+[09:59:35 PM][CTP Server] Server is in DEBUG mode.
+[09:59:35 PM][CTP Server] Runtime log is active.
+[09:59:35 PM][CTP Server] Will display console.
+[09:59:35 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:59:35 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:59:35 PM][ModuleManager] Added module: HelloWorldModule.
+[09:59:35 PM][ModuleManager] Finished loading modules.
+[09:59:35 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:59:35 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:59:35 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:59:35 PM][SubServer 0] SubServer 0 up and running.
+[09:59:35 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:59:35 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:59:36 PM][Server] Shutting everything down.
+[09:59:36 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:59:36 PM][UserDatabase] Saving all profiles before going down...
+[09:59:36 PM][UserDatabase] Saved all profiles.
+[09:59:36 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:59:36 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:59:36 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:59:36 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:59:36 PM][<DEBUG>][SubServer 0] Killing self.
+[09:59:36 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[10:02:01 PM][CTP Server] Server is starting up...
+[10:02:01 PM][CTP Server] Server is in DEBUG mode.
+[10:02:01 PM][CTP Server] Runtime log is active.
+[10:02:01 PM][CTP Server] Will display console.
+[10:02:01 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[10:02:01 PM][<DEBUG>][ThreadPool] Current threads: 4
+[10:02:01 PM][ModuleManager] Added module: HelloWorldModule.
+[10:02:01 PM][ModuleManager] Finished loading modules.
+[10:02:01 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[10:02:01 PM][<DEBUG>][ThreadPool] Current threads: 5
+[10:02:01 PM][SubServer 0] SubServer 0 up and running.
+[10:02:01 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[10:02:01 PM][<DEBUG>][ThreadPool] Current threads: 6
+[10:02:01 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[10:02:03 PM][Server] Shutting everything down.
+[10:02:03 PM][UserDatabase] Saving all profiles before going down...
+[10:02:03 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[10:02:03 PM][UserDatabase] Saved all profiles.
+[10:02:03 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[10:02:03 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[10:02:03 PM][<DEBUG>][SubServer 0] Killing all connections...
+[10:02:03 PM][<DEBUG>][SubServer 0] Killing self.
+[10:02:03 PM][<DEBUG>][Server] Exited wait block.
+[10:03:01 PM][CTP Server] Server is starting up...
+[10:03:01 PM][CTP Server] Server is in DEBUG mode.
+[10:03:01 PM][CTP Server] Runtime log is active.
+[10:03:01 PM][CTP Server] Will display console.
+[10:03:01 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[10:03:01 PM][<DEBUG>][ThreadPool] Current threads: 4
+[10:03:01 PM][ModuleManager] Added module: HelloWorldModule.
+[10:03:01 PM][ModuleManager] Finished loading modules.
+[10:03:01 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[10:03:01 PM][<DEBUG>][ThreadPool] Current threads: 5
+[10:03:01 PM][SubServer 0] SubServer 0 up and running.
+[10:03:01 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[10:03:01 PM][<DEBUG>][ThreadPool] Current threads: 6
+[10:03:01 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[10:03:02 PM][Server] Shutting everything down.
+[10:03:02 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[10:03:02 PM][UserDatabase] Saving all profiles before going down...
+[10:03:02 PM][UserDatabase] Saved all profiles.
+[10:03:02 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[10:03:02 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[10:03:02 PM][<DEBUG>][SubServer 0] Killing all connections...
+[10:03:02 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[10:03:02 PM][<DEBUG>][SubServer 0] Killing self.
+[10:03:42 PM][CTP Server] Server is starting up...
+[10:03:42 PM][CTP Server] Server is in DEBUG mode.
+[10:03:42 PM][CTP Server] Runtime log is active.
+[10:03:42 PM][CTP Server] Will display console.
+[10:03:42 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[10:03:42 PM][<DEBUG>][ThreadPool] Current threads: 4
+[10:03:42 PM][ModuleManager] Added module: HelloWorldModule.
+[10:03:42 PM][ModuleManager] Finished loading modules.
+[10:03:42 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[10:03:42 PM][<DEBUG>][ThreadPool] Current threads: 5
+[10:03:42 PM][SubServer 0] SubServer 0 up and running.
+[10:03:42 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[10:03:42 PM][<DEBUG>][ThreadPool] Current threads: 6
+[10:03:42 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[10:03:43 PM][Server] Shutting everything down.
+[10:03:43 PM][UserDatabase] Saving all profiles before going down...
+[10:03:43 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[10:03:43 PM][UserDatabase] Saved all profiles.
+[10:03:43 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[10:03:43 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[10:03:43 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[10:03:43 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[10:03:43 PM][<DEBUG>][SubServer 0] Killing all connections...
+[10:03:43 PM][<DEBUG>][SubServer 0] Killing self.
+[10:04:06 PM][CTP Server] Server is starting up...
+[10:04:06 PM][CTP Server] Server is in DEBUG mode.
+[10:04:06 PM][CTP Server] Runtime log is active.
+[10:04:06 PM][CTP Server] Will display console.
+[10:04:06 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[10:04:06 PM][<DEBUG>][ThreadPool] Current threads: 4
+[10:04:06 PM][ModuleManager] Added module: HelloWorldModule.
+[10:04:06 PM][ModuleManager] Finished loading modules.
+[10:04:06 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[10:04:06 PM][<DEBUG>][ThreadPool] Current threads: 5
+[10:04:06 PM][SubServer 0] SubServer 0 up and running.
+[10:04:06 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+java.lang.IllegalArgumentException: bad position: -1
+	at javax.swing.text.JTextComponent.setCaretPosition(JTextComponent.java:1629)
+	at com.ctp.io.ConsoleManager.addMessage(ConsoleManager.java:91)
+	at com.ctp.io.ConsoleManager.addConsoleMessage(ConsoleManager.java:37)
+	at com.ctp.io.ServerIO.printDebug(ServerIO.java:80)
+	at com.ctp.util.ThreadPool.start(ThreadPool.java:64)
+	at com.ctp.server.Server.run(Server.java:326)
+[10:04:06 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[10:04:06 PM][<DEBUG>][ThreadPool] Current threads: 6
+[10:04:07 PM][Server] Shutting everything down.
+[10:04:07 PM][UserDatabase] Saving all profiles before going down...
+[10:04:07 PM][UserDatabase] Saved all profiles.
+[10:04:07 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[10:04:07 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[10:04:07 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[10:04:07 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[10:04:07 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[10:04:07 PM][<DEBUG>][SubServer 0] Killing all connections...
+[10:04:07 PM][<DEBUG>][SubServer 0] Killing self.

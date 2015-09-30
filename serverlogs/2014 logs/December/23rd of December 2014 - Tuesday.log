@@ -1,0 +1,264 @@
+--[Server log for date: 12/23/2014]--
+
+
+[10:53:36 PM][CTP Server] Server is starting up...
+[10:53:36 PM][CTP Server] Server is in DEBUG mode.
+[10:53:36 PM][CTP Server] Runtime log is active.
+[10:53:36 PM][CTP Server] Will display console.
+[10:53:36 PM][ModuleManager] No modules found.
+[10:53:36 PM][SubServer 0] SubServer 0 up and running.
+[10:53:36 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[10:53:46 PM][Server] Shutting everything down.
+[10:53:46 PM][UserDatabase] Saving all profiles before going down...
+[10:53:46 PM][UserDatabase] Saved all profiles.
+[10:53:46 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[10:53:46 PM][<DEBUG>][SubServer 0] Killing all connections...
+[10:53:46 PM][<DEBUG>][SubServer 0] Killing self.
+[11:11:21 PM][CTP Server] Server is starting up...
+[11:11:21 PM][CTP Server] Server is in DEBUG mode.
+[11:11:21 PM][CTP Server] Runtime log is active.
+[11:11:21 PM][CTP Server] Will display console.
+[11:11:21 PM][ModuleManager] No modules found.
+[11:11:21 PM][SubServer 0] SubServer 0 up and running.
+[11:11:21 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:11:37 PM][Server] Shutting everything down.
+[11:11:37 PM][UserDatabase] Saving all profiles before going down...
+[11:11:37 PM][UserDatabase] Saved all profiles.
+[11:11:37 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:11:37 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:11:37 PM][<DEBUG>][SubServer 0] Killing self.
+[11:11:37 PM][<DEBUG>][Server] Exited wait block.
+[11:12:29 PM][CTP Server] Server is starting up...
+[11:12:29 PM][CTP Server] Server is in DEBUG mode.
+[11:12:29 PM][CTP Server] Runtime log is active.
+[11:12:29 PM][CTP Server] Will display console.
+[11:12:29 PM][ModuleManager] No modules found.
+[11:12:29 PM][SubServer 0] SubServer 0 up and running.
+[11:12:29 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:12:30 PM][Server] Shutting everything down.
+[11:12:30 PM][UserDatabase] Saving all profiles before going down...
+[11:12:30 PM][UserDatabase] Saved all profiles.
+[11:12:30 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:12:30 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:12:30 PM][<DEBUG>][SubServer 0] Killing self.
+[11:13:41 PM][Backup] Backup finished.
+[11:13:41 PM][CTP Server] Server is starting up...
+[11:13:41 PM][CTP Server] Server is in DEBUG mode.
+[11:13:41 PM][CTP Server] Runtime log is active.
+[11:13:41 PM][CTP Server] Will display console.
+[11:13:41 PM][ModuleManager] No modules found.
+[11:13:41 PM][SubServer 0] SubServer 0 up and running.
+[11:13:41 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:13:42 PM][Server] Shutting everything down.
+[11:13:42 PM][UserDatabase] Saving all profiles before going down...
+[11:13:42 PM][UserDatabase] Saved all profiles.
+[11:13:42 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:13:42 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:13:42 PM][<DEBUG>][SubServer 0] Killing self.
+[11:14:57 PM][CTP Server] Server is starting up...
+[11:14:57 PM][CTP Server] Server is in DEBUG mode.
+[11:14:57 PM][CTP Server] Runtime log is active.
+[11:14:57 PM][CTP Server] Will display console.
+[11:14:57 PM][ModuleManager] No modules found.
+[11:14:57 PM][SubServer 0] SubServer 0 up and running.
+[11:14:57 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:14:58 PM][Server] Shutting everything down.
+[11:14:58 PM][UserDatabase] Saving all profiles before going down...
+[11:14:58 PM][UserDatabase] Saved all profiles.
+[11:14:58 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:14:58 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:14:58 PM][<DEBUG>][SubServer 0] Killing self.
+[11:15:18 PM][Backup] Backup finished.
+[11:15:18 PM][CTP Server] Server is starting up...
+[11:15:18 PM][CTP Server] Server is in DEBUG mode.
+[11:15:18 PM][CTP Server] Runtime log is active.
+[11:15:18 PM][CTP Server] Will display console.
+[11:15:18 PM][ModuleManager] No modules found.
+[11:15:18 PM][SubServer 0] SubServer 0 up and running.
+[11:15:18 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:15:51 PM][Server] Shutting everything down.
+[11:15:51 PM][UserDatabase] Saving all profiles before going down...
+[11:15:51 PM][UserDatabase] Saved all profiles.
+[11:15:51 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:15:51 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:15:51 PM][<DEBUG>][SubServer 0] Killing self.
+[11:15:54 PM][CTP Server] Server is starting up...
+[11:15:54 PM][CTP Server] Server is in DEBUG mode.
+[11:15:54 PM][CTP Server] Runtime log is active.
+[11:15:54 PM][CTP Server] Will display console.
+[11:15:54 PM][ModuleManager] No modules found.
+[11:15:54 PM][SubServer 0] SubServer 0 up and running.
+[11:15:54 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:15:54 PM][Backup] Backup finished.
+[11:16:25 PM][Server] Shutting everything down.
+[11:16:25 PM][UserDatabase] Saving all profiles before going down...
+[11:16:25 PM][UserDatabase] Saved all profiles.
+[11:16:25 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:16:25 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:16:25 PM][<DEBUG>][SubServer 0] Killing self.
+[11:16:25 PM][<DEBUG>][Server] Exited wait block.
+[11:16:28 PM][CTP Server] Server is starting up...
+[11:16:28 PM][CTP Server] Server is in DEBUG mode.
+[11:16:28 PM][CTP Server] Runtime log is active.
+[11:16:28 PM][CTP Server] Will display console.
+[11:16:28 PM][ModuleManager] No modules found.
+[11:16:28 PM][SubServer 0] SubServer 0 up and running.
+[11:16:28 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:16:30 PM][Server] Shutting everything down.
+[11:16:30 PM][UserDatabase] Saving all profiles before going down...
+[11:16:30 PM][UserDatabase] Saved all profiles.
+[11:16:30 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:16:30 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:16:30 PM][<DEBUG>][SubServer 0] Killing self.
+[11:17:16 PM][CTP Server] Server is starting up...
+[11:17:16 PM][CTP Server] Server is in DEBUG mode.
+[11:17:16 PM][CTP Server] Runtime log is active.
+[11:17:16 PM][CTP Server] Will display console.
+[11:17:16 PM][ModuleManager] No modules found.
+[11:17:16 PM][SubServer 0] SubServer 0 up and running.
+[11:17:16 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:17:17 PM][Server] Shutting everything down.
+[11:17:17 PM][UserDatabase] Saving all profiles before going down...
+[11:17:17 PM][UserDatabase] Saved all profiles.
+[11:17:17 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:17:17 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:17:17 PM][<DEBUG>][SubServer 0] Killing self.
+[11:17:40 PM][Backup] Backup finished.
+[11:17:40 PM][CTP Server] Server is starting up...
+[11:17:40 PM][CTP Server] Server is in DEBUG mode.
+[11:17:40 PM][CTP Server] Runtime log is active.
+[11:17:40 PM][CTP Server] Will display console.
+[11:17:40 PM][ModuleManager] No modules found.
+[11:17:40 PM][SubServer 0] SubServer 0 up and running.
+[11:17:40 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:17:58 PM][Server] Shutting everything down.
+[11:17:58 PM][UserDatabase] Saving all profiles before going down...
+[11:17:58 PM][UserDatabase] Saved all profiles.
+[11:17:58 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:17:58 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:17:58 PM][<DEBUG>][SubServer 0] Killing self.
+[11:18:08 PM][Backup] Backup finished.
+[11:18:08 PM][CTP Server] Server is starting up...
+[11:18:08 PM][CTP Server] Server is in DEBUG mode.
+[11:18:08 PM][CTP Server] Runtime log is active.
+[11:18:08 PM][CTP Server] Will display console.
+[11:18:08 PM][ModuleManager] No modules found.
+[11:18:08 PM][SubServer 0] SubServer 0 up and running.
+[11:18:08 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:18:09 PM][Server] Shutting everything down.
+[11:18:09 PM][UserDatabase] Saving all profiles before going down...
+[11:18:09 PM][UserDatabase] Saved all profiles.
+[11:18:09 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:18:09 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:18:09 PM][<DEBUG>][SubServer 0] Killing self.
+[11:18:09 PM][<DEBUG>][Server] Exited wait block.
+[11:23:39 PM][CTP Server] Server is starting up...
+[11:23:39 PM][CTP Server] Server is in DEBUG mode.
+[11:23:39 PM][CTP Server] Runtime log is active.
+[11:23:39 PM][Backup] Backup finished.
+[11:23:39 PM][CTP Server] Will display console.
+[11:23:39 PM][ModuleManager] No modules found.
+[11:23:39 PM][SubServer 0] SubServer 0 up and running.
+[11:23:39 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:24:57 PM][Server] Shutting everything down.
+[11:24:57 PM][UserDatabase] Saving all profiles before going down...
+[11:24:57 PM][UserDatabase] Saved all profiles.
+[11:24:57 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:24:57 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:24:57 PM][<DEBUG>][SubServer 0] Killing self.
+[11:25:00 PM][Backup] Backup finished.
+[11:25:00 PM][CTP Server] Server is starting up...
+[11:25:00 PM][CTP Server] Server is in DEBUG mode.
+[11:25:00 PM][CTP Server] Runtime log is active.
+[11:25:00 PM][CTP Server] Will display console.
+[11:25:00 PM][ModuleManager] No modules found.
+[11:25:00 PM][SubServer 0] SubServer 0 up and running.
+[11:25:00 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:25:35 PM][Server] Shutting everything down.
+[11:25:35 PM][UserDatabase] Saving all profiles before going down...
+[11:25:35 PM][UserDatabase] Saved all profiles.
+[11:25:35 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:25:35 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:25:35 PM][<DEBUG>][SubServer 0] Killing self.
+[11:25:53 PM][CTP Server] Server is starting up...
+[11:25:53 PM][CTP Server] Server is in DEBUG mode.
+[11:25:53 PM][CTP Server] Runtime log is active.
+[11:25:53 PM][CTP Server] Will display console.
+[11:25:53 PM][ModuleManager] No modules found.
+[11:25:53 PM][SubServer 0] SubServer 0 up and running.
+[11:25:53 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:26:25 PM][Server] Shutting everything down.
+[11:26:25 PM][UserDatabase] Saving all profiles before going down...
+[11:26:25 PM][UserDatabase] Saved all profiles.
+[11:26:25 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:26:25 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:26:25 PM][<DEBUG>][SubServer 0] Killing self.
+[11:26:25 PM][<DEBUG>][Server] Exited wait block.
+[11:26:52 PM][CTP Server] Server is starting up...
+[11:26:52 PM][CTP Server] Server is in DEBUG mode.
+[11:26:52 PM][CTP Server] Runtime log is active.
+[11:26:52 PM][CTP Server] Will display console.
+[11:26:52 PM][ModuleManager] No modules found.
+[11:26:52 PM][SubServer 0] SubServer 0 up and running.
+[11:26:52 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:26:52 PM][Backup] Backup finished.
+[11:26:56 PM][Server] Shutting everything down.
+[11:26:56 PM][UserDatabase] Saving all profiles before going down...
+[11:26:56 PM][UserDatabase] Saved all profiles.
+[11:26:56 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:26:56 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:26:56 PM][<DEBUG>][SubServer 0] Killing self.
+[11:32:02 PM][CTP Server] Server is starting up...
+[11:32:02 PM][CTP Server] Server is in DEBUG mode.
+[11:32:02 PM][CTP Server] Runtime log is active.
+[11:32:02 PM][CTP Server] Will display console.
+[11:32:02 PM][ModuleManager] No modules found.
+[11:32:02 PM][SubServer 0] SubServer 0 up and running.
+[11:32:02 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:43:43 PM][Server] Shutting everything down.
+[11:43:43 PM][UserDatabase] Saving all profiles before going down...
+[11:43:43 PM][UserDatabase] Saved all profiles.
+[11:43:43 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:43:43 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:43:43 PM][<DEBUG>][SubServer 0] Killing self.
+[11:43:43 PM][<DEBUG>][Server] Exited wait block.
+[11:44:39 PM][Mt. Dew] Server is starting up...
+[11:44:39 PM][Mt. Dew] Server is in DEBUG mode.
+[11:44:39 PM][Mt. Dew] Runtime log is active.
+[11:44:39 PM][Mt. Dew] Will display console.
+[11:44:39 PM][ModuleManager] No modules found.
+[11:44:39 PM][SubServer 0] SubServer 0 up and running.
+[11:44:39 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:47:06 PM][Server] Shutting everything down.
+[11:47:06 PM][UserDatabase] Saving all profiles before going down...
+[11:47:06 PM][UserDatabase] Saved all profiles.
+[11:47:06 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:47:06 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:47:06 PM][<DEBUG>][SubServer 0] Killing self.
+[11:47:09 PM][MountainDew] Server is starting up...
+[11:47:09 PM][MountainDew] Server is in DEBUG mode.
+[11:47:09 PM][MountainDew] Runtime log is active.
+[11:47:09 PM][MountainDew] Will display console.
+[11:47:09 PM]Current server version: a1.0.0
+[11:47:09 PM][ModuleManager] No modules found.
+[11:47:09 PM][SubServer 0] SubServer 0 up and running.
+[11:47:09 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:47:18 PM][Server] Shutting everything down.
+[11:47:18 PM][UserDatabase] Saving all profiles before going down...
+[11:47:18 PM][UserDatabase] Saved all profiles.
+[11:47:18 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:47:18 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:47:18 PM][<DEBUG>][SubServer 0] Killing self.
+[11:47:23 PM][MountainDew] Server is starting up...
+[11:47:23 PM][MountainDew] Server is in DEBUG mode.
+[11:47:23 PM][MountainDew] Runtime log is active.
+[11:47:23 PM][MountainDew] Will display console.
+[11:47:23 PM][ModuleManager] No modules found.
+[11:47:23 PM][SubServer 0] SubServer 0 up and running.
+[11:47:23 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[11:58:37 PM][Server] Shutting everything down.
+[11:58:37 PM][UserDatabase] Saving all profiles before going down...
+[11:58:37 PM][UserDatabase] Saved all profiles.
+[11:58:37 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[11:58:37 PM][<DEBUG>][SubServer 0] Killing all connections...
+[11:58:37 PM][<DEBUG>][SubServer 0] Killing self.

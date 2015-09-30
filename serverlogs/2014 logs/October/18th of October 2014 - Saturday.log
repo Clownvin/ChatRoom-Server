@@ -1,0 +1,24 @@
+--[Server log for date: 10/18/2014]--
+
+
+[CTP Server]
+[CTP Server]
+[CTP Server] Runtime Log Active.
+[02:35:48][CTP Server] Print methods will display time.
+[02:35:48][CycleProcessManager] CycleProcessManager is up and running.
+[02:35:48][Server:Sub_0] SubServer 0 up and running.
+[02:35:48][ConnectionAcceptor] Acceptor running.
+[02:36:07][UserDatabase] 15cahall is new. Generating profile.
+[02:36:08][UserDatabase] Added new user 15cahall with ID 25.
+[02:36:08][UserDatabase] 15cahall has logged in.
+[02:36:08][UserDatabase] Saved NUID. Current NUID is 26.
+[02:36:08][UserDatabase] 15cahall's profile saved successfully.
+[02:36:09][UserDatabase] 15cahall's profile saved successfully.
+[02:36:09][UserDatabase] 15cahall's profile closed successfully.
+[02:36:10][UserDatabase] 15cahall has logged in.
+[02:36:17][com.ctp.server.Server$1@195dbc83] Shutting everything down.
+[02:36:17][UserDatabase] Saving all profiles before going down...
+[02:36:17][UserDatabase] 15cahall's profile saved successfully.
+[02:36:17][UserDatabase] Saved NUID. Current NUID is 26.
+[02:36:17][Server:Sub_0] Killing all connections...
+[02:36:20][Server:Sub_0] Killing self.

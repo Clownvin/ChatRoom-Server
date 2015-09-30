@@ -1,0 +1,101 @@
+--[Server log for date: 12/24/2014]--
+
+
+[12:01:35 AM][CycleProcessManager] CycleProcessManager is up and running.
+[12:01:35 AM][MountainDew] Server is starting up...
+[12:01:35 AM][MountainDew] Server is in DEBUG mode.
+[12:01:35 AM][MountainDew] Runtime log is active.
+[12:01:35 AM][MountainDew] Will display console.
+[12:01:35 AM][ModuleManager] No modules found.
+[12:01:35 AM][UserDatabase] UserDatabase up and running.
+[12:01:35 AM][SubServer 0] SubServer 0 up and running.
+[12:01:35 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[12:01:40 AM][Server] Shutting everything down.
+[12:01:40 AM][UserDatabase] Saving all profiles before going down...
+[12:01:40 AM][UserDatabase] Saved all profiles.
+[12:01:40 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[12:01:40 AM][<DEBUG>][SubServer 0] Killing all connections...
+[12:01:40 AM][<DEBUG>][SubServer 0] Killing self.
+[12:02:18 AM][MountainDew] Server is starting up...
+[12:02:18 AM][MountainDew] Server is in DEBUG mode.
+[12:02:18 AM][MountainDew] Runtime log is active.
+[12:02:18 AM][MountainDew] Will display console.
+[12:02:18 AM][ModuleManager] No modules found.
+[12:02:18 AM][UserDatabase] UserDatabase up and running.
+[12:02:18 AM][SubServer 0] SubServer 0 up and running.
+[12:02:18 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[12:03:29 AM][Server] Shutting everything down.
+[12:03:29 AM][UserDatabase] Saving all profiles before going down...
+[12:03:29 AM][UserDatabase] Saved all profiles.
+[12:03:29 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[12:03:29 AM][<DEBUG>][SubServer 0] Killing all connections...
+[12:03:29 AM][<DEBUG>][SubServer 0] Killing self.
+[12:03:36 AM][MountainDew] Server is starting up...
+[12:03:36 AM][MountainDew] Server is in DEBUG mode.
+[12:03:36 AM][MountainDew] Runtime log is active.
+[12:03:36 AM][MountainDew] Will display console.
+[12:03:36 AM][ModuleManager] No modules found.
+[12:03:36 AM][UserDatabase] UserDatabase up and running.
+[12:03:36 AM][SubServer 0] SubServer 0 up and running.
+[12:03:36 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[12:03:36 AM][UserDatabase] Beginning autosave...
+[12:03:36 AM][UserDatabase] Saved all profiles.
+[12:03:36 AM][Backup] Backup starting...
+[12:03:36 AM][Backup] Backup finished.
+[12:03:37 AM][UserDatabase] Beginning autosave...
+[12:03:37 AM][UserDatabase] Saved all profiles.
+[12:03:37 AM][Backup] Backup starting...
+[12:03:37 AM][Backup] Backup finished.
+[12:03:37 AM][UserDatabase] Beginning autosave...
+[12:03:37 AM][UserDatabase] Saved all profiles.
+[12:03:37 AM][Backup] Backup starting...
+[12:03:37 AM][Backup] Backup finished.
+[12:03:37 AM][UserDatabase] Beginning autosave...
+[12:03:37 AM][UserDatabase] Saved all profiles.
+[12:03:37 AM][Backup] Backup starting...
+[12:03:37 AM][Backup] Backup finished.
+[12:03:38 AM][UserDatabase] Beginning autosave...
+[12:03:38 AM][UserDatabase] Saved all profiles.
+[12:03:38 AM][Backup] Backup starting...
+[12:03:38 AM][Backup] Backup finished.
+[12:03:39 AM][UserDatabase] Beginning autosave...
+[12:03:39 AM][UserDatabase] Saved all profiles.
+[12:03:39 AM][Backup] Backup starting...
+[12:03:39 AM][Backup] Backup finished.
+[12:03:39 AM][UserDatabase] Beginning autosave...
+[12:03:39 AM][UserDatabase] Saved all profiles.
+[12:03:39 AM][Backup] Backup starting...
+[12:03:39 AM][Server] Shutting everything down.
+[12:03:39 AM][Backup] Backup finished.
+[12:03:39 AM][UserDatabase] Saving all profiles before going down...
+[12:03:39 AM][UserDatabase] Saved all profiles.
+[12:03:39 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[12:03:39 AM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[12:03:39 AM][<DEBUG>][SubServer 0] Killing all connections...
+[12:03:39 AM][<DEBUG>][SubServer 0] Killing self.
+[12:06:40 AM][MountainDew] Server is starting up...
+[12:06:40 AM][MountainDew] Server is in DEBUG mode.
+[12:06:40 AM][MountainDew] Runtime log is active.
+[12:06:40 AM][MountainDew] Will display console.
+[12:13:57 AM][MountainDew] Server is starting up...
+[12:13:57 AM][MountainDew] Server is in DEBUG mode.
+[12:13:57 AM][MountainDew] Runtime log is active.
+[12:13:57 AM][MountainDew] Will display console.
+[12:13:57 AM][ModuleManager] No modules found.
+[12:13:57 AM][SubServer 0] SubServer 0 up and running.
+[12:13:57 AM][ConnectionAcceptor] Acceptor running. Port: 8688
+[12:14:17 AM][Server] Shutting everything down.
+[12:14:17 AM][UserDatabase] Saving all profiles before going down...
+[12:14:17 AM][UserDatabase] Saved all profiles.
+[12:14:17 AM][UserDatabase] Saved NUID. Current NUID is 2.
+[12:14:17 AM][<DEBUG>][SubServer 0] Killing all connections...
+[12:14:17 AM][<DEBUG>][SubServer 0] Killing self.
+[12:14:28 AM][UserDatabase] UserDatabase up and running.
+[12:14:28 AM][CycleProcessManager] CycleProcessManager is up and running.
+[12:14:28 AM][MountainDew] Server is starting up...
+[12:14:28 AM][MountainDew] Server is in DEBUG mode.
+[12:14:28 AM][MountainDew] Runtime log is active.
+[12:14:28 AM][MountainDew] Will display console.
+[12:14:28 AM][ModuleManager] No modules found.
+[12:14:28 AM][SubServer 0] SubServer 0 up and running.
+[12:14:28 AM][ConnectionAcceptor] Acceptor running. Port: 8688

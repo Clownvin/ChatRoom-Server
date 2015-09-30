@@ -1,0 +1,145 @@
+--[Server log for date: 12/01/2014]--
+
+
+[09:25:24 PM][CTP Server] Server is starting up...
+[09:25:24 PM][CTP Server] Server is in DEBUG mode.
+[09:25:24 PM][CTP Server] Runtime log is active.
+[09:25:24 PM][CTP Server] Will display console.
+[09:25:24 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:25:24 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:25:24 PM][ModuleManager] Added module: HelloWorldModule.
+[09:25:24 PM][ModuleManager] Finished loading modules.
+[09:25:24 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+[09:25:24 PM][SubServer 0] SubServer 0 up and running.
+[09:25:24 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:25:24 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:25:24 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:25:24 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:26:00 PM][Server] Shutting everything down.
+[09:26:00 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:26:00 PM][UserDatabase] Saving all profiles before going down...
+[09:26:00 PM][UserDatabase] Saved all profiles.
+[09:26:00 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:26:00 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:26:00 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[09:26:00 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:26:00 PM][<DEBUG>][ThreadPool] Disposing of thread: UserDatabase
+[09:26:00 PM][<DEBUG>][SubServer 0] Killing self.
+[09:34:20 PM][CTP Server] Server is starting up...
+[09:34:20 PM][CTP Server] Server is in DEBUG mode.
+[09:34:20 PM][CTP Server] Runtime log is active.
+[09:34:20 PM][CTP Server] Will display console.
+[09:34:20 PM][<DEBUG>][ThreadPool] Adding thread: CTP Server
+[09:34:20 PM][<DEBUG>][ThreadPool] Current threads: 4
+[09:34:20 PM][ModuleManager] Added module: HelloWorldModule.
+[09:34:20 PM][ModuleManager] Finished loading modules.
+[09:34:20 PM][<DEBUG>][ThreadPool] Adding thread: SubServer 0
+java.lang.IllegalArgumentException: bad position: -1
+	at javax.swing.text.JTextComponent.setCaretPosition(JTextComponent.java:1629)
+	at com.ctp.io.ConsoleManager.addMessage(ConsoleManager.java:91)
+	at com.ctp.io.ConsoleManager.addConsoleMessage(ConsoleManager.java:37)
+	at com.ctp.io.ServerIO.print(ServerIO.java:34)
+	at com.ctp.server.SubServer.run(SubServer.java:209)
+[09:34:20 PM][SubServer 0] SubServer 0 up and running.
+[09:34:20 PM][<DEBUG>][ThreadPool] Current threads: 5
+[09:34:20 PM][<DEBUG>][ThreadPool] Adding thread: ConnectionAcceptor
+[09:34:20 PM][<DEBUG>][ThreadPool] Current threads: 6
+[09:34:20 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:34:21 PM][Server] Shutting everything down.
+[09:34:21 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:34:21 PM][UserDatabase] Saving all profiles before going down...
+[09:34:21 PM][UserDatabase] Saved all profiles.
+[09:34:21 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:34:21 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:34:21 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:34:21 PM][<DEBUG>][SubServer 0] Killing self.
+[09:34:21 PM][<DEBUG>][ThreadPool] Disposing of thread: CycleProcessManager
+[null][UserDatabase] UserDatabase up and running.
+[09:53:07 PM][CTP Server] Server is starting up...
+[09:53:07 PM][CTP Server] Server is in DEBUG mode.
+[09:53:07 PM][CTP Server] Runtime log is active.
+[09:53:07 PM][CTP Server] Will display console.
+[09:53:07 PM][ModuleManager] Encountered problem while loading module: ./Data/Modules/HelloWorldModule.module.
+java.io.InvalidClassException: com.ctp.modules.HelloWorldModule$1; local class incompatible: stream classdesc serialVersionUID = 979830015666042799, local class serialVersionUID = -7534996778267588340
+	at java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:621)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1623)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1518)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1774)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371)
+	at java.util.ArrayList.readObject(ArrayList.java:791)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1017)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1896)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1801)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1993)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1918)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1801)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371)
+	at com.ctp.modules.ModuleManager.loadModules(ModuleManager.java:116)
+	at com.ctp.server.Server.run(Server.java:235)
+[09:53:07 PM][ModuleManager] Finished loading modules.
+[09:53:07 PM][SubServer 0] SubServer 0 up and running.
+[09:53:07 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:53:35 PM][Server] Shutting everything down.
+[09:53:35 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:53:35 PM][UserDatabase] Saving all profiles before going down...
+[09:53:35 PM][UserDatabase] Saved all profiles.
+[09:53:35 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:53:35 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:53:35 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:53:35 PM][<DEBUG>][SubServer 0] Killing self.
+[09:54:15 PM][CTP Server] Server is starting up...
+[09:54:15 PM][CTP Server] Server is in DEBUG mode.
+[09:54:15 PM][CTP Server] Runtime log is active.
+[09:54:15 PM][CTP Server] Will display console.
+[09:54:15 PM][ModuleManager] Added module: HelloWorldModule.
+[09:54:15 PM][ModuleManager] Finished loading modules.
+[09:54:15 PM][SubServer 0] SubServer 0 up and running.
+[09:54:15 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:54:16 PM][Server] Shutting everything down.
+[09:54:16 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:54:16 PM][UserDatabase] Saving all profiles before going down...
+[09:54:16 PM][UserDatabase] Saved all profiles.
+[09:54:16 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:54:16 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:54:16 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:54:16 PM][<DEBUG>][SubServer 0] Killing self.
+[09:54:16 PM][<DEBUG>][Server] Exited wait block.
+[09:54:31 PM][CTP Server] Server is starting up...
+[09:54:31 PM][CTP Server] Server is in DEBUG mode.
+[09:54:31 PM][CTP Server] Runtime log is active.
+[09:54:31 PM][CTP Server] Will display console.
+[09:54:31 PM][ModuleManager] Added module: HelloWorldModule.
+[09:54:31 PM][ModuleManager] Finished loading modules.
+[09:54:31 PM][SubServer 0] SubServer 0 up and running.
+[09:54:31 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:56:12 PM][Server] Shutting everything down.
+[09:56:12 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:56:12 PM][UserDatabase] Saving all profiles before going down...
+[09:56:12 PM][UserDatabase] Saved all profiles.
+[09:56:12 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:56:12 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:56:12 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:56:12 PM][<DEBUG>][SubServer 0] Killing self.
+[09:56:21 PM][CTP Server] Server is starting up...
+[09:56:21 PM][CTP Server] Server is in DEBUG mode.
+[09:56:21 PM][CTP Server] Runtime log is active.
+[09:56:21 PM][CTP Server] Will display console.
+[09:56:21 PM][ModuleManager] Added module: HelloWorldModule.
+[09:56:21 PM][ModuleManager] Finished loading modules.
+[09:56:21 PM][SubServer 0] SubServer 0 up and running.
+[09:56:21 PM][ConnectionAcceptor] Acceptor running. Port: 8688
+[09:56:27 PM][Server] Shutting everything down.
+[09:56:27 PM][<DEBUG>][CycleProcessManager] CycleProcessManager was killed.
+[09:56:27 PM][UserDatabase] Saving all profiles before going down...
+[09:56:27 PM][UserDatabase] Saved all profiles.
+[09:56:27 PM][UserDatabase] Saved NUID. Current NUID is 2.
+[09:56:27 PM][<DEBUG>][UserDatabase] UserDatabase was killed.
+[09:56:27 PM][<DEBUG>][SubServer 0] Killing all connections...
+[09:56:27 PM][<DEBUG>][SubServer 0] Killing self.

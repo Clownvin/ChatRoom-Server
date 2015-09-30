@@ -1,0 +1,236 @@
+--[Server log for date: 10/15/2014]--
+
+
+[CTP Server]
+[CTP Server]
+[CTP Server] Runtime Log Active.
+[03:37:10][CTP Server] Print methods will display time.
+[03:37:10][CTP Server] Throwing in some sleep calls to reduce CPU usage.
+[03:37:10][Server:Sub_0] SubServer 0 up and running.
+[03:37:10][CycleProcessManager] CycleProcessManager is up and running.
+[03:37:10][ConnectionAcceptor] Acceptor running.
+[03:37:15][com.ctp.server.Server$1@7f92ecb7] Shutting everything down.
+[03:37:15][UserDatabase] Saving all profiles before going down...
+[03:37:15][UserDatabase] Saved NUID. Current NUID is 24.
+[03:37:15][Server:Sub_0] Killing all connections...
+[03:37:15][Server:Sub_0] Killing self.
+[CTP Server]
+[CTP Server]
+[CTP Server] Runtime Log Active.
+[03:43:52][CTP Server] Print methods will display time.
+[03:43:52][CTP Server] Throwing in some sleep calls to reduce CPU usage.
+[03:43:52][ConnectionAcceptor] Acceptor running.
+[03:43:52][CycleProcessManager] CycleProcessManager is up and running.
+[03:43:52][Server:Sub_0] SubServer 0 up and running.
+[03:43:54][com.ctp.server.Server$1@38c8f25] Shutting everything down.
+[03:43:54][UserDatabase] Saving all profiles before going down...
+[03:43:54][UserDatabase] Saved NUID. Current NUID is 24.
+[03:43:54][Server:Sub_0] Killing all connections...
+[03:43:54][Server:Sub_0] Killing self.
+[CTP Server]
+[CTP Server]
+[CTP Server] Runtime Log Active.
+[03:44:19][CTP Server] Print methods will display time.
+[03:44:19][CTP Server] Throwing in some sleep calls to reduce CPU usage.
+[03:44:19][CTP Server] Debug Mode.
+[03:44:19][CycleProcessManager] CycleProcessManager is up and running.
+[03:44:19][Server:Sub_0] SubServer 0 up and running.
+[03:44:19][ConnectionAcceptor] Acceptor running.
+[03:44:22][com.ctp.server.Server$1@3ff9364e] Shutting everything down.
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ctp.users.UserDatabase.run(UserDatabase.java:433)
+[03:44:22][UserDatabase] Saving all profiles before going down...
+[03:44:22][UserDatabase] Saved NUID. Current NUID is 24.
+[03:44:22][Server:Sub_0] Killing all connections...
+[03:44:22][Server:Sub_0] Killing self.
+[CTP Server]
+[CTP Server]
+[CTP Server] Runtime Log Active.
+[03:48:26][CTP Server] Print methods will display time.
+[03:48:26][CTP Server] Throwing in some sleep calls to reduce CPU usage.
+[03:48:26][CTP Server] Debug Mode.
+java.lang.IllegalArgumentException: bad position: -1
+	at javax.swing.text.JTextComponent.setCaretPosition(Unknown Source)
+	at com.ctp.io.ConsoleManager.addMessage(ConsoleManager.java:90)
+	at com.ctp.io.ConsoleManager.addConsoleMessage(ConsoleManager.java:48)
+	at com.ctp.io.ServerIO.print(ServerIO.java:34)
+	at com.ctp.util.CycleProcessManager.run(CycleProcessManager.java:32)
+[03:48:26][CycleProcessManager] CycleProcessManager is up and running.
+[03:48:26][Server:Sub_0] SubServer 0 up and running.
+[03:48:26][ConnectionAcceptor] Acceptor running.
+[03:48:29][com.ctp.server.Server$1@21746a58] Shutting everything down.
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ctp.users.UserDatabase.run(UserDatabase.java:433)
+[03:48:29][<DEBUG>][CycleProcessManager] Was killed.
+[03:48:29][UserDatabase] Saving all profiles before going down...
+[03:48:29][UserDatabase] Saved NUID. Current NUID is 24.
+[03:48:29][Server:Sub_0] Killing all connections...
+[03:48:29][Server:Sub_0] Killing self.
+[CTP Server]
+[CTP Server]
+[CTP Server] Runtime Log Active.
+[03:48:40][CTP Server] Print methods will display time.
+[03:48:40][CTP Server] Throwing in some sleep calls to reduce CPU usage.
+[03:48:40][CTP Server] Debug Mode.
+[03:48:40][CycleProcessManager] CycleProcessManager is up and running.
+[03:48:40][Server:Sub_0] SubServer 0 up and running.
+[03:48:40][ConnectionAcceptor] Acceptor running.
+[03:48:45][com.ctp.server.Server$1@476a3981] Shutting everything down.
+[03:48:45][<DEBUG>][CycleProcessManager] Was killed.
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ctp.users.UserDatabase.run(UserDatabase.java:433)
+[03:48:45][UserDatabase] Saving all profiles before going down...
+[03:48:45][UserDatabase] Saved NUID. Current NUID is 24.
+[03:48:45][Server:Sub_0] Killing all connections...
+[03:48:45][Server:Sub_0] Killing self.
+[CTP Server]
+[CTP Server]
+[CTP Server] Runtime Log Active.
+[03:50:18][CTP Server] Print methods will display time.
+[03:50:18][CTP Server] Throwing in some sleep calls to reduce CPU usage.
+[03:50:18][CTP Server] Debug Mode.
+[03:50:18][Server:Sub_0] SubServer 0 up and running.
+[03:50:18][CycleProcessManager] CycleProcessManager is up and running.
+[03:50:18][ConnectionAcceptor] Acceptor running.
+[03:50:26][com.ctp.server.Server$1@57964579] Shutting everything down.
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ctp.users.UserDatabase.run(UserDatabase.java:433)
+[03:50:26][<DEBUG>][CycleProcessManager] Was killed.
+[03:50:26][UserDatabase] Saving all profiles before going down...
+[03:50:26][UserDatabase] Saved NUID. Current NUID is 24.
+[03:50:26][Server:Sub_0] Killing all connections...
+[03:50:26][Server:Sub_0] Killing self.
+[CTP Server]
+[CTP Server]
+[CTP Server] Runtime Log Active.
+[03:50:35][CTP Server] Print methods will display time.
+[03:50:35][CTP Server] Throwing in some sleep calls to reduce CPU usage.
+[03:50:35][CTP Server] Debug Mode.
+[03:50:35][CycleProcessManager] CycleProcessManager is up and running.
+[03:50:35][Server:Sub_0] SubServer 0 up and running.
+[03:50:35][ConnectionAcceptor] Acceptor running.
+[03:51:35][UserDatabase] Beginning autosave...
+[03:51:40][com.ctp.server.Server$1@2f5ec26d] Shutting everything down.
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ctp.users.UserDatabase.run(UserDatabase.java:433)
+[03:51:40][<DEBUG>][CycleProcessManager] Was killed.
+[03:51:40][UserDatabase] Saving all profiles before going down...
+[03:51:40][UserDatabase] Saved NUID. Current NUID is 24.
+[03:51:40][Server:Sub_0] Killing all connections...
+[03:51:40][Server:Sub_0] Killing self.
+[CTP Server]
+[CTP Server]
+[CTP Server] Runtime Log Active.
+[03:56:50][CTP Server] Print methods will display time.
+[03:56:50][CTP Server] Throwing in some sleep calls to reduce CPU usage.
+[03:56:50][CTP Server] Debug Mode.
+[03:56:50][Server:Sub_0] SubServer 0 up and running.
+[03:56:50][CycleProcessManager] CycleProcessManager is up and running.
+[03:56:50][ConnectionAcceptor] Acceptor running.
+[03:57:36][com.ctp.users.UserConnection$1@625fd4a5] Socket exception.
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.ctp.users.UserConnection$1.run(UserConnection.java:41)
+	at java.lang.Thread.run(Unknown Source)
+[03:57:36][com.ctp.server.Server$1@7ea488f5] Shutting everything down.
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ctp.users.UserDatabase.run(UserDatabase.java:439)
+[03:57:36][<DEBUG>][CycleProcessManager] Was killed.
+[03:57:36][UserDatabase] Saving all profiles before going down...
+[03:57:36][UserDatabase] Saved NUID. Current NUID is 24.
+[03:57:36][Server:Sub_0] Killing all connections...
+[03:57:36][Server:Sub_0] Killing self.
+[03:57:36][<DEBUG>][com.ctp.util.ServerClock$1@1e57b071] Was killed.
+
+
+Server starting up...
+
+[CTP Server] Runtime Log Active.
+[04:00:19][CTP Server] Print methods will display time.
+[04:00:19][CTP Server] Throwing in some sleep calls to reduce CPU usage.
+[04:00:19][CTP Server] Debug Mode.
+[04:00:19][CycleProcessManager] CycleProcessManager is up and running.
+[04:00:19][Server:Sub_0] SubServer 0 up and running.
+[04:00:19][ConnectionAcceptor] Acceptor running.
+[04:00:52][com.ctp.server.Server$1@4cad8271] Shutting everything down.
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.ctp.users.UserDatabase.run(UserDatabase.java:439)
+[04:00:52][<DEBUG>][CycleProcessManager] Was killed.
+[04:00:52][UserDatabase] Saving all profiles before going down...
+[04:00:52][UserDatabase] Saved NUID. Current NUID is 24.
+[04:00:52][Server:Sub_0] Killing all connections...
+[04:00:52][Server:Sub_0] Killing self.
+
+
+Server starting up...
+
+[CTP Server] Runtime Log Active.
+[04:02:23][CTP Server] Print methods will display time.
+[04:02:23][CTP Server] Throwing in some sleep calls to reduce CPU usage.
+[04:02:23][CTP Server] Debug Mode.
+[04:02:23][CycleProcessManager] CycleProcessManager is up and running.
+[04:02:23][Server:Sub_0] SubServer 0 up and running.
+[04:02:23][ConnectionAcceptor] Acceptor running.
+[04:02:24][com.ctp.server.Server$1@73697fc6] Shutting everything down.
+[04:02:24][<DEBUG>][CycleProcessManager] Was killed.
+[04:02:24][UserDatabase] Interrupted. This is OKAY (in most cases).
+[04:02:24][UserDatabase] Saving all profiles before going down...
+[04:02:24][UserDatabase] Saved NUID. Current NUID is 24.
+[04:02:24][Server:Sub_0] Killing all connections...
+[04:02:24][Server:Sub_0] Killing self.
+
+
+Server starting up...
+
+[CTP Server] Runtime Log Active.
+[04:20:54][CTP Server] Print methods will display time.
+[04:20:54][CTP Server] Throwing in some sleep calls to reduce CPU usage.
+[04:20:54][CTP Server] Debug Mode.
+[04:20:54][CycleProcessManager] CycleProcessManager is up and running.
+[04:20:54][Server:Sub_0] SubServer 0 up and running.
+[04:20:54][ConnectionAcceptor] Acceptor running.
+[04:20:56][UserDatabase] CuntBagins is new. Generating profile.
+[04:20:56][UserDatabase] Added new user CuntBagins with ID 24.
+[04:20:56][UserDatabase] CuntBagins has logged in.
+[04:20:56][UserDatabase] Saved NUID. Current NUID is 25.
+[04:20:56][UserDatabase] CuntBagins's profile saved successfully.
+[04:20:57][UserDatabase] CuntBagins's profile saved successfully.
+[04:20:57][UserDatabase] CuntBagins's profile closed successfully.
+[04:20:57][UserDatabase] CuntBagins has logged in.
+[04:20:59][UserDatabase] CuntBagins's profile saved successfully.
+[04:20:59][UserDatabase] CuntBagins's profile closed successfully.
+[04:21:00][UserDatabase] CuntBagins has logged in.
+[04:21:01][UserDatabase] CuntBagins's profile saved successfully.
+[04:21:01][UserDatabase] CuntBagins's profile closed successfully.
+[04:21:02][UserDatabase] CuntBagins has logged in.
+[04:21:02][UserDatabase] CuntBagins's profile saved successfully.
+[04:21:02][UserDatabase] CuntBagins's profile closed successfully.
+[04:21:03][UserDatabase] CuntBagins has logged in.
+[04:21:04][UserDatabase] CuntBagins's profile saved successfully.
+[04:21:04][UserDatabase] CuntBagins's profile closed successfully.
+[04:21:05][UserDatabase] CuntBagins has logged in.
+[04:21:07][UserDatabase] CuntBagins's profile saved successfully.
+[04:21:07][UserDatabase] CuntBagins's profile closed successfully.
+[04:21:51][com.ctp.server.Server$1@7804ad3c] Shutting everything down.
+[04:21:52][UserDatabase] Interrupted. This is OKAY (in most cases).
+[04:21:52][UserDatabase] Saving all profiles before going down...
+[04:21:52][UserDatabase] Saved NUID. Current NUID is 25.
+[04:21:52][Server:Sub_0] Killing all connections...
+[04:21:55][Server:Sub_0] Killing self.
+[04:21:55][com.ctp.users.UserConnection$1@4900ec16] Socket exception.
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.ctp.users.UserConnection$1.run(UserConnection.java:41)
+	at java.lang.Thread.run(Unknown Source)
