@@ -8,7 +8,8 @@ import java.util.Comparator;
  *
  */
 
-public class RecentIDListContainer implements Comparator<RecentIDListContainer> {
+public class RecentIDListContainer
+		implements Comparator<RecentIDListContainer> {
 	private int lastID = -1;
 	private int lastIDIndex = -1;
 	private int timesGotten = 0;

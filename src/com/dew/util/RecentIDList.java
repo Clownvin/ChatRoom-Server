@@ -21,8 +21,8 @@ public final class RecentIDList {
 
 	public RecentIDList(int maxLength, int resetAmount) {
 		if (maxLength <= 0) {
-			System.out
-					.println("[RIDL] Exception. Max length is less than or equal to 0.");
+			System.out.println(
+					"[RIDL] Exception. Max length is less than or equal to 0.");
 			System.out.println("[RIDL] Max Length must be greater than 0.");
 			throw new NegativeArraySizeException(
 					"Max length is less than or equal to 0.");
@@ -36,8 +36,8 @@ public final class RecentIDList {
 	}
 
 	public void addToIDList(int lastID, int lastIndex) {
-		containers.add(lastIDPointer, new RecentIDListContainer(lastID,
-				lastIndex));
+		containers.add(lastIDPointer,
+				new RecentIDListContainer(lastID, lastIndex));
 		lastIDPointer++;
 		if (lastIDPointer == maxLength) {
 			for (int i = 0; i < resetLength; i++) {

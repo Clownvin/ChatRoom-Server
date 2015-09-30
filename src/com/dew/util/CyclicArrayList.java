@@ -5,14 +5,14 @@ import java.util.ConcurrentModificationException;
 
 public class CyclicArrayList<T> {
 
-	private transient volatile Object[] arrayData;
+	private static final Object[] EMPTY_ARRAYDATA = new Object[0];
 
+	private transient volatile Object[] arrayData;
 	private int takePointer = 0;
 	private int addPointer = 0;
 	private int size = 0;
-	private volatile long modCount = 0L;
 
-	private static final Object[] EMPTY_ARRAYDATA = new Object[0];
+	private volatile long modCount = 0L;
 
 	public CyclicArrayList(int initialCapacity) {
 		if (initialCapacity > 0) {
@@ -20,8 +20,8 @@ public class CyclicArrayList<T> {
 		} else if (initialCapacity == 0) {
 			this.arrayData = EMPTY_ARRAYDATA;
 		} else {
-			throw new IllegalArgumentException("Illegal Capacity: "
-					+ initialCapacity);
+			throw new IllegalArgumentException(
+					"Illegal Capacity: " + initialCapacity);
 		}
 	}
 
@@ -36,15 +36,6 @@ public class CyclicArrayList<T> {
 		checkForComodification();
 		size++;
 		arrayData[addPointer++] = t;
-	}
-	
-	public synchronized T[] toArray(T[] arrayHolder) {
-		synchronized(arrayData) {
-		for (int i = 0; i  < size && i < arrayHolder.length; i++) {
-			arrayHolder[i] = get(i);
-		}
-		}
-		return arrayHolder;
 	}
 
 	// Checks for concurrent modification.
@@ -74,10 +65,14 @@ public class CyclicArrayList<T> {
 			checkForComodification();
 			return (T) arrayData[(takePointer + index) % arrayData.length];
 		} catch (ClassCastException e) {
-			System.err
-					.println("ClassCastException in RotationalArray.get(int index)");
+			System.err.println(
+					"ClassCastException in RotationalArray.get(int index)");
 			throw e;
 		}
+	}
+
+	public int getCapacity() {
+		return arrayData.length;
 	}
 
 	@SuppressWarnings("unchecked")
@@ -104,10 +99,6 @@ public class CyclicArrayList<T> {
 			throw e;
 		}
 	}
-	
-	public int getCapacity() {
-		return arrayData.length;
-	}
 
 	public boolean hasAvailable() {
 		for (Object o : arrayData) {
@@ -128,8 +119,8 @@ public class CyclicArrayList<T> {
 		if (arrayData[takePointer] == null) {
 			if (!hasAvailable()) {
 				if (takePointer != addPointer) {
-					System.err
-							.println("Probably has been overtaken, run tests...");
+					System.err.println(
+							"Probably has been overtaken, run tests...");
 				}
 				return null;
 			}
@@ -138,8 +129,8 @@ public class CyclicArrayList<T> {
 		try {
 			toReturn = (T) arrayData[takePointer];
 		} catch (ClassCastException e) {
-			System.err
-					.println("ClassCastException in RotationalArray.removeNext()");
+			System.err.println(
+					"ClassCastException in RotationalArray.removeNext()");
 			throw e;
 		}
 		checkForComodification();
@@ -161,12 +152,21 @@ public class CyclicArrayList<T> {
 			addPointer = 0;
 			this.arrayData = Arrays.copyOf(arrayData, newCapacity);
 		} else {
-			throw new IllegalArgumentException("Illegal Capacity: "
-					+ newCapacity);
+			throw new IllegalArgumentException(
+					"Illegal Capacity: " + newCapacity);
 		}
 	}
 
 	public int size() {
 		return size;
+	}
+
+	public synchronized T[] toArray(T[] arrayHolder) {
+		synchronized (arrayData) {
+			for (int i = 0; i < size && i < arrayHolder.length; i++) {
+				arrayHolder[i] = get(i);
+			}
+		}
+		return arrayHolder;
 	}
 }

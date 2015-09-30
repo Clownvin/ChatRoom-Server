@@ -8,7 +8,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import com.dew.io.BackupTask;
 import com.dew.io.FileManager;
 import com.dew.io.FileType;
 import com.dew.io.ServerIO;
@@ -21,7 +20,6 @@ import com.dew.server.Server;
 import com.dew.server.SubServerManager;
 import com.dew.util.BinaryOperations;
 import com.dew.util.DataType;
-import com.dew.util.MaximumCapacityReachedException;
 import com.dew.util.RecentIDList;
 
 /**
@@ -31,7 +29,24 @@ import com.dew.util.RecentIDList;
  */
 
 public final class UserDatabase extends Thread implements Runnable {
-	
+
+	private static final Packet LOGOUT_CONFIRMED_PACKET = Packet
+			.buildPacket(Protocall.GENERAL, Request.SUCCESSFUL_LOGOUT);
+
+	private static volatile boolean kill = false;
+
+	private static int nextUserID = 0;
+
+	private static final ArrayList<UserProfile> USERS = new ArrayList<UserProfile>();
+
+	private static RecentIDList ridl = new RecentIDList(100, 75);
+
+	private static final UserDatabase SINGLETON = new UserDatabase();
+
+	static {
+		SINGLETON.start();
+	}
+
 	//TODO Make this check and see if profile exists.
 	public static void addProfile(String username, String password) {
 		UserProfile newUser = new UserProfile(nextUserID);
@@ -39,8 +54,8 @@ public final class UserDatabase extends Thread implements Runnable {
 		newUser.username = username;
 		newUser.setPassword(password);
 		USERS.add(newUser);
-		ServerIO.print("[UserDatabase] Added new user " + username
-				+ " with ID " + (nextUserID - 1) + ".");
+		ServerIO.print("[UserDatabase] Added new user " + username + " with ID "
+				+ (nextUserID - 1) + ".");
 	}
 
 	public static boolean closeProfile(int id) {
@@ -61,8 +76,8 @@ public final class UserDatabase extends Thread implements Runnable {
 				saveProfile(id);
 				USERS.remove(index);
 				SubServerManager.getConnection(id).setLoggedIn(false);
-				SubServerManager.getConnection(id).queueOutgoingPacket(
-						LOGOUT_CONFIRMED_PACKET);
+				SubServerManager.getConnection(id)
+						.queueOutgoingPacket(LOGOUT_CONFIRMED_PACKET);
 			}
 		} catch (InvalidIdentifierException e) {
 			ServerIO.printErr("[UserDatabase] Exception, user by " + id
@@ -122,8 +137,8 @@ public final class UserDatabase extends Thread implements Runnable {
 				return USERS.get(i);
 			}
 		}
-		throw new InvalidIdentifierException("[UserDatabase] User by name "
-				+ name + " does not exist.");
+		throw new InvalidIdentifierException(
+				"[UserDatabase] User by name " + name + " does not exist.");
 	}
 
 	public static UserDatabase getSingleton() {
@@ -131,7 +146,8 @@ public final class UserDatabase extends Thread implements Runnable {
 	}
 
 	public static void kill() {
-		ServerIO.print("[UserDatabase] Saving all profiles before going down...");
+		ServerIO.print(
+				"[UserDatabase] Saving all profiles before going down...");
 		saveAllProfiles();
 		saveNUID();
 		kill = true;
@@ -146,8 +162,8 @@ public final class UserDatabase extends Thread implements Runnable {
 		File userFile = new File(FileType.USER.getPath() + username
 				+ FileType.USER.getExtension());
 		if (userFile.exists() && !userFile.isDirectory()) {
-			UserProfile profile = FileManager.<UserProfile> readFile(
-					new UserProfile(-1), username);
+			UserProfile profile = FileManager
+					.<UserProfile> readFile(new UserProfile(-1), username);
 			if (profile.username.equalsIgnoreCase(username)) {
 				if (profile.verifyPassword(password)) {
 					if (!loggedIn(profile.ID)) {
@@ -156,46 +172,49 @@ public final class UserDatabase extends Thread implements Runnable {
 									.getConnection(userID)
 									.logIn(profile.ID, profile.username);
 						} catch (InvalidIdentifierException iie) {
-							ServerIO.printErr("[UserDatabase] Fatal exception occurred during login.");
+							ServerIO.printErr(
+									"[UserDatabase] Fatal exception occurred during login.");
 							ServerIO.writeException(iie);
-							Packet packet = Packet.buildPacket(
-									new PacketData(DataType.STRING, false))
+							Packet packet = Packet
+									.buildPacket(new PacketData(DataType.STRING,
+											false))
 									.setRequest(Request.ERROR_LOGIN);
 							packet.getData(0)
-									.setObject(
-											new String(
-													"Error occured while logging in. Try again later."))
+									.setObject(new String(
+											"Error occured while logging in. Try again later."))
 									.setDataType(DataType.STRING);
 							ServerIO.sendPacket(subServerIndex, userID, packet);
 							return false;
 						}
 						USERS.add(profile);
-						Packet packet = Packet.buildPacket((new PacketData(
-								DataType.STRING, false)));
+						Packet packet = Packet.buildPacket(
+								(new PacketData(DataType.STRING, false)));
 						packet.setRequest(Request.SUCCESSFUL_LOGIN);
 						packet.getData(0)
-								.setObject(
-										new String(
-												"Welcome to Calvin's Server!"))
+								.setObject(new String(
+										"Welcome to Calvin's Server!"))
 								.setDataType(DataType.STRING);
 						ServerIO.sendPacket(subServerIndex, profile.ID, packet);
-						SubServerManager.sendPacketToAll(Packet.buildPacket(Protocall.CHAT, Request.MESSAGE).addData(new PacketData(DataType.STRING, false).setObject(profile.username+" has joined the chat room.")));
+						SubServerManager.sendPacketToAll(Packet
+								.buildPacket(Protocall.CHAT, Request.MESSAGE)
+								.addData(new PacketData(DataType.STRING, false)
+										.setObject(profile.username
+												+ " has joined the chat room.")));
 						return true;
 					} else {
-						Packet packet = Packet.buildPacket((new PacketData(
-								DataType.STRING, false)));
+						Packet packet = Packet.buildPacket(
+								(new PacketData(DataType.STRING, false)));
 						packet.setRequest(Request.ERROR_LOGIN);
 						packet.getData(0)
-								.setObject(
-										new String(
-												"Error: That profile is already logged in."))
+								.setObject(new String(
+										"Error: That profile is already logged in."))
 								.setDataType(DataType.STRING);
 						ServerIO.sendPacket(subServerIndex, userID, packet);
 						return false;
 					}
 				} else {
-					Packet packet = Packet.buildPacket(new PacketData(
-							DataType.STRING, false));
+					Packet packet = Packet.buildPacket(
+							new PacketData(DataType.STRING, false));
 					packet.setRequest(Request.ERROR_LOGIN);
 					packet.getData(0)
 							.setObject(new String("Incorrect password."))
@@ -204,13 +223,12 @@ public final class UserDatabase extends Thread implements Runnable {
 					return false;
 				}
 			} else {
-				Packet packet = Packet.buildPacket(new PacketData(
-						DataType.STRING, false));
+				Packet packet = Packet
+						.buildPacket(new PacketData(DataType.STRING, false));
 				packet.setRequest(Request.ERROR_LOGIN);
 				packet.getData(0)
-						.setObject(
-								new String(
-										"There was an error recognizing your account. \n If problem persists, contact support."))
+						.setObject(new String(
+								"There was an error recognizing your account. \n If problem persists, contact support."))
 						.setDataType(DataType.STRING);
 				ServerIO.sendPacket(subServerIndex, profile.ID, packet);
 				return false;
@@ -223,31 +241,36 @@ public final class UserDatabase extends Thread implements Runnable {
 				SubServerManager.get(subServerIndex).getConnection(userID)
 						.logIn(getProfile(username).ID, username);
 			} catch (InvalidIdentifierException iie) {
-				ServerIO.printErr("[UserDatabase] Fatal exception occurred during login.");
+				ServerIO.printErr(
+						"[UserDatabase] Fatal exception occurred during login.");
 				ServerIO.writeException(iie);
-				Packet packet = Packet.buildPacket(new PacketData(
-						DataType.STRING, false));
+				Packet packet = Packet
+						.buildPacket(new PacketData(DataType.STRING, false));
 				packet.setRequest(Request.ERROR_LOGIN);
 				packet.getData(0)
-						.setObject(
-								new String(
-										"Error occured while loggin in. Try again later."))
+						.setObject(new String(
+								"Error occured while loggin in. Try again later."))
 						.setDataType(DataType.STRING);
 				ServerIO.sendPacket(subServerIndex, userID, packet);
 				return false;
 			}
-			Packet packet = Packet.buildPacket(new PacketData(DataType.STRING,
-					false).setObject(new String("Welcome to Calvin's Server")));
+			Packet packet = Packet.buildPacket(
+					new PacketData(DataType.STRING, false).setObject(
+							new String("Welcome to Calvin's Server")));
 			packet.setRequest(Request.SUCCESSFUL_LOGIN);
 			try {
 				ServerIO.sendPacket(subServerIndex, getProfile(username).ID,
 						packet);
 			} catch (InvalidIdentifierException e1) {
-				ServerIO.printErr("[UserDatabase] Error sending successful login packet.");
+				ServerIO.printErr(
+						"[UserDatabase] Error sending successful login packet.");
 				ServerIO.writeException(e1);
 			}
 			ServerIO.print("[UserDatabase] " + username + " has logged in.");
-			SubServerManager.sendPacketToAll(Packet.buildPacket(Protocall.CHAT, Request.MESSAGE).addData(new PacketData(DataType.STRING, false).setObject(username+" has joined the chat room.")));
+			SubServerManager.sendPacketToAll(
+					Packet.buildPacket(Protocall.CHAT, Request.MESSAGE).addData(
+							new PacketData(DataType.STRING, false).setObject(
+									username + " has joined the chat room.")));
 			saveNUID();
 			try {
 				saveProfile(getProfile(username).ID);
@@ -282,19 +305,18 @@ public final class UserDatabase extends Thread implements Runnable {
 		FileManager.checkFilePath(FileManager.RAW_DATA_PATH);
 		BufferedWriter writer;
 		try {
-			writer = new BufferedWriter(new FileWriter(
-					FileManager.RAW_DATA_PATH + "nuid"
-							+ FileManager.RAW_DATA_FILE_EXTENSION));
-			writer.write(""
-					+ new String(BinaryOperations
-							.byteArrayToCharacterArray(BinaryOperations
-									.toBytes(nextUserID))));
+			writer = new BufferedWriter(new FileWriter(FileManager.RAW_DATA_PATH
+					+ "nuid" + FileManager.RAW_DATA_FILE_EXTENSION));
+			writer.write(
+					"" + new String(BinaryOperations.byteArrayToCharacterArray(
+							BinaryOperations.toBytes(nextUserID))));
 			writer.close();
 			ServerIO.print("[UserDatabase] Saved NUID. Current NUID is "
 					+ nextUserID + ".");
 		} catch (IOException ioe) {
-			ServerIO.printErr("[UserDatabase] Exception while saving NUID. Not a good thing. NUID is at "
-					+ nextUserID + ".");
+			ServerIO.printErr(
+					"[UserDatabase] Exception while saving NUID. Not a good thing. NUID is at "
+							+ nextUserID + ".");
 			ServerIO.writeException(ioe);
 		}
 	}
@@ -316,23 +338,6 @@ public final class UserDatabase extends Thread implements Runnable {
 		return true;
 	}
 
-	private static final Packet LOGOUT_CONFIRMED_PACKET = Packet.buildPacket(
-			Protocall.GENERAL, Request.SUCCESSFUL_LOGOUT);
-
-	private static volatile boolean kill = false;
-
-	private static int nextUserID = 0;
-
-	private static final ArrayList<UserProfile> USERS = new ArrayList<UserProfile>();
-
-	private static RecentIDList ridl = new RecentIDList(100, 75);
-
-	private static final UserDatabase SINGLETON = new UserDatabase();
-
-	static {
-		SINGLETON.start();
-	}
-
 	private UserDatabase() {
 		// To prevent instantiation.
 	}
@@ -342,16 +347,15 @@ public final class UserDatabase extends Thread implements Runnable {
 		BufferedReader reader;
 		try {
 			FileManager.checkFilePath(FileManager.RAW_DATA_PATH);
-			reader = new BufferedReader(new FileReader(
-					FileManager.RAW_DATA_PATH + "nuid"
-							+ FileManager.RAW_DATA_FILE_EXTENSION));
+			reader = new BufferedReader(new FileReader(FileManager.RAW_DATA_PATH
+					+ "nuid" + FileManager.RAW_DATA_FILE_EXTENSION));
 			nextUserID = BinaryOperations
-					.bytesToInteger(BinaryOperations
-							.characterArrayToByteArray(reader.readLine()
-									.toCharArray()));
+					.bytesToInteger(BinaryOperations.characterArrayToByteArray(
+							reader.readLine().toCharArray()));
 			reader.close();
 		} catch (IOException e) {
-			ServerIO.printErr("[UserDatabase] IOException while reading NUID. Not good.");
+			ServerIO.printErr(
+					"[UserDatabase] IOException while reading NUID. Not good.");
 			ServerIO.writeException(e);
 			nextUserID = 0;
 			saveNUID();
@@ -361,22 +365,24 @@ public final class UserDatabase extends Thread implements Runnable {
 			while (USERS.size() == 0) {
 				synchronized (SINGLETON) {
 					try {
-						SINGLETON.wait(); // Dormant while no-one is online.
+						SINGLETON.wait();// Dormant while no-one is online.
 					} catch (InterruptedException e) {
-						ServerIO.printErr("[UserDatabase] Unexpected interrupt. Line 371 : UserDatase.run()");
+						ServerIO.printErr(
+								"[UserDatabase] Unexpected interrupt. Line 371 : UserDatase.run()");
 					}
 				}
 			}
 			try {
 				synchronized (SINGLETON) {
-					SINGLETON.wait(600000); // 10 Minutes.
+					SINGLETON.wait(600000);// 10 Minutes.
 				}
 			} catch (InterruptedException e1) {
-				ServerIO.printDebug("[UserDatabase] Interrupted. UserDatabase going down."); // Melodramatic, aren't we.
+				ServerIO.printDebug(
+						"[UserDatabase] Interrupted. UserDatabase going down.");// Melodramatic, aren't we.
 				kill();
 				continue;
 			}
-			if (!kill) { // No point in autosaving if it's just going to save again before going down.
+			if (!kill) {// No point in autosaving if it's just going to save again before going down.
 				ServerIO.print("[UserDatabase] Beginning autosave...");
 				saveAllProfiles();
 			}

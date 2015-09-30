@@ -9,7 +9,7 @@ package com.dew.packets;
 public enum Protocall {
 	NONE((byte) 0, (byte) 0), FILE((byte) 1, (byte) 10), CHAT((byte) 2,
 			(byte) 15), GENERAL((byte) 3, (byte) 20), URGENT((byte) 4,
-			Byte.MAX_VALUE);
+					Byte.MAX_VALUE);
 	public static Protocall getProtocal(byte byteTag) {
 		switch (byteTag) {
 		case 0:

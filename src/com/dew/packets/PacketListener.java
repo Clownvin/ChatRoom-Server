@@ -1,16 +1,9 @@
 package com.dew.packets;
 
-import com.dew.packets.Packet;
 import com.dew.lang.Conditional;
 
 public class PacketListener {
-	public static final long DEFAULT_TIMEOUT = 15000; // 15 seconds
-	protected Protocall protocall = Protocall.NONE;
-	protected Request request = Request.NULL;
-	protected Packet packet = null;
-	protected final boolean singleUse;
-	protected long timeout = DEFAULT_TIMEOUT;
-
+	public static final long DEFAULT_TIMEOUT = 15000;// 15 seconds
 	protected static final Conditional<Packet, PacketListener> CONDITION = new Conditional<Packet, PacketListener>() {
 
 		@Override
@@ -27,6 +20,12 @@ public class PacketListener {
 		}
 
 	};
+	protected Protocall protocall = Protocall.NONE;
+	protected Request request = Request.NULL;
+	protected Packet packet = null;
+	protected final boolean singleUse;
+
+	protected long timeout = DEFAULT_TIMEOUT;
 
 	public PacketListener() {
 		this.protocall = Protocall.NONE;
@@ -80,7 +79,7 @@ public class PacketListener {
 		packet = null;
 	}
 
-	public synchronized Packet getPacket() throws ListenerTimeoutException { // Will return the packet, or will pause thread until it receives the packet or timeout.
+	public synchronized Packet getPacket() throws ListenerTimeoutException {// Will return the packet, or will pause thread until it receives the packet or timeout.
 		if (packet == null) {
 			long elapsedTime = 0L;
 			long start;
@@ -94,7 +93,7 @@ public class PacketListener {
 				elapsedTime += (System.currentTimeMillis() - start);
 			}
 		} else {
-			return packet; // Skip the next "if" statement. We already know it's not null.
+			return packet;// Skip the next "if" statement. We already know it's not null.
 		}
 		if (packet == null) {
 			throw new ListenerTimeoutException(

@@ -2,9 +2,9 @@ package com.dew.packets;
 
 import java.util.ArrayList;
 
-import com.dew.packets.Packet;
-
 public abstract class AbstractPacketHandler {
+	protected static final ArrayList<PacketListener> PACKET_LISTENERS = new ArrayList<PacketListener>();
+
 	public static PacketListener addPacketListener(PacketListener listener) {
 		synchronized (PACKET_LISTENERS) {
 			PACKET_LISTENERS.add(listener);
@@ -29,8 +29,6 @@ public abstract class AbstractPacketHandler {
 		return returnValue;
 	}
 
-	protected static final ArrayList<PacketListener> PACKET_LISTENERS = new ArrayList<PacketListener>();
-
 	public Packet getResponse(Packet p, PacketListener listener)
 			throws ListenerTimeoutException {
 		PacketListener responseListener = listener;
@@ -42,7 +40,7 @@ public abstract class AbstractPacketHandler {
 		return addPacketListener(responseListener).getPacket();
 	}
 
-	public abstract boolean sendPacket(Packet p);
-	
 	public abstract void processPacket(Packet p);
+
+	public abstract boolean sendPacket(Packet p);
 }

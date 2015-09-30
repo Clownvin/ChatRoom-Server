@@ -1,7 +1,5 @@
 package com.dew.util;
 
-import com.dew.util.ByteFormatted;
-
 /**
  * 
  * @author Calvin Gene Hall

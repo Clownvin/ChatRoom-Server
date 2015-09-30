@@ -12,6 +12,17 @@ import com.dew.io.ServerIO;
  */
 
 public final class ServerClock extends Thread implements Runnable {
+	private static String lastTime;
+
+	private static String formattedTime;
+
+	private static volatile boolean kill = false;
+
+	private static final ServerClock SINGLETON = new ServerClock();
+
+	static {
+		SINGLETON.start();
+	}
 	public static ServerClock getSingleton() {
 		return SINGLETON;
 	}
@@ -29,19 +40,8 @@ public final class ServerClock extends Thread implements Runnable {
 
 	public synchronized static void updateTimes() {
 		lastTime = formattedTime;
-		formattedTime = new SimpleDateFormat("hh:mm:ss aa").format(Calendar
-				.getInstance().getTime());
-	}
-
-	private static String lastTime;
-	private static String formattedTime;
-
-	private static volatile boolean kill = false;
-
-	private static final ServerClock SINGLETON = new ServerClock();
-
-	static {
-		SINGLETON.start();
+		formattedTime = new SimpleDateFormat("hh:mm:ss aa")
+				.format(Calendar.getInstance().getTime());
 	}
 
 	private ServerClock() {

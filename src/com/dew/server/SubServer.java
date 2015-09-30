@@ -58,8 +58,8 @@ public final class SubServer extends Thread implements Runnable {
 		try {
 			index = getIndex(id);
 		} catch (InvalidIdentifierException e) {
-			ServerIO.printErr("[" + this + "] Exception, Invalid ID " + id
-					+ ".");
+			ServerIO.printErr(
+					"[" + this + "] Exception, Invalid ID " + id + ".");
 			ServerIO.writeException(e);
 		}
 		if (index > -1) {
@@ -102,8 +102,7 @@ public final class SubServer extends Thread implements Runnable {
 				return i;
 			}
 		}
-		ServerIO.printErr("["
-				+ this
+		ServerIO.printErr("[" + this
 				+ "] Max login queue IDs. I don't know how that's even possible.");
 		return -1;
 	}
@@ -135,8 +134,7 @@ public final class SubServer extends Thread implements Runnable {
 			try {
 				packets.sort(new PacketComparator());
 			} catch (ConcurrentModificationException e) {
-				ServerIO.printDebug("["
-						+ this
+				ServerIO.printDebug("[" + this
 						+ "] Concurrent modification exception. (SubServer.handlePackets)");
 			}
 			for (int i = 0; i < packets.size(); i++) {
@@ -148,7 +146,7 @@ public final class SubServer extends Thread implements Runnable {
 					}
 					tries++;
 					if (tries == 2) {
-						tries = 0; // Too lazy to see if I really need this.
+						tries = 0;// Too lazy to see if I really need this.
 						packets.remove(i);
 					}
 					i--;
@@ -202,7 +200,7 @@ public final class SubServer extends Thread implements Runnable {
 	}
 
 	public boolean queuePacket(Packet p) {
-		if (packets.size() < connections.size() * 2) { // 2 Packets per connection.
+		if (packets.size() < connections.size() * 2) {// 2 Packets per connection.
 			packets.add(p);
 			return true;
 		}
@@ -248,7 +246,7 @@ public final class SubServer extends Thread implements Runnable {
 		}
 		ServerIO.printDebug("[" + this + "] Killing self.");
 	}
-	
+
 	public void sendPacketToAll(Packet packet) {
 		for (int i = 0; i < connections.size(); i++) {
 			if (connections.get(i) != null) {
@@ -256,7 +254,7 @@ public final class SubServer extends Thread implements Runnable {
 			}
 		}
 	}
-	
+
 	public void sendPacketToAllLoggedIn(Packet packet) {
 		for (int i = 0; i < connections.size(); i++) {
 			if (connections.get(i) != null && connections.get(i).isLoggedIn()) {

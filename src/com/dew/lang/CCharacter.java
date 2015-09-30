@@ -8,15 +8,6 @@ package com.dew.lang;
 
 public final class CCharacter {
 
-	public static byte getByteForChar(char c) {
-		for (byte b = 0; b < MAX_CHAR; b++) {
-			if (CHAR_ARRAY[b] == c) {
-				return b;
-			}
-		}
-		return -1;
-	}
-
 	public static final char[] CHAR_ARRAY = new char[] { 'a', 'b', 'c', 'd',
 			'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
 			'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' ', 'A', 'B', 'C',
@@ -27,6 +18,15 @@ public final class CCharacter {
 			'*', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 
 	public static final byte MAX_CHAR = 127;
+
+	public static byte getByteForChar(char c) {
+		for (byte b = 0; b < MAX_CHAR; b++) {
+			if (CHAR_ARRAY[b] == c) {
+				return b;
+			}
+		}
+		return -1;
+	}
 
 	protected byte character = -1;
 

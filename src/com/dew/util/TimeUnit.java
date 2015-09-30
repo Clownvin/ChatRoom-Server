@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public enum TimeUnit {
 	NANOSECOND, MILLISECOND, SECOND, MINUTE, HOUR, DAY, WEEK, YEAR;
-	
+
 	public long getValue() {
 		switch (this) {
 		case NANOSECOND:

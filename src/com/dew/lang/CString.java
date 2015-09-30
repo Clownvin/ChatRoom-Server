@@ -2,9 +2,6 @@ package com.dew.lang;
 
 import java.util.ArrayList;
 
-import com.dew.lang.CCharacter;
-import com.dew.lang.CString;
-
 /**
  * 
  * @author Calvin Gene Hall

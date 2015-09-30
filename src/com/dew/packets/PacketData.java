@@ -2,7 +2,6 @@ package com.dew.packets;
 
 import java.util.ArrayList;
 
-import com.dew.packets.PacketData;
 import com.dew.lang.ArrayLengthException;
 import com.dew.lang.CString;
 import com.dew.util.BinaryOperations;
@@ -59,8 +58,8 @@ public final class PacketData {
 			if (packetData.isArray()) {
 				int[] ints = new int[bytes[offset + 1]];
 				for (byte b = 0; b < bytes[offset + 1]; b++) {
-					int i = BinaryOperations.bytesToInteger(bytes, offset
-							+ (b * 4) + 2);
+					int i = BinaryOperations.bytesToInteger(bytes,
+							offset + (b * 4) + 2);
 					ints[b] = i;
 				}
 				packetData.setObject(ints);
@@ -74,8 +73,8 @@ public final class PacketData {
 			if (packetData.isArray()) {
 				double[] doubles = new double[bytes[offset + 1]];
 				for (byte b = 0; b < bytes[offset + 1]; b++) {
-					doubles[b] = BinaryOperations.bytesToDouble(bytes, offset
-							+ (b * 8) + 2);
+					doubles[b] = BinaryOperations.bytesToDouble(bytes,
+							offset + (b * 8) + 2);
 				}
 				packetData.setObject(doubles);
 			} else {
@@ -195,7 +194,7 @@ public final class PacketData {
 				double[] doubles = (double[]) o;
 				if (doubles.length > 255) {
 					throw new ArrayLengthException(doubles.length
-							+ " : Array length cannot be greater than 255"); // TODO fix this, make it Integer.MAX_VALUE, like all arrays.. 
+							+ " : Array length cannot be greater than 255");// TODO fix this, make it Integer.MAX_VALUE, like all arrays.. 
 					// Do same for other "array" cases.
 				}
 				bytes.add((byte) (doubles.length & 0x000000ff));

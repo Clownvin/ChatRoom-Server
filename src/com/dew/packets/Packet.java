@@ -2,8 +2,6 @@ package com.dew.packets;
 
 import java.util.ArrayList;
 
-import com.dew.packets.Packet;
-import com.dew.packets.PacketData;
 import com.dew.io.ServerIO;
 import com.dew.lang.CString;
 import com.dew.lang.CorruptDataException;
@@ -18,6 +16,9 @@ import com.dew.util.Utilities;
  */
 
 public class Packet {
+
+	private static final Packet BLANK_PACKET = buildPacket(Protocall.NONE,
+			Request.NULL);
 
 	public static Packet buildPacket(PacketData... data) {
 		Packet packet = new Packet(Protocall.NONE, Request.NULL,
@@ -40,7 +41,8 @@ public class Packet {
 		return packet;
 	}
 
-	public static Packet buildPacket(Protocall p, Request r, PacketData... data) {
+	public static Packet buildPacket(Protocall p, Request r,
+			PacketData... data) {
 		Packet packet = new Packet(p, r, null).addData(data);
 		return packet;
 	}
@@ -98,9 +100,6 @@ public class Packet {
 		}
 		return bytes;
 	}
-
-	private static final Packet BLANK_PACKET = buildPacket(Protocall.NONE,
-			Request.NULL);
 
 	private Request request = Request.NULL;
 
@@ -167,11 +166,11 @@ public class Packet {
 		System.out.println("Checksum: "
 				+ Integer.toHexString(Byte.toUnsignedInt(bytes[4])));
 		for (byte b : bytes)
-			System.out.print((Integer.toHexString(Byte.toUnsignedInt(b))
-					.length() < 2 ? "0"
-					+ Integer.toHexString(Byte.toUnsignedInt(b)) : Integer
-					.toHexString(Byte.toUnsignedInt(b)))
-					+ " ");
+			System.out.print(
+					(Integer.toHexString(Byte.toUnsignedInt(b)).length() < 2
+							? "0" + Integer.toHexString(Byte.toUnsignedInt(b))
+							: Integer.toHexString(Byte.toUnsignedInt(b)))
+							+ " ");
 		System.out.println();
 		System.out.println((BinaryOperations.bytesToInteger(bytes) / 1000.0)
 				+ "kb of data.");
@@ -183,11 +182,14 @@ public class Packet {
 		}
 		double cumulativeTime = System.nanoTime() - lastTime;
 		double avg = (cumulativeTime / loops) / 1000000.0D;
-		System.out.println("Data/ms: "
-				+ (BinaryOperations.bytesToInteger(bytes) / 1000.0) / avg
-				+ "kb/ms, or "
-				+ (BinaryOperations.bytesToInteger(bytes) / 1000.0)
-				/ (avg / 1000) + "kb/s");
+		System.out
+				.println("Data/ms: "
+						+ (BinaryOperations.bytesToInteger(bytes) / 1000.0)
+								/ avg
+						+ "kb/ms, or "
+						+ (BinaryOperations.bytesToInteger(bytes) / 1000.0)
+								/ (avg / 1000)
+						+ "kb/s");
 		System.out.println("Avg time per packet = " + avg + "ms");
 		System.out.println("Total time for " + loops + " packet = "
 				+ (cumulativeTime) / 1000000.0D + "ms");
@@ -197,21 +199,21 @@ public class Packet {
 		if (p.getDataAmount() > 0) {
 			for (int i = 0; i < p.getDataAmount(); i++) {
 				PacketData data = p.getData(i);
-				System.out.println("Data[" + i + "] is Array: "
-						+ data.isArray());
+				System.out
+						.println("Data[" + i + "] is Array: " + data.isArray());
 				if (data.isArray()) {
 					int index = 0;
 					switch (data.getDataType()) {
 					case STRING:
 						for (CString s : (CString[]) data.getObject()) {
-							System.out.println("Data[" + i + "][" + index
-									+ "]: " + s);
+							System.out.println(
+									"Data[" + i + "][" + index + "]: " + s);
 						}
 						break;
 					case INT:
 						for (int j : (int[]) data.getObject()) {
-							System.out.println("Data[" + i + "][" + index
-									+ "]: " + j);
+							System.out.println(
+									"Data[" + i + "][" + index + "]: " + j);
 						}
 						break;
 					//TODO Add rest, maybe. Not REALLY needed..

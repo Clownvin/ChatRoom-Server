@@ -2,8 +2,6 @@ package com.dew.util;
 
 import java.math.BigInteger;
 
-import com.dew.util.OperatingSystem;
-
 /**
  * 
  * @author Calvin Gene Hall
@@ -49,14 +47,15 @@ public final class BinaryOperations {
 					"Byte array length must be such that length modulo 8 is 0 when converting to doubles.");
 		double[] doubles = new double[bytes.length / 8];
 		for (int i = 0; i < bytes.length; i += 8) {
-			doubles[i / 8] = Double
-					.longBitsToDouble((long) (((long) unsignedByteToShort(bytes[i]) << 56)
+			doubles[i / 8] = Double.longBitsToDouble(
+					((long) unsignedByteToShort(bytes[i]) << 56)
 							| ((long) unsignedByteToShort(bytes[i + 1]) << 48)
 							| ((long) unsignedByteToShort(bytes[i + 2]) << 40)
 							| ((long) unsignedByteToShort(bytes[i + 3]) << 32)
-							| ((int) unsignedByteToShort(bytes[i + 4]) << 24)
-							| ((int) unsignedByteToShort(bytes[i + 5]) << 16)
-							| (unsignedByteToShort(bytes[i + 6]) << 8) | unsignedByteToShort(bytes[i + 7])));
+							| (unsignedByteToShort(bytes[i + 4]) << 24)
+							| (unsignedByteToShort(bytes[i + 5]) << 16)
+							| (unsignedByteToShort(bytes[i + 6]) << 8)
+							| unsignedByteToShort(bytes[i + 7]));
 		}
 		return doubles;
 	}
@@ -74,14 +73,15 @@ public final class BinaryOperations {
 					"Byte array length must be such that length modulo 8 is 0 when converting to doubles.");
 		double[] doubles = new double[(bytes.length - startIdx) / 8];
 		for (int i = startIdx; i < bytes.length; i += 8) {
-			doubles[(i - startIdx) / 8] = Double
-					.longBitsToDouble((long) (((long) unsignedByteToShort(bytes[i]) << 56)
+			doubles[(i - startIdx) / 8] = Double.longBitsToDouble(
+					((long) unsignedByteToShort(bytes[i]) << 56)
 							| ((long) unsignedByteToShort(bytes[i + 1]) << 48)
 							| ((long) unsignedByteToShort(bytes[i + 2]) << 40)
 							| ((long) unsignedByteToShort(bytes[i + 3]) << 32)
-							| ((int) unsignedByteToShort(bytes[i + 4]) << 24)
-							| ((int) unsignedByteToShort(bytes[i + 5]) << 16)
-							| (unsignedByteToShort(bytes[i + 6]) << 8) | unsignedByteToShort(bytes[i + 7])));
+							| (unsignedByteToShort(bytes[i + 4]) << 24)
+							| (unsignedByteToShort(bytes[i + 5]) << 16)
+							| (unsignedByteToShort(bytes[i + 6]) << 8)
+							| unsignedByteToShort(bytes[i + 7]));
 		}
 		return doubles;
 	}
@@ -99,9 +99,12 @@ public final class BinaryOperations {
 		float[] floats = new float[bytes.length / 4];
 		for (int i = 0; i < bytes.length; i += 4) {
 			floats[i / 4] = Float
-					.intBitsToFloat((int) (((int) unsignedByteToShort(bytes[i]) << 24)
-							| ((int) unsignedByteToShort(bytes[i + 1]) << 16)
-							| (unsignedByteToShort(bytes[i + 2]) << 8) | unsignedByteToShort(bytes[i + 3])));
+					.intBitsToFloat(
+							(unsignedByteToShort(bytes[i]) << 24)
+									| (unsignedByteToShort(
+											bytes[i + 1]) << 16)
+									| (unsignedByteToShort(bytes[i + 2]) << 8)
+									| unsignedByteToShort(bytes[i + 3]));
 		}
 		return floats;
 	}
@@ -120,9 +123,12 @@ public final class BinaryOperations {
 		float[] floats = new float[(bytes.length - startIdx) / 4];
 		for (int i = startIdx; i < bytes.length; i += 4) {
 			floats[(i - startIdx) / 4] = Float
-					.intBitsToFloat((int) (((int) unsignedByteToShort(bytes[i]) << 24)
-							| ((int) unsignedByteToShort(bytes[i + 1]) << 16)
-							| (unsignedByteToShort(bytes[i + 2]) << 8) | unsignedByteToShort(bytes[i + 3])));
+					.intBitsToFloat(
+							(unsignedByteToShort(bytes[i]) << 24)
+									| (unsignedByteToShort(
+											bytes[i + 1]) << 16)
+									| (unsignedByteToShort(bytes[i + 2]) << 8)
+									| unsignedByteToShort(bytes[i + 3]));
 		}
 		return floats;
 	}
@@ -139,9 +145,10 @@ public final class BinaryOperations {
 					"Byte array length must be such that length modulo 4 is 0 when converting to integers.");
 		int[] ints = new int[bytes.length / 4];
 		for (int i = 0; i < bytes.length; i += 4) {
-			ints[i / 4] = (int) (((int) unsignedByteToShort(bytes[i]) << 24)
-					| ((int) unsignedByteToShort(bytes[i + 1]) << 16)
-					| (unsignedByteToShort(bytes[i + 2]) << 8) | unsignedByteToShort(bytes[i + 3]));
+			ints[i / 4] = (unsignedByteToShort(bytes[i]) << 24)
+					| (unsignedByteToShort(bytes[i + 1]) << 16)
+					| (unsignedByteToShort(bytes[i + 2]) << 8)
+					| unsignedByteToShort(bytes[i + 3]);
 		}
 		return ints;
 	}
@@ -152,9 +159,11 @@ public final class BinaryOperations {
 					"Byte array length must be such that length modulo 4 is 0 when converting to integers.");
 		int[] ints = new int[(bytes.length - startIdx) / 4];
 		for (int i = startIdx; i < bytes.length; i += 4) {
-			ints[(i - startIdx) / 4] = (int) (((int) unsignedByteToShort(bytes[i]) << 24)
-					| ((int) unsignedByteToShort(bytes[i + 1]) << 16)
-					| (unsignedByteToShort(bytes[i + 2]) << 8) | unsignedByteToShort(bytes[i + 3]));
+			ints[(i - startIdx)
+					/ 4] = (unsignedByteToShort(bytes[i]) << 24)
+							| (unsignedByteToShort(bytes[i + 1]) << 16)
+							| (unsignedByteToShort(bytes[i + 2]) << 8)
+							| unsignedByteToShort(bytes[i + 3]);
 		}
 		return ints;
 	}
@@ -171,13 +180,14 @@ public final class BinaryOperations {
 					"Byte array length must be such that length modulo 8 is 0 when converting to longs.");
 		long[] longs = new long[bytes.length / 8];
 		for (int i = 0; i < bytes.length; i += 8) {
-			longs[i / 8] = (long) (((long) unsignedByteToShort(bytes[i]) << 56)
+			longs[i / 8] = ((long) unsignedByteToShort(bytes[i]) << 56)
 					| ((long) unsignedByteToShort(bytes[i + 1]) << 48)
 					| ((long) unsignedByteToShort(bytes[i + 2]) << 40)
 					| ((long) unsignedByteToShort(bytes[i + 3]) << 32)
-					| ((int) unsignedByteToShort(bytes[i + 4]) << 24)
-					| ((int) unsignedByteToShort(bytes[i + 5]) << 16)
-					| (unsignedByteToShort(bytes[i + 6]) << 8) | unsignedByteToShort(bytes[i + 7]));
+					| (unsignedByteToShort(bytes[i + 4]) << 24)
+					| (unsignedByteToShort(bytes[i + 5]) << 16)
+					| (unsignedByteToShort(bytes[i + 6]) << 8)
+					| unsignedByteToShort(bytes[i + 7]);
 		}
 		return longs;
 	}
@@ -219,14 +229,15 @@ public final class BinaryOperations {
 		if (bytes.length < 8)
 			throw new NumberFormatException(
 					"Byte array length must be at least 8 when converting to double.");
-		return Double
-				.longBitsToDouble((long) (((long) unsignedByteToShort(bytes[0]) << 56)
+		return Double.longBitsToDouble(
+				((long) unsignedByteToShort(bytes[0]) << 56)
 						| ((long) unsignedByteToShort(bytes[1]) << 48)
 						| ((long) unsignedByteToShort(bytes[2]) << 40)
 						| ((long) unsignedByteToShort(bytes[3]) << 32)
-						| ((int) unsignedByteToShort(bytes[4]) << 24)
-						| ((int) unsignedByteToShort(bytes[5]) << 16)
-						| (unsignedByteToShort(bytes[6]) << 8) | unsignedByteToShort(bytes[7])));
+						| (unsignedByteToShort(bytes[4]) << 24)
+						| (unsignedByteToShort(bytes[5]) << 16)
+						| (unsignedByteToShort(bytes[6]) << 8)
+						| unsignedByteToShort(bytes[7]));
 	}
 
 	// TODO Document
@@ -239,14 +250,17 @@ public final class BinaryOperations {
 		if (bytes.length - startIdx < 8)
 			throw new NumberFormatException(
 					"Byte array length must be at least 8 when converting to double.");
-		return Double
-				.longBitsToDouble((long) (((long) unsignedByteToShort(bytes[startIdx]) << 56)
-						| ((long) unsignedByteToShort(bytes[startIdx + 1]) << 48)
-						| ((long) unsignedByteToShort(bytes[startIdx + 2]) << 40)
-						| ((long) unsignedByteToShort(bytes[startIdx + 3]) << 32)
-						| ((int) unsignedByteToShort(bytes[startIdx + 4]) << 24)
-						| ((int) unsignedByteToShort(bytes[startIdx + 5]) << 16)
-						| (unsignedByteToShort(bytes[startIdx + 6]) << 8) | unsignedByteToShort(bytes[7])));
+		return Double.longBitsToDouble(
+				((long) unsignedByteToShort(bytes[startIdx]) << 56)
+						| ((long) unsignedByteToShort(
+								bytes[startIdx + 1]) << 48)
+						| ((long) unsignedByteToShort(
+								bytes[startIdx + 2]) << 40)
+				| ((long) unsignedByteToShort(bytes[startIdx + 3]) << 32)
+				| (unsignedByteToShort(bytes[startIdx + 4]) << 24)
+				| (unsignedByteToShort(bytes[startIdx + 5]) << 16)
+				| (unsignedByteToShort(bytes[startIdx + 6]) << 8)
+				| unsignedByteToShort(bytes[7]));
 	}
 
 	// TODO Document
@@ -259,10 +273,11 @@ public final class BinaryOperations {
 		if (bytes.length < 4)
 			throw new NumberFormatException(
 					"Byte array length must be at least 4 when converting to float.");
-		return Float
-				.intBitsToFloat((int) (((int) unsignedByteToShort(bytes[0]) << 24)
-						| ((int) unsignedByteToShort(bytes[1]) << 16)
-						| (unsignedByteToShort(bytes[2]) << 8) | unsignedByteToShort(bytes[3])));
+		return Float.intBitsToFloat(
+				(unsignedByteToShort(bytes[0]) << 24)
+						| (unsignedByteToShort(bytes[1]) << 16)
+						| (unsignedByteToShort(bytes[2]) << 8)
+						| unsignedByteToShort(bytes[3]));
 	}
 
 	// TODO Document
@@ -276,10 +291,11 @@ public final class BinaryOperations {
 		if (bytes.length - startIdx < 4)
 			throw new NumberFormatException(
 					"Byte array length must be at least 4 when converting to float.");
-		return Float
-				.intBitsToFloat((int) (((int) unsignedByteToShort(bytes[startIdx]) << 24)
-						| ((int) unsignedByteToShort(bytes[startIdx + 1]) << 16)
-						| (unsignedByteToShort(bytes[startIdx + 2]) << 8) | unsignedByteToShort(bytes[startIdx + 3])));
+		return Float.intBitsToFloat(
+				(unsignedByteToShort(bytes[startIdx]) << 24)
+						| (unsignedByteToShort(bytes[startIdx + 1]) << 16)
+						| (unsignedByteToShort(bytes[startIdx + 2]) << 8)
+						| unsignedByteToShort(bytes[startIdx + 3]));
 	}
 
 	// TODO Document
@@ -292,9 +308,10 @@ public final class BinaryOperations {
 		if (bytes.length < 4)
 			throw new NumberFormatException(
 					"Byte array length must be at least 4 when converting to integer.");
-		return (int) (((int) unsignedByteToShort(bytes[0]) << 24)
-				| ((int) unsignedByteToShort(bytes[1]) << 16)
-				| (unsignedByteToShort(bytes[2]) << 8) | unsignedByteToShort(bytes[3]));
+		return (unsignedByteToShort(bytes[0]) << 24)
+				| (unsignedByteToShort(bytes[1]) << 16)
+				| (unsignedByteToShort(bytes[2]) << 8)
+				| unsignedByteToShort(bytes[3]);
 	}
 
 	// TODO Document
@@ -307,18 +324,20 @@ public final class BinaryOperations {
 	public static int bytesToInteger(byte[] bytes, int startIdx) {
 		if (bytes.length - startIdx < 4) {
 			for (byte b : bytes)
-				System.out.print((Integer.toHexString(Byte.toUnsignedInt(b))
-						.length() < 2 ? "0"
-						+ Integer.toHexString(Byte.toUnsignedInt(b)) : Integer
-						.toHexString(Byte.toUnsignedInt(b)))
-						+ " ");
+				System.out.print(
+						(Integer.toHexString(Byte.toUnsignedInt(b)).length() < 2
+								? "0" + Integer
+										.toHexString(Byte.toUnsignedInt(b))
+								: Integer.toHexString(Byte.toUnsignedInt(b)))
+								+ " ");
 			System.out.println();
 			throw new NumberFormatException(
 					"Byte array length must be at least 4 when converting to integer.");
 		}
-		return (int) (((int) unsignedByteToShort(bytes[startIdx]) << 24)
-				| ((int) unsignedByteToShort(bytes[startIdx + 1]) << 16)
-				| (unsignedByteToShort(bytes[startIdx + 2]) << 8) | unsignedByteToShort(bytes[startIdx + 3]));
+		return (unsignedByteToShort(bytes[startIdx]) << 24)
+				| (unsignedByteToShort(bytes[startIdx + 1]) << 16)
+				| (unsignedByteToShort(bytes[startIdx + 2]) << 8)
+				| unsignedByteToShort(bytes[startIdx + 3]);
 	}
 
 	// TODO Document
@@ -331,13 +350,14 @@ public final class BinaryOperations {
 		if (bytes.length < 8)
 			throw new NumberFormatException(
 					"Byte array length must be at least 8 when converting to long.");
-		return (long) (((long) unsignedByteToShort(bytes[0]) << 56)
+		return ((long) unsignedByteToShort(bytes[0]) << 56)
 				| ((long) unsignedByteToShort(bytes[1]) << 48)
 				| ((long) unsignedByteToShort(bytes[2]) << 40)
 				| ((long) unsignedByteToShort(bytes[3]) << 32)
-				| ((int) unsignedByteToShort(bytes[4]) << 24)
-				| ((int) unsignedByteToShort(bytes[5]) << 16)
-				| (unsignedByteToShort(bytes[6]) << 8) | unsignedByteToShort(bytes[7]));
+				| (unsignedByteToShort(bytes[4]) << 24)
+				| (unsignedByteToShort(bytes[5]) << 16)
+				| (unsignedByteToShort(bytes[6]) << 8)
+				| unsignedByteToShort(bytes[7]);
 	}
 
 	// TODO Document
@@ -351,13 +371,14 @@ public final class BinaryOperations {
 		if (bytes.length - startIdx < 8)
 			throw new NumberFormatException(
 					"Byte array length must be at least 8 when converting to long.");
-		return (long) (((long) unsignedByteToShort(bytes[startIdx]) << 56)
+		return ((long) unsignedByteToShort(bytes[startIdx]) << 56)
 				| ((long) unsignedByteToShort(bytes[startIdx + 1]) << 48)
 				| ((long) unsignedByteToShort(bytes[startIdx + 2]) << 40)
 				| ((long) unsignedByteToShort(bytes[startIdx + 3]) << 32)
-				| ((int) unsignedByteToShort(bytes[startIdx + 4]) << 24)
-				| ((int) unsignedByteToShort(bytes[startIdx + 5]) << 16)
-				| (unsignedByteToShort(bytes[startIdx + 6]) << 8) | unsignedByteToShort(bytes[startIdx + 7]));
+				| (unsignedByteToShort(bytes[startIdx + 4]) << 24)
+				| (unsignedByteToShort(bytes[startIdx + 5]) << 16)
+				| (unsignedByteToShort(bytes[startIdx + 6]) << 8)
+				| unsignedByteToShort(bytes[startIdx + 7]);
 	}
 
 	// TODO Document
@@ -370,7 +391,8 @@ public final class BinaryOperations {
 		if (bytes.length < 2)
 			throw new NumberFormatException(
 					"Byte array length must be at least 2 when converting to short.");
-		return (short) ((unsignedByteToShort(bytes[0]) << 8) | unsignedByteToShort(bytes[1]));
+		return (short) ((unsignedByteToShort(bytes[0]) << 8)
+				| unsignedByteToShort(bytes[1]));
 	}
 
 	// TODO Document
@@ -384,7 +406,8 @@ public final class BinaryOperations {
 		if (bytes.length - startIdx < 2)
 			throw new NumberFormatException(
 					"Byte array length must be at least 2 when converting to short.");
-		return (short) ((unsignedByteToShort(bytes[startIdx]) << 8) | unsignedByteToShort(bytes[startIdx + 1]));
+		return (short) ((unsignedByteToShort(bytes[startIdx]) << 8)
+				| unsignedByteToShort(bytes[startIdx + 1]));
 	}
 
 	// TODO Document
@@ -597,7 +620,7 @@ public final class BinaryOperations {
 		}
 		return bytes;
 	}
-	
+
 	public static byte[] toBytes(String thisString) {
 		return characterArrayToByteArray(thisString.toCharArray());
 	}

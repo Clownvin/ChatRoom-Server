@@ -14,6 +14,18 @@ import com.dew.util.ServerClock;
 
 public final class ServerIO {
 
+	private static boolean runtimeLog = false;
+
+	private static boolean showTime = false;
+
+	private static Logger logger = null;
+
+	private static final ServerIO SINGLETON = new ServerIO();
+
+	static {
+		logger = new Logger();
+	}
+
 	public static ServerIO getSingleton() {
 		return SINGLETON;
 	}
@@ -31,8 +43,8 @@ public final class ServerIO {
 		if (showTime) {
 			System.out.println("[" + ServerClock.getTime() + "]" + s);
 			if (Server.getShowGUI())
-				ConsoleManager.addConsoleMessage("[" + ServerClock.getTime()
-						+ "]" + s);
+				ConsoleManager.addConsoleMessage(
+						"[" + ServerClock.getTime() + "]" + s);
 		} else {
 			System.out.println(s);
 			if (Server.getShowGUI())
@@ -74,11 +86,11 @@ public final class ServerIO {
 	public static void printDebug(String s) {
 		if (Server.getDebug()) {
 			if (showTime) {
-				System.out.println("[" + ServerClock.getTime() + "][<DEBUG>]"
-						+ s);
+				System.out.println(
+						"[" + ServerClock.getTime() + "][<DEBUG>]" + s);
 				if (Server.getShowGUI())
-					ConsoleManager.addConsoleMessage("["
-							+ ServerClock.getTime() + "][<DEBUG>]" + s);
+					ConsoleManager.addConsoleMessage(
+							"[" + ServerClock.getTime() + "][<DEBUG>]" + s);
 			} else {
 				System.out.println("[<DEBUG>]" + s);
 				if (Server.getShowGUI())
@@ -86,7 +98,8 @@ public final class ServerIO {
 			}
 			if (runtimeLog) {
 				if (showTime)
-					logger.write("[" + ServerClock.getTime() + "][<DEBUG>]" + s);
+					logger.write(
+							"[" + ServerClock.getTime() + "][<DEBUG>]" + s);
 				else
 					logger.write("[<DEBUG>]" + s);
 			}
@@ -97,8 +110,8 @@ public final class ServerIO {
 		if (showTime) {
 			System.err.println("[" + ServerClock.getTime() + "]" + s);
 			if (Server.getShowGUI())
-				ConsoleManager.addConsoleMessage("[" + ServerClock.getTime()
-						+ "]" + s);
+				ConsoleManager.addConsoleMessage(
+						"[" + ServerClock.getTime() + "]" + s);
 		} else {
 			System.err.println(s);
 			if (Server.getShowGUI())
@@ -165,18 +178,6 @@ public final class ServerIO {
 			}
 			e.printStackTrace();
 		}
-	}
-
-	private static boolean runtimeLog = false;
-
-	private static boolean showTime = false;
-
-	private static Logger logger = null;
-
-	private static final ServerIO SINGLETON = new ServerIO();
-
-	static {
-		logger = new Logger();
 	}
 
 	private ServerIO() {

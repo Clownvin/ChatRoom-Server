@@ -42,8 +42,8 @@ public final class ThreadPool extends Thread {
 						} while (!task.reachedEnd());
 						task.end();
 					} catch (Exception e) {
-						System.err
-								.println("Worker thread caught uncaught exception thrown by task: "
+						System.err.println(
+								"Worker thread caught uncaught exception thrown by task: "
 										+ task.toString()
 										+ ".\nSee below for stack trace.");
 						e.printStackTrace();
@@ -51,6 +51,24 @@ public final class ThreadPool extends Thread {
 				}
 			}
 		}
+	}
+
+	private static final int DEFAULT_WORKERTHREADS_LENGTH = 20;
+
+	private static final int DEFAULT_QUEUEDTASKS_LENGTH = 10000;
+
+	private static WorkerThread[] workerThreads = new WorkerThread[DEFAULT_WORKERTHREADS_LENGTH];
+
+	private static final CyclicArrayList<ThreadTask> queuedTasks = new CyclicArrayList<ThreadTask>(
+			DEFAULT_QUEUEDTASKS_LENGTH);
+
+	private static final ThreadPool SINGLETON = new ThreadPool();
+	private static final Object TASK_NOTIFICATION = new Object();
+	static {
+		for (int i = 0; i < workerThreads.length; i++) {
+			workerThreads[i] = new WorkerThread();
+		}
+		SINGLETON.start();
 	}
 
 	public static boolean addTask(ThreadTask task) {
@@ -63,7 +81,8 @@ public final class ThreadPool extends Thread {
 			}
 			return true;
 		} catch (com.dew.util.MaximumCapacityReachedException e) {
-			ServerIO.printErr("[ThreadPool] Caught MaximumCapacityReached exception for task queue.");
+			ServerIO.printErr(
+					"[ThreadPool] Caught MaximumCapacityReached exception for task queue.");
 		}
 		return false;
 	}
@@ -89,24 +108,6 @@ public final class ThreadPool extends Thread {
 			}
 		}
 		queuedTasks.setCapacity(size);
-	}
-
-	private static final int DEFAULT_WORKERTHREADS_LENGTH = 20;
-	private static final int DEFAULT_QUEUEDTASKS_LENGTH = 10000;
-	private static WorkerThread[] workerThreads = new WorkerThread[DEFAULT_WORKERTHREADS_LENGTH];
-
-	private static final CyclicArrayList<ThreadTask> queuedTasks = new CyclicArrayList<ThreadTask>(
-			DEFAULT_QUEUEDTASKS_LENGTH);
-
-	private static final ThreadPool SINGLETON = new ThreadPool();
-
-	private static final Object TASK_NOTIFICATION = new Object();
-
-	static {
-		for (int i = 0; i < workerThreads.length; i++) {
-			workerThreads[i] = new WorkerThread();
-		}
-		SINGLETON.start();
 	}
 
 	private ThreadPool() {

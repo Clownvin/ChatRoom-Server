@@ -163,8 +163,8 @@ public final class Logger {
 					+ "/" + day2 + " of " + month + " "
 					+ dateFormat.format(date) + " - " + day + ".log");
 			if (!logFile.exists()) {
-				bufferedWriter = new BufferedWriter(new FileWriter(logFile,
-						true));
+				bufferedWriter = new BufferedWriter(
+						new FileWriter(logFile, true));
 				printWriter = new PrintWriter(bufferedWriter);
 				dateFormat = new SimpleDateFormat("MM/dd/yyyy");
 				bufferedWriter.write("--[Server log for date: "
@@ -174,13 +174,13 @@ public final class Logger {
 				bufferedWriter.newLine();
 				bufferedWriter.flush();
 			} else {
-				bufferedWriter = new BufferedWriter(new FileWriter(logFile,
-						true));
+				bufferedWriter = new BufferedWriter(
+						new FileWriter(logFile, true));
 				printWriter = new PrintWriter(bufferedWriter);
 			}
 		} catch (IOException e) {
-			ServerIO.printErr("[" + this
-					+ "] IOException occured while starting up.");
+			ServerIO.printErr(
+					"[" + this + "] IOException occured while starting up.");
 			ServerIO.writeException(e);
 		}
 	}
@@ -201,8 +201,8 @@ public final class Logger {
 			bufferedWriter.newLine();
 			bufferedWriter.flush();
 		} catch (IOException e) {
-			ServerIO.printErr("[" + this
-					+ "] IOException occured while writing data.");
+			ServerIO.printErr(
+					"[" + this + "] IOException occured while writing data.");
 			ServerIO.writeException(e);
 		}
 	}

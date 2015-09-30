@@ -15,16 +15,32 @@ import com.dew.packets.Packet;
  */
 
 public final class SubServerManager {
+	private static final ArrayList<SubServer> SUB_SERVERS = new ArrayList<SubServer>();
+
+	private static double percentToCreateSub = 1.0D;
+
+	private static int maxSubs = 10;
+
+	private static int subServerMaxSize = 100;
+
+	private static final SubServerManager SINGLETON = new SubServerManager();
+
+	static {
+		ServerIO.print(
+				"[SubServerManager] SubServerManager is up and running.");
+	}
+
 	public static void add(SubServer server) {
 		SUB_SERVERS.add(server);
 	}
 
 	public static boolean allSubServersFull() {
 		for (int i = 0; i < size(); i++) {
-			if ((SUB_SERVERS.get(i).getSize() < (getPercentToCreateSub() * subServerMaxSize) && SUB_SERVERS
-					.size() < getMaxSubs())
-					|| (SUB_SERVERS.get(i).getSize() < subServerMaxSize && SUB_SERVERS
-							.size() == getMaxSubs())) {
+			if ((SUB_SERVERS.get(i)
+					.getSize() < (getPercentToCreateSub() * subServerMaxSize)
+					&& SUB_SERVERS.size() < getMaxSubs())
+					|| (SUB_SERVERS.get(i).getSize() < subServerMaxSize
+							&& SUB_SERVERS.size() == getMaxSubs())) {
 				return false;
 			}
 		}
@@ -86,7 +102,8 @@ public final class SubServerManager {
 			try {
 				subServer.join(30000);
 			} catch (InterruptedException e) {
-				ServerIO.printErr("[SubServerManager] InterruptedException occurred while killing all SubServers.");
+				ServerIO.printErr(
+						"[SubServerManager] InterruptedException occurred while killing all SubServers.");
 				ServerIO.writeException(e);
 			}
 		}
@@ -95,23 +112,26 @@ public final class SubServerManager {
 	public static void listSubServers() {
 		ServerIO.print("[SubServerManager] Currently active SubServers: "
 				+ SUB_SERVERS.size());
-		ServerIO.print("-----------------------------------------------------------");
+		ServerIO.print(
+				"-----------------------------------------------------------");
 		DecimalFormat df = new DecimalFormat("#");
 		df.setMaximumFractionDigits(8);
 		for (SubServer subServer : SUB_SERVERS) {
 			ServerIO.print(subServer + "; Population: " + subServer.getSize()
-					+ ", POC: " + (subServer.getSize() / getSubServerMaxSize())
-					* 100 + "%");
+					+ ", POC: "
+					+ (subServer.getSize() / getSubServerMaxSize()) * 100
+					+ "%");
 		}
-		ServerIO.print("-----------------------------------------------------------");
+		ServerIO.print(
+				"-----------------------------------------------------------");
 	}
-	
+
 	public static void sendPacketToAll(Packet packet) {
 		for (SubServer server : SUB_SERVERS) {
 			server.sendPacketToAll(packet);
 		}
 	}
-	
+
 	public static void sendPacketToAllLoggedIn(Packet packet) {
 		for (SubServer server : SUB_SERVERS) {
 			server.sendPacketToAllLoggedIn(packet);
@@ -141,20 +161,6 @@ public final class SubServerManager {
 			}
 		}
 		return false;
-	}
-
-	private static final ArrayList<SubServer> SUB_SERVERS = new ArrayList<SubServer>();
-
-	private static double percentToCreateSub = 1.0D;
-
-	private static int maxSubs = 10;
-
-	private static int subServerMaxSize = 100;
-
-	private static final SubServerManager SINGLETON = new SubServerManager();
-
-	static {
-		ServerIO.print("[SubServerManager] SubServerManager is up and running.");
 	}
 
 	private SubServerManager() {

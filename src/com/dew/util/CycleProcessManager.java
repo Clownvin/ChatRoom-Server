@@ -13,26 +13,6 @@ import com.dew.server.Server;
  */
 
 public final class CycleProcessManager extends Thread implements Runnable {
-	public static void addProcess(CycleProcess process) {
-		CYCLE_PROCESSES.add(process);
-		synchronized (SINGLETON) {
-			SINGLETON.notify();
-		}
-	}
-
-	public static CycleProcessManager getSingleton() {
-		return SINGLETON;
-	}
-
-	public static void kill() {
-		kill = true;
-	}
-
-	public static void removeProcess(final CycleProcess process) {
-		process.end();
-		CYCLE_PROCESSES.remove(process);
-	}
-
 	private static volatile boolean kill = false;
 
 	private static long lastTime = 0L;
@@ -51,6 +31,26 @@ public final class CycleProcessManager extends Thread implements Runnable {
 
 	static {
 		SINGLETON.start();
+	}
+
+	public static void addProcess(CycleProcess process) {
+		CYCLE_PROCESSES.add(process);
+		synchronized (SINGLETON) {
+			SINGLETON.notify();
+		}
+	}
+
+	public static CycleProcessManager getSingleton() {
+		return SINGLETON;
+	}
+
+	public static void kill() {
+		kill = true;
+	}
+
+	public static void removeProcess(final CycleProcess process) {
+		process.end();
+		CYCLE_PROCESSES.remove(process);
 	}
 
 	private CycleProcessManager() {
@@ -76,7 +76,8 @@ public final class CycleProcessManager extends Thread implements Runnable {
 		DECIMAL_FORMAT.setMaximumFractionDigits(8);
 		//Oscillate
 		boolean oscillationFlag = false;
-		ServerIO.print("[CycleProcessManager] CycleProcessManager is up and running.");
+		ServerIO.print(
+				"[CycleProcessManager] CycleProcessManager is up and running.");
 		while (!kill) {
 			while (CYCLE_PROCESSES.size() == 0)
 				synchronized (SINGLETON) {
@@ -93,8 +94,9 @@ public final class CycleProcessManager extends Thread implements Runnable {
 						if (CYCLE_PROCESSES.get(i) != null) {
 							if (CYCLE_PROCESSES.get(i).endConditionMet()) {
 								CYCLE_PROCESSES.get(i).end();
-								ServerIO.printDebug("[CycleProcessManager] Removing CycleProcess: "
-										+ CYCLE_PROCESSES.get(i));
+								ServerIO.printDebug(
+										"[CycleProcessManager] Removing CycleProcess: "
+												+ CYCLE_PROCESSES.get(i));
 								CYCLE_PROCESSES.remove(i);
 							} else {
 								CYCLE_PROCESSES.get(i).process();
@@ -108,8 +110,9 @@ public final class CycleProcessManager extends Thread implements Runnable {
 						if (CYCLE_PROCESSES.get(i) != null) {
 							if (CYCLE_PROCESSES.get(i).endConditionMet()) {
 								CYCLE_PROCESSES.get(i).end();
-								ServerIO.printDebug("[CycleProcessManager] Removing CycleProcess: "
-										+ CYCLE_PROCESSES.get(i));
+								ServerIO.printDebug(
+										"[CycleProcessManager] Removing CycleProcess: "
+												+ CYCLE_PROCESSES.get(i));
 								CYCLE_PROCESSES.remove(i);
 							} else {
 								CYCLE_PROCESSES.get(i).process();
@@ -125,22 +128,22 @@ public final class CycleProcessManager extends Thread implements Runnable {
 			lastTime = System.nanoTime();
 			if ((System.nanoTime() - startOfBlockTime) / 60000000000.0D >= 5) {
 				startOfBlockTime = System.nanoTime();
-				ServerIO.print("["
-						+ this
-						+ "] Average cycle time over 5 minutes: "
-						+ DECIMAL_FORMAT
-								.format(getAverageTimeMilliseconds(true))
-						+ "ms.");
+				ServerIO.print(
+						"[" + this + "] Average cycle time over 5 minutes: "
+								+ DECIMAL_FORMAT.format(
+										getAverageTimeMilliseconds(true))
+								+ "ms.");
 			}
 			if (Server.getLowCPU()) {
 				try {
-					sleep(1); // No wait calls, needs to be at peak efficiency.
+					sleep(1);// No wait calls, needs to be at peak efficiency.
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
 			}
 		}
-		ServerIO.printDebug("[CycleProcessManager] CycleProcessManager was killed.");
+		ServerIO.printDebug(
+				"[CycleProcessManager] CycleProcessManager was killed.");
 	}
 
 	@Override

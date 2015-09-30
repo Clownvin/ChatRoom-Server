@@ -1,7 +1,5 @@
 package com.dew.util;
 
-import com.dew.util.OperatingSystem;
-
 /**
  * 
  * @author Calvin Gene Hall
@@ -9,8 +7,8 @@ import com.dew.util.OperatingSystem;
  */
 
 public enum OperatingSystem {
-	LINUX("Linux", -1, -30, 14), WINDOWS8_1("Windows 8.1", -8, -31, 14), UNKNOWN(
-			"Unknown", 0, 0, 0);
+	LINUX("Linux", -1, -30, 14), WINDOWS8_1("Windows 8.1", -8, -31,
+			14), UNKNOWN("Unknown", 0, 0, 0);
 
 	public static OperatingSystem getOperatingSystem() {
 		switch (System.getProperty("os.name")) {
@@ -19,8 +17,8 @@ public enum OperatingSystem {
 		case "Windows 8.1":
 			return WINDOWS8_1;
 		default:
-			System.out.println("Unknown OS Detected. "
-					+ System.getProperty("os.name"));
+			System.out.println(
+					"Unknown OS Detected. " + System.getProperty("os.name"));
 			return UNKNOWN;
 		}
 	}
@@ -29,8 +27,8 @@ public enum OperatingSystem {
 
 	private final int xDiff, yDiff, endChar;
 
-	private OperatingSystem(final String name, final int xDiff,
-			final int yDiff, final int endChar) {
+	private OperatingSystem(final String name, final int xDiff, final int yDiff,
+			final int endChar) {
 		this.name = name;
 		this.xDiff = xDiff;
 		this.yDiff = yDiff;

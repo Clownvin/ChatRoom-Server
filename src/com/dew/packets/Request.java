@@ -9,10 +9,10 @@ import java.io.Serializable;
  */
 
 public enum Request implements Serializable {
-	NULL((byte) 0), ATTEMPT_LOGIN((byte) 1), SUCCESSFUL_LOGIN((byte) 2), ERROR_LOGIN(
-			(byte) 3), LOGOUT((byte) 4), WARNING((byte) 5), SUCCESSFUL_LOGOUT(
-			(byte) 6), MESSAGE((byte) 7), ATTRIBUTE_GET((byte) 8) { 
-		public final int GET_MAX_USERNAME_CHARS = 1;} ;
+	NULL((byte) 0), ATTEMPT_LOGIN((byte) 1), SUCCESSFUL_LOGIN(
+			(byte) 2), ERROR_LOGIN((byte) 3), LOGOUT((byte) 4), WARNING(
+					(byte) 5), SUCCESSFUL_LOGOUT((byte) 6), MESSAGE(
+							(byte) 7), ATTRIBUTE_GET((byte) 8);
 	public static Request getRequest(byte b) {
 		switch (b) {
 		case 0:

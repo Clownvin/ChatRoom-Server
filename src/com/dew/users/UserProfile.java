@@ -31,6 +31,7 @@ public final class UserProfile implements FileManagerWriteable {
 		this.z = z;
 	}
 
+	@Override
 	public UserProfile fromBytes(byte[][] bytes) {
 		String newUsername = new String(
 				BinaryOperations.byteArrayToCharacterArray(bytes[0]));
@@ -82,12 +83,13 @@ public final class UserProfile implements FileManagerWriteable {
 		password = newPassword;
 	}
 
+	@Override
 	public byte[][] toBytes() {
 		byte[][] bytes = new byte[3][];
-		bytes[0] = BinaryOperations.characterArrayToByteArray(username
-				.toCharArray());
-		bytes[1] = BinaryOperations.characterArrayToByteArray(password
-				.toCharArray());
+		bytes[0] = BinaryOperations
+				.characterArrayToByteArray(username.toCharArray());
+		bytes[1] = BinaryOperations
+				.characterArrayToByteArray(password.toCharArray());
 		bytes[2] = new byte[16];
 		int index = 0;
 		for (byte b : BinaryOperations.toBytes(x)) {

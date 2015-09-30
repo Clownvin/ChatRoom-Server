@@ -62,13 +62,14 @@ public final class Connection implements CycleProcess {
 						if (waitingPackets.size() < WAITINGPACKET_LIMIT) {
 							newPacket.setServersideData(new ServersideData());
 							newPacket.getServersideData().userID = userID;
-							newPacket.getServersideData().username = getUsername();
+							newPacket
+									.getServersideData().username = getUsername();
 							synchronized (waitingPackets) {
 								waitingPackets.add(newPacket);
 							}
 						} else {
 							sendUrgentPacket(OVERFLOW_WARNING_PACKET);
-							if (in.available() > averagePacketSize * 5) {  // They haven't heeded warning, so cutting connection.
+							if (in.available() > averagePacketSize * 5) {// They haven't heeded warning, so cutting connection.
 								in.close();
 								out.close();
 								streamAlive = false;
@@ -85,8 +86,7 @@ public final class Connection implements CycleProcess {
 				try {
 					sleep(1);
 				} catch (InterruptedException e) {
-					ServerIO.printErr("["
-							+ this
+					ServerIO.printErr("[" + this
 							+ "] Unexpected interrupt. Line 107 : UserConnection.PacketGrabber.run()");
 				}
 			}
@@ -98,11 +98,12 @@ public final class Connection implements CycleProcess {
 			return getUsername() + "@" + ip + "'s packetGrabber";
 		}
 	}
+
 	private static final int WAITINGPACKET_LIMIT = 4;
 	//TODO Sort packets by urgency
 	private static final Packet OVERFLOW_WARNING_PACKET = Packet.buildPacket(
-			Protocall.URGENT, Request.WARNING, new PacketData(DataType.INT,
-					false).setObject(1)); // Warning packet data = warning code
+			Protocall.URGENT, Request.WARNING,
+			new PacketData(DataType.INT, false).setObject(1));// Warning packet data = warning code
 	private final SubServer subServer;
 	private final Socket socket;
 	private final InputStream in;
@@ -183,22 +184,22 @@ public final class Connection implements CycleProcess {
 	@Override
 	public void process() {
 		synchronized (outgoingPackets) {
-		while (outgoingPackets.size() > 0 && !killed()) {
-			try {
-				if (outgoingPackets.get(0) != null) {
-					out.write(Utilities.streamFormat(Packet
-							.toBytes(outgoingPackets.get(0))));
-					out.flush();
+			while (outgoingPackets.size() > 0 && !killed()) {
+				try {
+					if (outgoingPackets.get(0) != null) {
+						out.write(Utilities.streamFormat(
+								Packet.toBytes(outgoingPackets.get(0))));
+						out.flush();
+					}
+					outgoingPackets.remove(0);
+				} catch (IOException e) {
+					ServerIO.printErr("[" + getUsername() + "@" + ip
+							+ "] Error. Output exception.");
+					ServerIO.writeException(e);
+					kill = true;// A little melodramatic, aren't we? ;)
+					outgoingPackets.clear();
 				}
-				outgoingPackets.remove(0);
-			} catch (IOException e) {
-				ServerIO.printErr("[" + getUsername() + "@" + ip
-						+ "] Error. Output exception.");
-				ServerIO.writeException(e);
-				kill = true; // A little melodramatic, aren't we? ;)
-				outgoingPackets.clear();
 			}
-		}
 		}
 		if (waitingPackets.size() > 0) {
 			synchronized (waitingPackets) {
@@ -221,8 +222,8 @@ public final class Connection implements CycleProcess {
 
 	public boolean sendUrgentPacket(Packet packet) {
 		try {
-			out.write(Utilities.streamFormat(Packet.toBytes(packet
-					.setProtocall(Protocall.URGENT))));
+			out.write(Utilities.streamFormat(
+					Packet.toBytes(packet.setProtocall(Protocall.URGENT))));
 			out.flush();
 			return true;
 		} catch (IOException e) {

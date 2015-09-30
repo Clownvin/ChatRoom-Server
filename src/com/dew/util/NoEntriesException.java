@@ -3,8 +3,8 @@ package com.dew.util;
 public class NoEntriesException extends Exception {
 
 	/**
-     * 
-     */
+	 * 
+	 */
 	private static final long serialVersionUID = -2917539725499092759L;
 
 	public NoEntriesException(String s) {

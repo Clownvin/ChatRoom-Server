@@ -1,24 +1,15 @@
 package com.dew.server;
 
-import java.io.IOException;
-import java.net.Socket;
-import java.net.SocketAddress;
-import java.net.UnknownHostException;
-
 import com.dew.connection.ConnectionAcceptor;
 import com.dew.io.BackupTask;
 import com.dew.io.ConsoleManager;
 import com.dew.io.FileManager;
 import com.dew.io.ServerIO;
-import com.dew.packets.Packet;
 import com.dew.packets.PacketHandler;
-import com.dew.packets.Protocall;
-import com.dew.packets.Request;
 import com.dew.threading.ThreadPool;
 import com.dew.users.UserDatabase;
 import com.dew.util.CycleProcessManager;
 import com.dew.util.ServerClock;
-import com.dew.util.Utilities;
 
 /**
  * 
@@ -26,6 +17,41 @@ import com.dew.util.Utilities;
  * 
  */
 public final class Server extends Thread implements Runnable {
+
+	private static ConnectionAcceptor CONNECTION_ACCEPTOR;
+
+	private static boolean showGUI = false;
+
+	private static boolean lowCPU = false;
+
+	private static boolean debug = false;
+
+	private static volatile boolean kill = false;
+
+	private static volatile boolean shuttingDown = false;
+
+	private final static UserDatabase USER_DATABASE = UserDatabase
+			.getSingleton();
+
+	private final static ConsoleManager CONSOLE_MANAGER = ConsoleManager
+			.getSingleton();
+
+	private final static FileManager FILE_MANAGER = FileManager.getSingleton();
+
+	private final static ServerIO SERVER_IO = ServerIO.getSingleton();
+
+	private final static PacketHandler PACKET_HANDLER = PacketHandler
+			.getSingleton();
+
+	private final static SubServerManager SUB_SERVER_MANAGER = SubServerManager
+			.getSingleton();
+
+	private final static CycleProcessManager CYCLE_PROCESS_MANAGER = CycleProcessManager
+			.getSingleton();
+
+	private final static ServerClock SERVER_CLOCK = ServerClock.getSingleton();
+
+	private static Server SERVER = null;
 
 	public static ConnectionAcceptor getConnectionAcceptor() {
 		return CONNECTION_ACCEPTOR;
@@ -50,7 +76,7 @@ public final class Server extends Thread implements Runnable {
 	public static boolean getLowCPU() {
 		return lowCPU;
 	}
-	
+
 	public static PacketHandler getPacketHandler() {
 		return PACKET_HANDLER;
 	}
@@ -121,43 +147,43 @@ public final class Server extends Thread implements Runnable {
 				s = true;
 			} else if (args[i].equalsIgnoreCase("-help")) {
 				System.out.println("Known arguments:");
-				System.out
-						.println("-port #       -  Set the port that the ConnectionAcceptor uses.");
-				System.out
-						.println("-lowcpu       -  Server less CPU consumptive.");
-				System.out
-						.println("-s #          -  Set SubServer connection limit. Will make more SubServers if limit reached.");
-				System.out
-						.println("-r            -  Runtime log logs server activity in external text file serverlog.log");
-				System.out
-						.println("-d            -  Debug Mode. Server outputs exception traces instead of hiding them.");
-				System.out
-						.println("-t            -  Set the Server's print methods to display the time when print is called.");
-				System.out
-						.println("-p #.#        -  Set the % max population at which server creates a new sub to share load.");
-				System.out
-						.println("-ms #         -  Set the max number of sub servers.");
+				System.out.println(
+						"-port #       -  Set the port that the ConnectionAcceptor uses.");
+				System.out.println(
+						"-lowcpu       -  Server less CPU consumptive.");
+				System.out.println(
+						"-s #          -  Set SubServer connection limit. Will make more SubServers if limit reached.");
+				System.out.println(
+						"-r            -  Runtime log logs server activity in external text file serverlog.log");
+				System.out.println(
+						"-d            -  Debug Mode. Server outputs exception traces instead of hiding them.");
+				System.out.println(
+						"-t            -  Set the Server's print methods to display the time when print is called.");
+				System.out.println(
+						"-p #.#        -  Set the % max population at which server creates a new sub to share load.");
+				System.out.println(
+						"-ms #         -  Set the max number of sub servers.");
 				System.out.println("-help         -  Displays this menu.");
 				return;
 			} else {
-				System.out.println("Unknown argument '" + args[i]
-						+ "'. Known arguments:");
-				System.out
-						.println("-port #       -  Set the port that the ConnectionAcceptor uses.");
-				System.out
-						.println("-lowcpu       -  Server less CPU consumptive.");
-				System.out
-						.println("-s #          -  Set SubServer connection limit. Will make more SubServers if limit reached.");
-				System.out
-						.println("-r            -  Runtime log logs server activity in external text file serverlog.log");
-				System.out
-						.println("-d            -  Debug Mode. Server outputs exception traces instead of hiding them.");
-				System.out
-						.println("-t            -  Set the Server's print methods to display the time when print is called.");
-				System.out
-						.println("-p #.#        -  Set the % max population at which server creates a new sub to share load.");
-				System.out
-						.println("-ms #         -  Set the max number of sub servers.");
+				System.out.println(
+						"Unknown argument '" + args[i] + "'. Known arguments:");
+				System.out.println(
+						"-port #       -  Set the port that the ConnectionAcceptor uses.");
+				System.out.println(
+						"-lowcpu       -  Server less CPU consumptive.");
+				System.out.println(
+						"-s #          -  Set SubServer connection limit. Will make more SubServers if limit reached.");
+				System.out.println(
+						"-r            -  Runtime log logs server activity in external text file serverlog.log");
+				System.out.println(
+						"-d            -  Debug Mode. Server outputs exception traces instead of hiding them.");
+				System.out.println(
+						"-t            -  Set the Server's print methods to display the time when print is called.");
+				System.out.println(
+						"-p #.#        -  Set the % max population at which server creates a new sub to share load.");
+				System.out.println(
+						"-ms #         -  Set the max number of sub servers.");
 				System.out.println("-help         -  Displays this menu.");
 				return;
 			}
@@ -184,48 +210,13 @@ public final class Server extends Thread implements Runnable {
 		}
 	}
 
-	private static ConnectionAcceptor CONNECTION_ACCEPTOR;
-
-	private static boolean showGUI = false;
-
-	private static boolean lowCPU = false;
-
-	private static boolean debug = false;
-
-	private static volatile boolean kill = false;
-
-	private static volatile boolean shuttingDown = false;
-
-	private final static UserDatabase USER_DATABASE = UserDatabase
-			.getSingleton();
-
-	private final static ConsoleManager CONSOLE_MANAGER = ConsoleManager
-			.getSingleton();
-
-	private final static FileManager FILE_MANAGER = FileManager.getSingleton();
-
-	private final static ServerIO SERVER_IO = ServerIO.getSingleton();
-
-	private final static PacketHandler PACKET_HANDLER = PacketHandler
-			.getSingleton();
-
-	private final static SubServerManager SUB_SERVER_MANAGER = SubServerManager
-			.getSingleton();
-
-	private final static CycleProcessManager CYCLE_PROCESS_MANAGER = CycleProcessManager
-			.getSingleton();
-
-	private final static ServerClock SERVER_CLOCK = ServerClock.getSingleton();
-
-	private static Server SERVER = null;
-
 	private Server(boolean d, boolean r, boolean l, boolean s, int m, int ms,
 			double p, int port) {
 		SERVER = this;
-//		DecimalFormat s3 = new DecimalFormat("#");
-//		for (int i = 1; i < 451; i++) {
-//			System.out.println(i +" : "+s3.format(Math.pow((i * 100), 2) / 50));
-//		}
+		//		DecimalFormat s3 = new DecimalFormat("#");
+		//		for (int i = 1; i < 451; i++) {
+		//			System.out.println(i +" : "+s3.format(Math.pow((i * 100), 2) / 50));
+		//		}
 		CONNECTION_ACCEPTOR = new ConnectionAcceptor(port);
 		Server.debug = d;
 		ServerIO.setRuntimeLog(r);
@@ -240,8 +231,8 @@ public final class Server extends Thread implements Runnable {
 		if (s)
 			ServerIO.print("[" + this + "] Will display console.");
 		if (l)
-			ServerIO.print("[" + this
-					+ "] Reducing CPU through 1ms sleep calls.");
+			ServerIO.print(
+					"[" + this + "] Reducing CPU through 1ms sleep calls.");
 		if (m != -1) {
 			SubServerManager.setSubServerMaxSize(m);
 			ServerIO.print("[" + this + "] SubServer max connections set to "
@@ -253,8 +244,7 @@ public final class Server extends Thread implements Runnable {
 		}
 		if (p != -1.0D) {
 			SubServerManager.setPercentToCreateSub(p);
-			ServerIO.print("["
-					+ this
+			ServerIO.print("[" + this
 					+ "] New SubServers will be created when all SubServers are "
 					+ p * 100 + "% full.");
 		}
@@ -264,8 +254,8 @@ public final class Server extends Thread implements Runnable {
 	@Override
 	public void run() {
 		ThreadPool.addTask(new BackupTask());
-		SubServerManager.add(new SubServer(0, SubServerManager
-				.getSubServerMaxSize()));
+		SubServerManager
+				.add(new SubServer(0, SubServerManager.getSubServerMaxSize()));
 		CONNECTION_ACCEPTOR.start();
 		Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
 

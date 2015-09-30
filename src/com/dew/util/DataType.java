@@ -1,7 +1,5 @@
 package com.dew.util;
 
-import com.dew.util.DataType;
-
 /**
  * 
  * @author Calvin Gene Hall
@@ -9,9 +7,9 @@ import com.dew.util.DataType;
  */
 
 public enum DataType {
-	UNKNOWN((byte) -1), STRING((byte) 0), INT((byte) 1), DOUBLE((byte) 2), BOOLEAN(
-			(byte) 3), LONG((byte) 4), FLOAT((byte) 5), VOID((byte) 6), BYTE(
-			(byte) 7);
+	UNKNOWN((byte) -1), STRING((byte) 0), INT((byte) 1), DOUBLE(
+			(byte) 2), BOOLEAN((byte) 3), LONG((byte) 4), FLOAT((byte) 5), VOID(
+					(byte) 6), BYTE((byte) 7);
 	public static DataType getDataType(byte b) {
 		switch (b) {
 		case 0:

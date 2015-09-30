@@ -23,6 +23,32 @@ import com.dew.util.CyclicArrayList;
  */
 
 public final class FileManager {
+	public static final String RAW_DATA_PATH = "./Data/Raw Data/";
+
+	public static final String RAW_DATA_FILE_EXTENSION = ".dat";
+
+	public static final String LOG_FILE_EXTENSION = ".log";
+
+	public static final String MODULE_PATH = "./Data/Modules/";
+
+	public static final String MODULE_FILE_EXTENSION = ".module";
+
+	public static final String MANIFEST_PATH = "./Data/Manifests/";
+
+	public static final String MANIFEST_FILE_EXTENSION = ".manifest";
+
+	private static String backupPath = "";
+
+	private static int dayId = -1;
+
+	public static final CyclicArrayList<String> USER_MONTH_BACKUP_MANIFEST = new CyclicArrayList<String>(
+			60);// 60 Months of backup (5 years)
+
+	public static final CyclicArrayList<String> USER_DAY_BACKUP_MANIFEST = new CyclicArrayList<String>(
+			60);// 60 Days of backup
+
+	private static final FileManager SINGLETON = new FileManager();
+
 	// TODO Document
 	/**
 	 * 
@@ -131,9 +157,9 @@ public final class FileManager {
 			day2 = calendar.get(Calendar.DAY_OF_MONTH) + "th";
 			break;
 		}
-		File backupFolder = new File("./Backups/" + year + " Backups/" + month
-				+ "/" + day2 + " of " + month + " " + dateFormat.format(date)
-				+ " - " + day);
+		File backupFolder = new File(
+				"./Backups/" + year + " Backups/" + month + "/" + day2 + " of "
+						+ month + " " + dateFormat.format(date) + " - " + day);
 		if (!backupFolder.exists()) {
 			backupFolder.mkdirs();
 		}
@@ -149,6 +175,8 @@ public final class FileManager {
 	public static FileManager getSingleton() {
 		return SINGLETON;
 	}
+
+	//TODO Create manifest class
 
 	// TODO Document
 	/**
@@ -167,7 +195,8 @@ public final class FileManager {
 				+ template.getFileType().getExtension());
 		if (file.exists() && !file.isDirectory()) {
 			try {
-				BufferedReader reader = new BufferedReader(new FileReader(file));
+				BufferedReader reader = new BufferedReader(
+						new FileReader(file));
 				ArrayList<String> lines = new ArrayList<String>();
 				String line = reader.readLine();
 				while (line != null) {
@@ -179,12 +208,12 @@ public final class FileManager {
 				for (int i = 0, stringIndex = 0; i < bytes.length; i++, stringIndex++) {
 					if (lines.get(stringIndex) == null
 							|| lines.get(stringIndex) == "") {
-						bytes = Arrays.copyOfRange(bytes, 0, bytes.length - 1); // Trimming off excess index.
+						bytes = Arrays.copyOfRange(bytes, 0, bytes.length - 1);// Trimming off excess index.
 						i--;
 						continue;
 					}
-					bytes[i] = BinaryOperations.characterArrayToByteArray(lines
-							.get(stringIndex).toCharArray());
+					bytes[i] = BinaryOperations.characterArrayToByteArray(
+							lines.get(stringIndex).toCharArray());
 				}
 				// Unless you purposely try and throw it a curve ball, nothing should happen.
 				// Throwing a curve ball will be difficult, I might add, considering it should
@@ -193,7 +222,7 @@ public final class FileManager {
 				Object o = template.fromBytes(bytes);
 				if (o != null) {
 					@SuppressWarnings("unchecked")
-					T result = (T) o; // Only reason I split the return statement up was so I could throw in the unchecked annotation.
+					T result = (T) o;// Only reason I split the return statement up was so I could throw in the unchecked annotation.
 					return result;
 				}
 			} catch (IOException e) {
@@ -212,11 +241,13 @@ public final class FileManager {
 		try {
 			checkFilePath(getBackupPath() + "/"
 					+ object.getFileType().getPath().replace("./", ""));
-			BufferedWriter writer = new BufferedWriter(new FileWriter(
-					getBackupPath() + "/"
-							+ object.getFileType().getPath().replace("./", "")
-							+ object.getFileName()
-							+ object.getFileType().getExtension()));
+			BufferedWriter writer = new BufferedWriter(
+					new FileWriter(
+							getBackupPath() + "/"
+									+ object.getFileType().getPath().replace(
+											"./", "")
+									+ object.getFileName()
+									+ object.getFileType().getExtension()));
 			for (byte[] a : object.toBytes()) {
 				writer.write(BinaryOperations.byteArrayToCharacterArray(a));
 				writer.newLine();
@@ -236,10 +267,9 @@ public final class FileManager {
 	public static void writeFile(FileManagerWriteable object) {
 		try {
 			checkFilePath(object.getFileType().getPath());
-			BufferedWriter writer = new BufferedWriter(new FileWriter(object
-					.getFileType().getPath()
-					+ object.getFileName()
-					+ object.getFileType().getExtension()));
+			BufferedWriter writer = new BufferedWriter(new FileWriter(
+					object.getFileType().getPath() + object.getFileName()
+							+ object.getFileType().getExtension()));
 			for (byte[] a : object.toBytes()) {
 				writer.write(BinaryOperations.byteArrayToCharacterArray(a));
 				writer.newLine();
@@ -250,32 +280,6 @@ public final class FileManager {
 			e.printStackTrace();
 		}
 	}
-
-	public static final String RAW_DATA_PATH = "./Data/Raw Data/";
-
-	public static final String RAW_DATA_FILE_EXTENSION = ".dat";
-
-	public static final String LOG_FILE_EXTENSION = ".log";
-
-	public static final String MODULE_PATH = "./Data/Modules/";
-
-	public static final String MODULE_FILE_EXTENSION = ".module";
-	
-	public static final String MANIFEST_PATH = "./Data/Manifests/";
-	
-	public static final String MANIFEST_FILE_EXTENSION = ".manifest";
-
-	private static String backupPath = "";
-
-	private static int dayId = -1;
-	
-	//TODO Create manifest class
-	
-	public static final CyclicArrayList<String> USER_MONTH_BACKUP_MANIFEST = new CyclicArrayList<String>(60); // 60 Months of backup (5 years)
-	
-	public static final CyclicArrayList<String> USER_DAY_BACKUP_MANIFEST = new CyclicArrayList<String>(60); // 60 Days of backup
-
-	private static final FileManager SINGLETON = new FileManager();
 
 	// TODO Document
 	/**

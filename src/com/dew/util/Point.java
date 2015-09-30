@@ -8,10 +8,12 @@ public class Point extends AbstractPoint {
 		this.y = y;
 	}
 
+	@Override
 	public int getX() {
 		return x;
 	}
 
+	@Override
 	public int getY() {
 		return y;
 	}

@@ -9,6 +9,28 @@ import com.dew.server.Server;
  */
 
 public final class ConsoleManager {
+	private static ConsoleChannel[] channels = new ConsoleChannel[200];
+
+	private static int channelIDReference = 0;
+
+	private static Console serverConsole;
+
+	public static int CHANNEL_ALL = 0;
+
+	public static int CHANNEL_SERVER = 1;
+
+	public static int CHANNEL_GLOBAL_CHAT = 2;
+
+	private static final ConsoleManager SINGLETON = new ConsoleManager();
+
+	static {
+		serverConsole = new Console();
+		addChannel("All", 500);
+		addChannel("Server", 500);
+		addChannel("Global Chat", 400);
+		setActive(ConsoleManager.CHANNEL_ALL);
+	}
+
 	// TODO Document
 	/**
 	 * 
@@ -17,7 +39,8 @@ public final class ConsoleManager {
 	 */
 	public static void addChannel(String name, int maxSize) {
 		if (channelIDReference + 1 >= 200) {
-			ServerIO.printErr("[ConsoleManager] Cannot create new channel. Too many exist already!");
+			ServerIO.printErr(
+					"[ConsoleManager] Cannot create new channel. Too many exist already!");
 			return;
 		}
 		channels[channelIDReference] = new ConsoleChannel(name, maxSize,
@@ -60,8 +83,8 @@ public final class ConsoleManager {
 	 */
 	private static void addMessage(String message, int channelID) {
 		if (channelID >= channelIDReference) {
-			ServerIO.printErr("[ConsoleManager] No channel for ID: "
-					+ channelID);
+			ServerIO.printErr(
+					"[ConsoleManager] No channel for ID: " + channelID);
 			return;
 		}
 		try {
@@ -87,10 +110,9 @@ public final class ConsoleManager {
 			}
 		}
 		try {
-			serverConsole.getConsoleArea()
-					.setCaretPosition(
-							serverConsole.getConsoleArea().getDocument()
-									.getLength() - 1);
+			serverConsole.getConsoleArea().setCaretPosition(
+					serverConsole.getConsoleArea().getDocument().getLength()
+							- 1);
 		} catch (IllegalArgumentException e) {
 			ServerIO.writeException(e);
 		}
@@ -121,8 +143,8 @@ public final class ConsoleManager {
 	 */
 	public static void setActive(int channelID) {
 		if (channelID >= channelIDReference) {
-			ServerIO.printErr("[ConsoleManager] No channel for ID: "
-					+ channelID);
+			ServerIO.printErr(
+					"[ConsoleManager] No channel for ID: " + channelID);
 			return;
 		}
 		channels[channelID].setConsole(serverConsole.getConsoleArea());
@@ -142,28 +164,6 @@ public final class ConsoleManager {
 	 */
 	public static void setVisible(boolean state) {
 		serverConsole.setVisible(state);
-	}
-
-	private static ConsoleChannel[] channels = new ConsoleChannel[200];
-
-	private static int channelIDReference = 0;
-
-	private static Console serverConsole;
-
-	public static int CHANNEL_ALL = 0;
-
-	public static int CHANNEL_SERVER = 1;
-
-	public static int CHANNEL_GLOBAL_CHAT = 2;
-
-	private static final ConsoleManager SINGLETON = new ConsoleManager();
-
-	static {
-		serverConsole = new Console();
-		addChannel("All", 500);
-		addChannel("Server", 500);
-		addChannel("Global Chat", 400);
-		setActive(ConsoleManager.CHANNEL_ALL);
 	}
 
 	// TODO Document

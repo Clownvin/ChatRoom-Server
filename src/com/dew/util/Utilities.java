@@ -3,7 +3,6 @@ package com.dew.util;
 import java.util.ArrayList;
 
 import com.dew.lang.CorruptDataException;
-import com.dew.util.BinaryOperations;
 
 public final class Utilities {
 
@@ -84,22 +83,21 @@ public final class Utilities {
 				} catch (ArrayIndexOutOfBoundsException e) {
 					e.printStackTrace();
 					System.out.println("Blocksize = " + block.length);
-					System.out.println("Start index: "
-							+ idx
-							+ ", start bytes: "
-							+ Integer.toHexString(Byte
-									.toUnsignedInt(bytes[idx]))
+					System.out.println("Start index: " + idx + ", start bytes: "
+							+ Integer
+									.toHexString(Byte.toUnsignedInt(bytes[idx]))
 							+ " "
-							+ Integer.toHexString(Byte
-									.toUnsignedInt(bytes[idx + 1]))
-							+ " "
-							+ Integer.toHexString(Byte
-									.toUnsignedInt(bytes[idx + 2])));
+							+ Integer.toHexString(
+									Byte.toUnsignedInt(bytes[idx + 1]))
+							+ " " + Integer.toHexString(
+									Byte.toUnsignedInt(bytes[idx + 2])));
 					for (byte b : bytes)
-						System.out.print((Integer.toHexString(
-								Byte.toUnsignedInt(b)).length() < 2 ? "0"
-								+ Integer.toHexString(Byte.toUnsignedInt(b))
-								: Integer.toHexString(Byte.toUnsignedInt(b)))
+						System.out.print((Integer
+								.toHexString(Byte.toUnsignedInt(b)).length() < 2
+										? "0" + Integer.toHexString(
+												Byte.toUnsignedInt(b))
+										: Integer.toHexString(
+												Byte.toUnsignedInt(b)))
 								+ " ");
 					System.out.println();
 					return null;
@@ -109,16 +107,17 @@ public final class Utilities {
 		}
 		if ((cumulativeData % 255) != (bytes[0] & 0xFF)) {
 			for (byte b : bytes)
-				System.out.print((Integer.toHexString(Byte.toUnsignedInt(b))
-						.length() < 2 ? "0"
-						+ Integer.toHexString(Byte.toUnsignedInt(b)) : Integer
-						.toHexString(Byte.toUnsignedInt(b)))
-						+ " ");
+				System.out.print(
+						(Integer.toHexString(Byte.toUnsignedInt(b)).length() < 2
+								? "0" + Integer
+										.toHexString(Byte.toUnsignedInt(b))
+								: Integer.toHexString(Byte.toUnsignedInt(b)))
+								+ " ");
 			System.out.println();
-			throw new CorruptDataException("Checksum evaluated to "
-					+ (cumulativeData % 255)
-					+ ", against the packet's checkdigit of "
-					+ (bytes[0] & 0xFF));
+			throw new CorruptDataException(
+					"Checksum evaluated to " + (cumulativeData % 255)
+							+ ", against the packet's checkdigit of "
+							+ (bytes[0] & 0xFF));
 		}
 		byte[][] endByteBlocks = new byte[byteBlocks.size()][];
 		int i = 0;
@@ -136,7 +135,8 @@ public final class Utilities {
 	 * @param incLengthBytes
 	 * @return
 	 */
-	public static byte[][] streamUnformat(byte[] bytes, boolean incLengthBytes) {
+	public static byte[][] streamUnformat(byte[] bytes,
+			boolean incLengthBytes) {
 		ArrayList<byte[]> byteBlocks = new ArrayList<byte[]>();
 		long cumulativeData = 0;
 		for (int i = (incLengthBytes ? 4 : 0) + 1; i < bytes.length; i += 0) {
@@ -149,22 +149,21 @@ public final class Utilities {
 				} catch (ArrayIndexOutOfBoundsException e) {
 					e.printStackTrace();
 					System.out.println("Blocksize = " + block.length);
-					System.out.println("Start index: "
-							+ idx
-							+ ", start bytes: "
-							+ Integer.toHexString(Byte
-									.toUnsignedInt(bytes[idx]))
+					System.out.println("Start index: " + idx + ", start bytes: "
+							+ Integer
+									.toHexString(Byte.toUnsignedInt(bytes[idx]))
 							+ " "
-							+ Integer.toHexString(Byte
-									.toUnsignedInt(bytes[idx + 1]))
-							+ " "
-							+ Integer.toHexString(Byte
-									.toUnsignedInt(bytes[idx + 2])));
+							+ Integer.toHexString(
+									Byte.toUnsignedInt(bytes[idx + 1]))
+							+ " " + Integer.toHexString(
+									Byte.toUnsignedInt(bytes[idx + 2])));
 					for (byte b : bytes)
-						System.out.print((Integer.toHexString(
-								Byte.toUnsignedInt(b)).length() < 2 ? "0"
-								+ Integer.toHexString(Byte.toUnsignedInt(b))
-								: Integer.toHexString(Byte.toUnsignedInt(b)))
+						System.out.print((Integer
+								.toHexString(Byte.toUnsignedInt(b)).length() < 2
+										? "0" + Integer.toHexString(
+												Byte.toUnsignedInt(b))
+										: Integer.toHexString(
+												Byte.toUnsignedInt(b)))
 								+ " ");
 					System.out.println();
 					return null;
@@ -173,10 +172,10 @@ public final class Utilities {
 			byteBlocks.add(block);
 		}
 		if ((cumulativeData % 255) != (bytes[4] & 0xFF))
-			throw new CorruptDataException("Checksum evaluated to "
-					+ (cumulativeData % 255)
-					+ ", against the packet's checkdigit of "
-					+ (bytes[4] & 0xFF));
+			throw new CorruptDataException(
+					"Checksum evaluated to " + (cumulativeData % 255)
+							+ ", against the packet's checkdigit of "
+							+ (bytes[4] & 0xFF));
 		byte[][] endByteBlocks = new byte[byteBlocks.size()][];
 		int i = 0;
 		for (byte[] b : byteBlocks) {

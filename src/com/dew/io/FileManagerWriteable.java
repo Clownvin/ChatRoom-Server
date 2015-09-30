@@ -8,8 +8,8 @@ import com.dew.util.ByteFormatted;
  *
  */
 
-public interface FileManagerWriteable extends
-		ByteFormatted<FileManagerWriteable> {
+public interface FileManagerWriteable
+		extends ByteFormatted<FileManagerWriteable> {
 	public String getFileName();
 
 	public FileType getFileType();
